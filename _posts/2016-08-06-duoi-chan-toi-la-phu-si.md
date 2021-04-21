@@ -7,7 +7,7 @@ tags: []
 image: assets/images/phusi.jpg
 description: "Tôi rất thích cái tên “Dưới chân tôi là Phú Sĩ”. Cái tên này tôi nghĩ ra khi hai đùi và hai bắp chân của tôi đang muốn toát ra thành từng mảnh. Cái tên này cũng có một chút tự hào của bản thân về những gì mình đã làm được trong hai ngày vừa qua (6/8/2016) "
 featured: true
-hidden: true
+hidden: false
 rating: 4.5
 ---
 
