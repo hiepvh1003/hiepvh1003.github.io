@@ -46,6 +46,7 @@ rating: 4.5
 - 部長の説得も虚（むな）しく、田中さんは十年勤（つと）めた会社を退職する**に至った**。
 *Lời giải thích của buchou cũng vô ích, Tanaka cuối cùng cũng nghỉ việc ở công ty đã làm việc 10 năm.*
 
+<br/>
 ![prepare]({{ site.baseurl }}/assets/images/causeandeffect.jpg)
 ## ② ゆえに - Vì ～ nên ～
 
@@ -78,7 +79,7 @@ rating: 4.5
 - 我思う、ゆえに我あり。
 *Tôi có suy nghĩ nên tôi tồn tại.*
 
-
+<br/>
 ![prepare]({{ site.baseurl }}/assets/images/katoiuto.jpg)
 ## ③ ～かというと -  Nếu nói là ～ そうじゃない
 ##  ～かといえば ～ そうじゃない
@@ -124,6 +125,7 @@ rating: 4.5
 | どちら＋かとういと 	| Aより少しB寄り   	|
 | なぜ＋かというと   	| 理由の説明       	|
 
+<br/>
 ![prepare]({{ site.baseurl }}/assets/images/root.jpg)
 ## ④ Nをもって - Lấy ～ làm
 
