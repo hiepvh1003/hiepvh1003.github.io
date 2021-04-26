@@ -1,8 +1,8 @@
 # Site
-name: "Nghề BrSE"
+name: "Hiep BrSE"
 title: "Note về nghề BrSE"
-description: "Tâm sự nghề BrSE"
-logo: 'assets/images/logo.png'
+description: "Tâm sự nghề BrSE của Hiệp - một chàng BrSE trẻ có vẻ mặt hơi già"
+logo: 'assets/images/avatar.jpg'
 favicon: 'assets/images/logo.png'
 baseurl: ''
 google_analytics: ''
@@ -24,7 +24,7 @@ authors:
     description: "Hiệp là một chàng BrSE trẻ có vẻ mặt hơi già"
   john:
     name: John
-    display_name: John    
+    display_name: John
     avatar: 'assets/images/avatar.png'
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: wowthemesnet@gmail.com
@@ -39,7 +39,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
 # Archives
 jekyll-archives:
   enabled:
@@ -47,11 +47,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
+
+# Pagination
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 
