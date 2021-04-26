@@ -13,9 +13,27 @@ rating: 4.5
 
 Đây là bài tổng hợp ngữ pháp N1 xuất hiện hơn 2 lần trong các bài thi JLPT. Bài tổng hợp này tham khảo tại [Chiến thuật N1: 15 MẪU NGỮ PHÁP QUAN TRỌNG NHẤT TRONG JLPT N1 - N1 GOLDEN WEEK](https://www.youtube.com/watch?v=nt3eHvJueRM&list=PLZUucX7G_YBYCfJr8_ziMBX5ntYpBr4gX&index=1&t=788s)
 
+Danh sách bài post
+
+- [Tổng hợp 15 điểm ngữ pháp N1 xuất hiện hơn 2 lần trong JLPT (Phần 1)](https://brsenote.com/diem-ngu-phap-n1-quan-trong-part-1/)
+
+- [Tổng hợp 15 điểm ngữ pháp N1 xuất hiện hơn 2 lần trong JLPT (Phần 2)](https://brsenote.com/diem-ngu-phap-n1-quan-trong-part-2/)
+
+- [Tổng hợp 15 điểm ngữ pháp N1 xuất hiện hơn 2 lần trong JLPT (Phần 3)](https://brsenote.com/diem-ngu-phap-n1-quan-trong-part-3/)
+
+
+{:#tblContent}
+| 目次 |
+|-----|
+| 1. [～に至（いた）る - Cho đến ～]({{ site.baseurl }}/diem-ngu-phap-n1-quan-trong-part-1/#-に至いたる---cho-đến-) |
+| 2. [ゆえに - Vì ～ nên ～]({{ site.baseurl }}/diem-ngu-phap-n1-quan-trong-part-1/#-ゆえに---vì--nên-) |
+| 3. [～かというと - Nếu nói là ～ そうじゃない]({{ site.baseurl }}/diem-ngu-phap-n1-quan-trong-part-1/#-かというと----nếu-nói-là--そうじゃない) |
+| 4. [Nをもって - Lấy ～ làm]({{ site.baseurl }}/diem-ngu-phap-n1-quan-trong-part-1/#-nをもって---lấy--làm) |
+| 5. [～ようと・ようが -  Cho dù ～]({{ site.baseurl }}/diem-ngu-phap-n1-quan-trong-part-1/#-ようとようが----cho-dù-) |
+
 <br/>
 ![prepare]({{ site.baseurl }}/assets/images/niitaru.jpg)
-## ① ～に至（いた）る - Cho đến ～
+## ⑥ ～に至（いた）る - Cho đến ～
 
 **【意味 - Ý nghĩa】**
 - に至るというのはAからBに到着するっていう意味です。
@@ -48,7 +66,7 @@ rating: 4.5
 
 <br/>
 ![prepare]({{ site.baseurl }}/assets/images/causeandeffect.jpg)
-## ② ゆえに - Vì ～ nên ～
+## ⑦ ゆえに - Vì ～ nên ～
 
 **【意味 - Ý nghĩa】**
 - 〜のために
@@ -81,7 +99,7 @@ rating: 4.5
 
 <br/>
 ![prepare]({{ site.baseurl }}/assets/images/katoiuto.jpg)
-## ③ ～かというと -  Nếu nói là ～ そうじゃない
+## ⑧ ～かというと -  Nếu nói là ～ そうじゃない
 ##  ～かといえば ～ そうじゃない
 
 **【意味 - Ý nghĩa】**
@@ -127,7 +145,7 @@ rating: 4.5
 
 <br/>
 ![prepare]({{ site.baseurl }}/assets/images/root.jpg)
-## ④ Nをもって - Lấy ～ làm
+## ⑨ Nをもって - Lấy ～ làm
 
 **【意味 - Ý nghĩa】**
 - 〜で / 〜を最後として / 〜を基準に
@@ -179,7 +197,7 @@ rating: 4.5
 
 <br/>
 ![prepare]({{ site.baseurl }}/assets/images/eventhough.jpg)
-## ⑤ ～ようと・ようが -  Cho dù ～
+## ⑩ ～ようと・ようが -  Cho dù ～
 
 **【意味 - Ý nghĩa】**
 - 〜ても関係なく・・・だ。
