@@ -900,6 +900,6 @@ iframe {
     transition: opacity .25s;
 }
 
-.table, .table td {
+table, table td {
     border: 1px solid;
 }
