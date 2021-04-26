@@ -20,12 +20,13 @@ rating: 4.5
 
 
 目次
-
+{:.no_toc}
 1. [～に至（いた）る - Cho đến ～](https://brsenote.com/diem-ngu-phap-n1-quan-trong-part-1/#-に至いたる---cho-đến-)
-1. [ゆえに - Vì ～ nên ～](https://brsenote.com/diem-ngu-phap-n1-quan-trong-part-1/#-ゆえに---vì--nên-)
-1. [～かというと - Nếu nói là ～ そうじゃない](https://brsenote.com/diem-ngu-phap-n1-quan-trong-part-1/#-かというと----nếu-nói-là--そうじゃない)
-1. [ Nをもって - Lấy ～ làm](https://brsenote.com/diem-ngu-phap-n1-quan-trong-part-1/#-nをもって---lấy--làm)
-1. [⑤ ～ようと・ようが -  Cho dù ～](https://brsenote.com/diem-ngu-phap-n1-quan-trong-part-1/#-に至いたる---cho-đến-)
+{:.no_toc}
+2. [ゆえに - Vì ～ nên ～](https://brsenote.com/diem-ngu-phap-n1-quan-trong-part-1/#-ゆえに---vì--nên-)
+3. [～かというと - Nếu nói là ～ そうじゃない](https://brsenote.com/diem-ngu-phap-n1-quan-trong-part-1/#-かというと----nếu-nói-là--そうじゃない)
+4. [ Nをもって - Lấy ～ làm](https://brsenote.com/diem-ngu-phap-n1-quan-trong-part-1/#-nをもって---lấy--làm)
+5. [⑤ ～ようと・ようが -  Cho dù ～](https://brsenote.com/diem-ngu-phap-n1-quan-trong-part-1/#-ようとようが----cho-dù-)
 
 
 <br/>
