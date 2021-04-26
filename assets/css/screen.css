@@ -900,6 +900,8 @@ iframe {
     transition: opacity .25s;
 }
 
-table, table td {
+table, table th, table td {
     border: 1px solid;
+    padding: 1px 5px;
+    text-align: center;
 }
