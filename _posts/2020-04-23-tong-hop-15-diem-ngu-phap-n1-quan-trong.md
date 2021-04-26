@@ -123,7 +123,6 @@ rating: 4.5
 | 普通形＋かというと 	| 実はそうじゃない 	|
 | どちら＋かとういと 	| Aより少しB寄り   	|
 | なぜ＋かというと   	| 理由の説明       	|
-{: rules="groups"}
 
 ![prepare]({{ site.baseurl }}/assets/images/root.jpg)
 ## ④ Nをもって - Lấy ～ làm
