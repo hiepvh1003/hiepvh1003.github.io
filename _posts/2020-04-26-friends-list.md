@@ -2,7 +2,7 @@
 layout: post
 title:  "List of Friends"
 author: hiepvh
-categories: [ BrSE ]
+categories: [ ]
 tags: []
 image: assets/images/friends.jpg
 description: "List of friends"
