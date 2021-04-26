@@ -903,5 +903,6 @@ iframe {
 table, table th, table td {
     border: 1px solid;
     padding: 1px 20px;
+    margin-bottom: 20px;
     text-align: center;
 }
