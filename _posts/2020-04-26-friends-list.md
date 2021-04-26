@@ -8,7 +8,7 @@ image: assets/images/friends.jpg
 description: "List of friends"
 featured: false
 hidden: true
-rating: 4.5
+# rating: 4.5
 ---
 
 {:#tblContent}
@@ -16,7 +16,7 @@ rating: 4.5
 |-----|
 | 1. [Sang Vo - Ruby on Rails Developer]({{ site.baseurl }}/friends-list/#-sang-võ---ruby-on-rails-developer) |
 | 2. [Chính Phạm - iOS Developer]({{ site.baseurl }}/friends-list/#-chính-phạm---ios-developer) |
-| 3. [LuậtHiV - Ruby on Rails Developer]({{ site.baseurl }}/friends-list/#-hoàng-nguyên-luật---ror-developer) |
+| 3. [LuatHN - RoR Developer]({{ site.baseurl }}/friends-list/#-luathn---ror-developer) |
 
 <br/>
 
