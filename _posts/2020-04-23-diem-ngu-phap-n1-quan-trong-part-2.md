@@ -7,7 +7,7 @@ tags: []
 image: assets/images/15nguphapn1.jpg
 description: "Đây là một cái notes từ Group Tiếng Nhật cho BrSE"
 featured: false
-hidden: false
+hidden: true
 rating: 4.5
 ---
 
