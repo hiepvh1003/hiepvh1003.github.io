@@ -97,7 +97,7 @@ Trách nhiệm của PM lúc này là phải giải trình với khách hàng vi
 
 ### Mindset of Project Manager
 
-![PM_Mindset]({{ site.baseurl }}/assets/images/pm_mindset.png){:#imgPMMindset}
+![PM_Mindset]({{ site.baseurl }}/assets/images/PM_mindset.png){:#imgPMMindset}
 
 Về cơ bản thì **MIND SET** là cái quan trọng nhất của người làm PM.
 
