@@ -920,3 +920,9 @@ table, table th, table td {
 .logoSet a {
     display: flex;
 }
+
+#imgPMMindset {
+    height: 200px;
+    float: right;
+    margin-left: 10px;
+}
