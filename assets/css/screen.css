@@ -926,3 +926,21 @@ table, table th, table td {
     float: right;
     margin-left: 10px;
 }
+
+#tblQuality {
+    width: 100%;
+    font-size: 12px;
+}
+
+#tblQuality tbody td {
+    text-align: left;
+    padding: 5px 20px;
+}
+
+#tblCauseIssues {
+    width: 100%;
+}
+
+#tblCauseIssues tbody td {
+    text-align: left;
+}
