@@ -944,3 +944,20 @@ table, table th, table td {
 #tblCauseIssues tbody td {
     text-align: left;
 }
+
+#tblPlan {
+    width: 100%;
+    font-size: 12px;
+}
+
+#tblPlan tbody td {
+    text-align: left;
+}
+
+#tblFomula {
+    width: 100%;
+}
+
+#tblFomula td {
+    text-align: left;
+}
