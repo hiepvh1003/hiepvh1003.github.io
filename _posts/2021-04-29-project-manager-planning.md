@@ -19,19 +19,15 @@ Cái notes này là bài tham khảo từ nội bộ công ty mình.
 | Contents |
 |-----|
 | [ Khái niệm căn bản của project planning]({{ site.baseurl }}/project-manager-planning/#basicconcept) |
-| [ Project planning của phát triển phần mềm]({{ site.baseurl }}/project-manager-quality-delivery/#planningSoftware) |
-| [ Chi tiết về Project Planning]({{ site.baseurl }}/project-manager-quality-delivery/#planningDetail) |
-
-| [   ・　Tính nhất quán về chức năng]({{ site.baseurl }}/project-manager-quality-delivery/#functional-consistency) |
-| [   ・　Tần suất review technical]({{ site.baseurl }}/project-manager-quality-delivery/#technical-review-frequency) |
-| [   ・　Quan điểm review technical]({{ site.baseurl }}/project-manager-quality-delivery/#technical-review-perspective) |
-| [   ・　Mật độ và phạm vi Unit test]({{ site.baseurl }}/project-manager-quality-delivery/#unit-test-coverage--density) |
-| [   ・　Mật độ test QA]({{ site.baseurl }}/project-manager-quality-delivery/#qa-test-density) |
-| [   ・　Mật độ bug UAT - User Acceptance Test]({{ site.baseurl }}/project-manager-quality-delivery/#uat-bug-density) |
-| [Delivery]({{ site.baseurl }}/project-manager-quality-delivery/#delivery) |
-| [ - Làm thế nào để quản lý việc phát hành]({{ site.baseurl }}/project-manager-quality-delivery/#how-can-we-manage-the-delivery) |
-| [ - Cân bằng cho QCD+S - Quality Cost Delivery + Scope]({{ site.baseurl }}/project-manager-quality-delivery/#balance-for-qcds) |
-| [Summary]({{ site.baseurl }}/project-manager-quality-delivery/#summary) |
+| [ Project planning của phát triển phần mềm]({{ site.baseurl }}/project-manager-planning/#planningSoftware) |
+| [ Chi tiết về Project Planning]({{ site.baseurl }}/project-manager-planning/#planningDetail) |
+| [   　1.　Function List (include Estimation)]({{ site.baseurl }}/project-manager-planning/#functionlst) |
+| [   　2.　Screen wireframe]({{ site.baseurl }}/project-manager-planning/#screenWire) |
+| [   　3.　Screen specification]({{ site.baseurl }}/project-manager-planning/#screenspec) |
+| [   　4.　Development process]({{ site.baseurl }}/project-manager-planning/#developProcess) |
+| [ Resource Cost Estimation]({{ site.baseurl }}/project-manager-planning/#resourceEst) |
+| [ Issue Management List]({{ site.baseurl }}/project-manager-planning/#issueMangeLst) |
+| [Summary]({{ site.baseurl }}/project-manager-planning/#summary) |
 
 <br/>
 
@@ -169,33 +165,122 @@ Ví dụ về tính Task Difficult
 |-----|
 |Estimated QA Effort [Man-Hour] = Estimated Development Effort [Man-Hour] * 0.3 |
 
+{:#screenWire}
 ### 2. Screen wireframe
 
+Việc tạo wireframe cho các màn hình thì sẽ khác nhau tùy theo dự án, nhưng cơ bản là nên chuẩn bị sẵn thì tốt nhất.
 
+Một wireframe có thể có nhiều thành phần được thiết kế. Tuy nhiên, nếu sử dụng Thiết kế hoàn chỉnh từ đầu Design Comprehension Layout thì sẽ rất khó khăn trong việc quản lý. Lý do là nếu có bất kỳ sự thay đổi nào thì sẽ dẫn đến thiết kế đó out of dates.
 
+Design Comprehension Layout đòi hỏi rất nhiều effort của designer. Mặt khác, các designer thì chỉ thường join vào khoảng đầu dự án, trong khi vào giai đoạn development thì effort thường được giảm xuống có khi là không có.
 
+Tuy nhiên, trong phát triển phần mềm thì việc sửa đổi và điều chỉnh là xảy ra rất nhiều. 
 
+Cho đến khi kết thúc dự án, không chắc chắn được rằng Design Comprehension Layout được cập nhật một cách chi tiết và đầy đủ nhất.
+
+Điều gì xảy ra nếu chúng ta sử dụng tài liệu mà tốn quá nhiều effort quản lý và update như vậy?
+
+Có một số cách tiếp cận để giải quyết vấn đề này, nhưng cũng có những rủi ro lớn là các tài liệu không được update ngay từ lúc đầu vẫn tiếp tục được công nhận là input của giai đoạn develop.
+
+Là người quản lý dự án, chúng ta phải xác định cách xử lý các tài liệu có tính update thấp như vậy.
+
+Quay lại với wireframe.
+
+Chúng ta không nên develop mà chỉ dựa vào wireframe.
+
+Nguyên nhân là do nhiều trường hợp không đủ thông tin khi thực sự áp dụng vào hệ thống. Như là các chuyển động animation, etc.
+
+Do đó, tốt hơn hết là nên tập trung vào quản lý Screen specification được mô tả bên dưới đây thay vì tập trung vào wireframe.
+
+{: style="text-align: center;"}
+**Ví dụ Wireframe**
+
+![wireframe]({{ site.baseurl }}/assets/images/wireframe.png)
+
+{:#screenspec}
 ### 3. Screen specification
 
+Đây là thông số kỹ thuật cho màn hình.
 
+Giống như wireframe, cái gì có ở đâu, lấy data từ chỗ nào.
 
+**Ví dụ trường hợp RDBS (Relationship database system) thì:** 
+- Database
+- Table
+- Column
 
+**Đối với các fields input thì:**
+- Required or not
+- Minimum length
+- Maximum length
+- Allowed format
+- etc...
 
+**Giải thích về logic**
+
+**Define các error messages**
+
+{:#developProcess}
 ### 4. Development process
 
+Quy định về process trong quá trình develop.
+
+Chúng ta nên xây dựng dựa vào nhũng thế mạnh của chúng ta.
+
+Dưới đây là mô tả về quy trình chung.
 
 
-### Resource Cost Estimation
+{: style="text-align: center;"}
+**table example develop process**
+
+![developprocess1]({{ site.baseurl }}/assets/images/developprocess.png)
+
+![developprocess1]({{ site.baseurl }}/assets/images/developprocess2.png)
+
+Bây giờ, chúng ta sẽ hình dung là quá trình phát triển theo plan thì sẽ có hai việc chính cần phải làm.
+
+**1. Làm cho những người tham gia vào dự án hiểu được quy trình là gì, đặc biệt là input và output theo cấp độ.**
+
+**2. Làm cho những người tham gia vào dự án hiểu được tại sao lại phải có quy trình như vậy.**
+
+Với vấn đề đầu tiên, điều này thường được kiểm soát bằng việc quyết định format.
+
+Có một số trường hợp, các process được quyết định khi mà các member lược bỏ bớt những phần output. Nhiều trường hợp Unit test và Technical review bị lược bỏ mà không được phép.
+
+Chúng ta có thể thực hiện theo quy trình đã lập ra kết hoạch bằng cách đảm bảo rằng kết quả đầu ra KHÔNG ĐƯỢC cho phép thiếu Unit test và Review.
+
+Ngoài ra, bằng cách trình bày theo format cho khách hàng, chúng ta có thể hiểu được loại input nào được yêu cầu.
+
+Không phải khách hàng nào cũng có thể cung cấp input một cách chính xác và đầy đủ. Đối với những khách hàng như thế, chúng ta phải là người bổ sung nhung điều đó.
+
+Ví dụ, khách hàng chưa thêm các message màn hình lỗi nhất thời, chúng ta phải là người thêm vào quy trình thực hiện.
+
+{:#resourceEst}
+## Resource Cost Estimation
+
+Xem xét cách phân bổ nhân sự theo số giờ công ước tính.
+
+{:#issueMangeLst}
+## Issue Management List
+
+Danh sách quản lý vấn đề.
+
+Vấn đề issue ở đây được định nghĩa như sau:
+
+> プロジェクトにおいて発生した，まだ解決方法がはっきりと検討されていないが， 現在問題となっている，または今後において問題となる可能性のあるもの
+
+Có nghĩa là: Bất cứ điều gì xảy ra trong dự án và giải pháp vẫn chưa được xem xét rõ ràng, nhưng hiện tại là một issue hay tương lai có thể xảy ra.
+
+Trong dự án thực tế, thay vì các issue, có một danh sách các báo cáo bugs nhận từ khách hàng.
+
+Đây không phải là issue, đây chỉ là bug.
+
+Dưới đây là một số issue được coi là phù hợp.
+
+![issueLst]({{ site.baseurl }}/assets/images/issueList.png)
 
 
-
-
-### Issue Management List
-
-
-
-
-
+{:#summary}
 ## Summary
 Tạm kết, Planning trong Quản lý dự án là một công việc quan trọng ngay từ lúc khởi tạo dự án.
 
@@ -204,6 +289,8 @@ Tạm kết, Planning trong Quản lý dự án là một công việc quan tr�
 > 2. Project planning của phát triển phần mềm
 > 3. Chi tiết về Project Planning
 > 　・　Danh sách chức năng - bao gồm cả dự toán
-> 　・　Ở trong chiến trường đẫm máu nhất
-> 　・　Đừng là nút thắt cổ chai
-> 　・　Hành động như một người phục vụ
+> 　・　Screen wireframe
+> 　・　Screen specification
+> 　・　　Development process
+> 4. Resource Cost Estimation
+> 3. Issue Management List
