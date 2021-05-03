@@ -5,7 +5,7 @@ author: hiepvh
 categories: [ BrSE ]
 tags: [ PM ]
 image: assets/images/delivery.jpg
-description: "Project Manager"
+description: "Quản lý dự án là nghề làm dâu trăm họ, nhưng niềm vui là được học hỏi mỗi ngày, mỗi giờ, mỗi thời điểm."
 featured: true
 hidden: false
 # rating: 4.5

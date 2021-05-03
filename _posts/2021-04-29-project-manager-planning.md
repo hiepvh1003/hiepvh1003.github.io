@@ -5,7 +5,7 @@ author: hiepvh
 categories: [ BrSE ]
 tags: [ PM ]
 image: assets/images/planning.jpg
-description: "Project Manager"
+description: "Quản lý dự án là nghề làm dâu trăm họ, nhưng niềm vui là được học hỏi mỗi ngày, mỗi giờ, mỗi thời điểm."
 featured: true
 hidden: false
 # rating: 4.5
@@ -174,7 +174,7 @@ Một wireframe có thể có nhiều thành phần được thiết kế. Tuy n
 
 Design Comprehension Layout đòi hỏi rất nhiều effort của designer. Mặt khác, các designer thì chỉ thường join vào khoảng đầu dự án, trong khi vào giai đoạn development thì effort thường được giảm xuống có khi là không có.
 
-Tuy nhiên, trong phát triển phần mềm thì việc sửa đổi và điều chỉnh là xảy ra rất nhiều. 
+Tuy nhiên, trong phát triển phần mềm thì việc sửa đổi và điều chỉnh là xảy ra rất nhiều.
 
 Cho đến khi kết thúc dự án, không chắc chắn được rằng Design Comprehension Layout được cập nhật một cách chi tiết và đầy đủ nhất.
 
@@ -204,7 +204,7 @@ Do đó, tốt hơn hết là nên tập trung vào quản lý Screen specificat
 
 Giống như wireframe, cái gì có ở đâu, lấy data từ chỗ nào.
 
-**Ví dụ trường hợp RDBS (Relationship database system) thì:** 
+**Ví dụ trường hợp RDBS (Relationship database system) thì:**
 - Database
 - Table
 - Column
