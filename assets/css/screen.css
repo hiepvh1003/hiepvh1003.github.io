@@ -961,3 +961,71 @@ table, table th, table td {
 #tblFomula td {
     text-align: left;
 }
+
+#titleBlock {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    /* width: 200px; */
+    /* height: 125px; */
+    margin-bottom: 10px;
+}
+
+#titleBlock ul {
+    margin-bottom: 0px !important;
+}
+
+#toolkitBox {
+    display: flex;
+}
+
+#toolkitIcon {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    background-color: #73AD21;
+    padding: 20px 20px 0 20px;
+    width: 80px;
+    /* height: 125px; */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#toolkitContent {
+    padding: 20px 20px 0 20px;
+    margin-bottom: 10px;
+}
+
+#examTipbox {
+    position: relative;
+}
+
+#examTipIcon {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+
+#examTipContent {
+    padding: 20px 20px 0 20px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    border-radius: 25px;
+    border: 1px dotted #73AD21;
+    font-size: 12px;
+}
+
+#examTipContent h5 {
+    text-align: center;
+}
+
+#practises {
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: 1px dotted #73AD21;
+    font-size: 12px;
+}
+
+#practises h5 {
+    text-align: center;
+}
