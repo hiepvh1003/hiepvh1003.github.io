@@ -18,6 +18,25 @@ hidden: false
   Agile Principles and Mindset - Tư duy và nguyên tắc Agile
 </div>
 
+{:#tblContent}
+| Contents |
+|-----|
+| [ Domain I Summary]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#summary) |
+| [ Tại sao sử dụng Agile? ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#whyAgile) |
+| [  - Các dự án tri thức là khác nhau ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#knowledgeWork) |
+| [  - Quy trình xác định so với thực nghiệm ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#definevsEmpirical) |
+| [  - Con người, nhóm và tổ chức mang tính Agile ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#personAgility) |
+| [  - Tam giác Agile ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#agileTriangle) |
+| [  - Bốn giá trị cốt lõi ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#fourValues) |
+| [  - Mười hai nguyên tắc ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#twelvePrinciple) |
+| [ SCRUM ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#scrum) |
+| [  - Các giá trị và Trụ cột Scrum ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#valueScrum) |
+| [  - SPRINT ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#sprint) |
+| [　&#9;・　Vai trò trong nhóm dự án Scrum ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#scrumRoles) |
+| [　&#9;・　Các hoạt động Scrum (Sự kiện, lễ hội) ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#scrumActivities) |
+| [　&#9;・　Scrum artifacts - Hiện vật Scrum ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#scrumArtifact) |
+| [ Extreme Programming ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#xp) |
+
 <br/>
 {:#summary}
 # Domain I Summary
@@ -578,3 +597,228 @@ accordingly. |  Retrospectives  |
 ĐÁP ÁN:
 
 ![shortPrinciple]({{ site.baseurl }}/assets/images/shortPrinciple.png)
+
+<div id="toolkitBox">
+  <div id="toolkitIcon">K&S</div>
+  <h5 id="toolkitContent">Các phương pháp Agile<br/><hr/></h5>
+</div>
+
+<br/>
+
+Có hàng tá phương phương pháp Agile được tích cực sử dụng. Các cách tiếp cận phổ biến nhất là Scrum, Lập trình cực hạn (Extreme Programming), phát triển sản phẩm tinh gọn (Lean product development), Kanban, Phát triển hướng tính năng (FDD - Feature-Driven Development), Phương pháp phát triển hệ thống động (DSDM - Dynamic Systems Development Method), và các phương pháp tinh thể.
+
+Trong phần thảo luận sau đó, chúng ta sẽ mô tả từng phương pháp này ở mức độ chi tiết cần cho kỳ thi. Hai phương pháp Agile được sử dụng rộng rãi nhất là Scrum và XP, được giới thiệu nổi bật trong kỳ thi PMI-ACP. Khám phá kỹ lưỡng hai cách tiếp cận này một cách chi tiết nhất, bao gồm các khái niệm, nhóm, hoạt động và sản phẩm chính của chúng. Kỳ thi cũng có thể bao gồm nhiều câu hỏi về phương pháp tiếp cận tinh gọn và Kanban. Mặc dù các phần này không dài nhưng điều quan trọng là chúng ta phải hiểu tất cả thông tin được cung cấp về các phương pháp này. Cuối cùng, bài kiểm tra có thể không có bất kỳ câu hỏi nào về FDD (Feature-Driven Development), DSDM (Dynamic Systems Development Method), hoặc Crytal (tinh thể) - hoặc có lẽ chỉ một câu hỏi về chúng. Tuy nhiên, vẫn sẽ hữu ích nếu chúng ta hiểu rõ về các phương pháp này, vì chúng có thể xuất hiện dưới dạng các tùy chọn câu trả lời không chính xác mà cần phải loại trừ.
+
+Chúng ta đã nói rằng Agile là một tư duy, không phải là một tập hợp các phương pháp cụ thể và nhiều phương thức Agile cho phù hợp với hoàn cảnh của riêng nó. Đây được gọi là điều chỉnh quy trình và chúng ta sẽ thảo luận chi tiết hơn về ưu và nhược điểm của nó trong chương 7. Tại thời điểm này, chỉ cần biết rằng một số phương pháp trong số này hoạt động tốt nhất khi được sử dụng "nguyên trạng" (đối với các nhóm mới làm quen với Agile), trong khi những người khác cho phép bản thân dễ dàng điều chỉnh và thích ứng.
+
+Ví dụ, Kanban khuyến khích sửa đổi và thích ứng; Crytal cung cấp một loạt các phương pháp luận cho các loại dự án khác nhau và DSDM cung cấp các bộ lọc tính phù hợp để đánh giá mức độ phù hợp của một phương pháp tiếp cận một dự án. Mặt khác, cả Scrum và XP đều bao gồm một tập hợp các phương pháp cân bằng hoạt động tốt nhất khi được sử dụng "bên ngoài" như một hệ thống tích hợp, ít nhất là cho đến khi nhóm có đủ kinh nghiệm Agile để hiểu tất cả các mảnh ghép với nhau.
+
+<div id="examTipbox">
+  <div id="examTipIcon">
+    <img src="/assets/images/icons-check.png" alt="check-icon">
+  </div>
+  <div id="examTipContent">
+    <h5>EXAM TIP<br/><hr/></h5>
+    <h7>
+      Các phương pháp Agile khác nhau, và tính linh hoạt vốn có của chúng, đã đưa ra một tình huống khó xử đối với PMI trong việc tạo kỳ thi, vì không có cách nào "đúng" để thực hiện Agile.
+    </h7>
+    <h7>
+      Khi Ban chỉ đạo PMI-ACP ban đầu xây dựng đề cương nội dung kỳ thi, PMI đã nhận ra điều trớ trêu là phải tạo đề cương kỳ thi theo quy định cho một quy trình thích ứng, có thể mở rộng. Tuy nhiên, PMI phải đưa ra một số giả định về quy mô nhóm, thành phần và độ phức tạp của dự án sẽ được kiểm tra. Cuối cùng, PMI quyết định tập trung vào các phương pháp thường được áp dụng cho các dự án quy mô vừa và nhỏ. Vì vậy, nếu đang gặp khó khăn với bối cảnh của câu hỏi đề thi, hãy nghĩ đến một dự án có nhóm phát triển lên đến 12 người và đang sử dụng phương pháp tùy chọn hay thiết yếu.
+    </h7>
+  </div>
+</div>
+
+<br/>
+
+Trong chương này, chúng ta sẽ mô tả từng phương pháp tiếp cận agile như một phương pháp luận độc lập, vì thông tin đó sẽ được kiểm tra trong kỳ thi. Tuy nhiên, không có gì lạ khi các nhóm agile sử dụng phương pháp tùy chỉnh kết hợp với các yếu tố từ nhiều phương pháp. Ví dụ, một nhóm có thể kết hợp một số phương pháp của XP, chẳng hạn như tái cấu trúc, lập trình cặp (pair programming), thiết kế đơn giản, với các tiếp cận Scrum để lập kế hoạch. Chúng ta sẽ nói thêm về các "mô hình kết hợp" này trong chương 7, cung cấp một số ví dụ về cách các phương pháp tiếp cận khác nhau có thể được sử dụng cùng nhau.
+
+
+<div id="examTipbox">
+  <div id="examTipIcon">
+    <img src="/assets/images/icons-check.png" alt="check-icon">
+  </div>
+  <div id="examTipContent">
+    <h5>EXAM TIP<br/><hr/></h5>
+    <h7>
+      Có phản hồi rằng, những người am hiểu về phương pháp Scrum đang gặp khó khăn trong việc vượt qua kỳ thi PMI-ACP. Những sinh viên này tin rằng "Scrum là Agile" - và do đó, nói rộng ra, Agile là Scrum, và chỉ Scrum - và vì họ đã biết Scrum nên họ không học đúng cách cho kỳ thi.
+    </h7>
+    <h7>
+      Ví dụ, họ giả định rằng tất cả các nhóm Agile đều có chủ sở hữu sản phẩm (Product Owner) và làm việc trong các sprints có hộp thời gian (timebox) theo sprint, sau đó là các cuộc họp đánh giá sprint. Tuy nhiên, bài kiểm tra PMI-ACP kiểm tra một bức tranh rộng hơn nhiều về Agile - nó cũng bao gồm các phương pháp Kanban và Lean không có Product Owner, timebox theo sprint, hoặc các cuộc họp. Các nguyên tắc cơ bản của tất cả phương pháp Agile vẫn đúng. Nhưng nếu hầu như đã quen thuộc với suy nghĩ về Agile, chúng ta sẽ cần phải suy nghĩ về Agile hơn và tìm hiểu về các phương pháp tiếp cận Agile khác để vượt qua kỳ thi.
+    </h7>
+  </div>
+</div>
+
+<br/>
+
+{:#scrum}
+# Scrum
+
+Scrum là một mô hình Agile phổ biến, nhẹ nhàng và dễ hiểu - nhưng giống như tất cả phương pháp Agile rất khó để thành thạo. Phương pháp luận được ghi trong "Scrum framework" là một tập hợp các thực hành, vai trò, sự kiện, hiện vật (artifacts), và quy tắc được thiết kế để hướng dẫn nhóm thực hiện dự án.
+
+{:#valueScrum}
+## Các giá trị và Trụ cột Scrum
+
+Lý thuyết đằng sau Scrum dựa trên ba trụ cột là Minh bạch, Kiểm tra và Thích ứng.
+
+Các nguyên tắc này hướng dẫn tất cả các khía cạnh của phương pháp Scrum:
+
+» **Transparency (Tính minh bạch)** : Điều này liên quan đến việc cung cấp tầm nhìn cho những người chịu trách nhiệm về kết quả. Một ví dụ về tính minh bạch sẽ tạo ra một định nghĩa chung về khái niệm "DEFINE OF DONE" (định nghĩa hoàn thành) là gì, để đảm bảo rằng tất cả các bên liên quan đều nhất trí.
+
+» **Inspection (Kiểm tra)** : Điều này liên quan đến việc kiểm tra kịp thời xem dự án đang tiến triển như thế nào đối với mục tiêu của nó, tìm kiếm các sai lệch hoặc khác biệt có vấn đề so với các mục tiêu.
+
+» **Adaptation (Thích ứng)** : Điều này liên quan đến việc điều chỉnh quy trình của nhóm để giảm thiểu các vấn đề tiếp theo nếu cuộc kiểm tra cho thấy có vấn đề hoặc xu hướng không mong muốn.
+
+Ngoài ba trụ cột, Scrum cũng công nhận 5 giá trị cơ bản: TẬP TRUNG, CAN ĐẢM, CỞI MỞ, CAM KẾT và TÔN TRỌNG. Các giá trị này phản ánh các khái niệm được nêu trong Tuyên ngôn Agile và chúng cũng tương tự như các giá trị cốt lõi của XP (như chúng ta sẽ thấy khi tìm hiểu phương pháp đó.)
+
+Quy trình Scrum được hiển thị trên sơ đồ dưới đây. Khi đọc tiếp tục về Scrum, hãy xem lại từng thành phần phù hợp với quy trình Scrum như thế nào.
+
+![scrumProcess]({{ site.baseurl }}/assets/images/scrumProcess.png)
+
+Trong phần này, chúng ta sẽ thảo luận về các điều khoản và thành  phần chính của Scrum, bao gồm các vai trò trong nhóm Scrum, các hoạt động xảy ra trong một sprint và các sản phẩm hoặc hiện vật của sprint. Chúng ta sẽ bắt đầu thỏa luận này bằng cách xem xét một khái niệm chính của Scrum - Sprint.
+
+{:#sprint}
+## SPRINT
+
+Sprint là một vòng lặp thời gian (có giới hạn thời gian) kéo dài một tháng hoặc ít hơn, trong đó nhóm xây dựng một sản phẩm có khả năng phù hợp. (Thuật ngữ "SPRINT" trong Scrum tương đương với thuật ngữ "ITERATION - vòng lặp" trong agile tổng quan.). Hầu hết các sprints trong sprint kéo dài một hoặc hai tuần. Mỗi sprint giống như một dự án nhỏ. Trong một sprint, không có sự thay đổi nào được thực hiện có thể ảnh hưởng đến mục tiêu của sprint. Scope có thể được làm rõ hoặc bàn bạc lại khi có thông tin mới, nhưng nếu (ví dụ) phải thực hiện thay đổi đối với các thành viên của nhóm phát triển, thì điều đó sẽ không được thực hiện trong sprint.
+
+Một sprint có thể bị hủy bỏ trước khi hết thời gian nếu mcụ tiêu sprint trở nên lỗi thời do thay đổi phương hướng kinh doanh hoặc điều kiện công nghệ. Tuy nhiên, chỉ Product Owner mới có thể hủy sprint. Khi điều đó xảy ra, các mục còn tồn đọng của sản phẩm chưa hoàn thành sẽ được estimate lại và trả về product backlogs (Tồn đọng của sản phẩm).
+
+Trình tự các hoạt động của mỗi sprint bao gồm: kế hoạch sprint, giai đoạn phát triển bao gồm một bản tổng hợp hàng ngày, một cuộc họp đánh giá sprint và một cuộc họp Retrospectives (hồi tưởng) sprint.
+
+{:#scrumRoles}
+### Vai trò trong nhóm dự án Scrum
+
+Scrum team được tạo thành bởi nhóm phát triển dự án, Product owner và Scrum Master. Hãy xem những vai trò ấy có trách nhiệm như thế nào trong dự án Scrum
+
+**Nhóm phát triển dự án - Development Team**
+
+Nhóm phát triển dự án là một nhóm những chuyên gia thực hiện xây dựng tiến triển của sản phẩm trong mỗi sprint. Các thành viên của nhóm phát triển tự tổ chức - có nghĩa là, họ được trao quyền để tự quản lý công việc.
+
+Nhóm Scrum cũng đa chức năng (cross-functional); mỗi thành viên trong nhóm có thể hoàn thành nhiều hơn một trong các vai trò cần thiết để hoàn thành công việc (chẳng hạn như: phân tích, xây dựng, kiểm tra trong nhóm phát triển).
+
+**Chủ sản phẩm - Product Owner**
+
+Product owner có trách nhiệm tối đa hóa giá trị của sản phẩm bằng cách quản lý product backlog (tồn đọng sản phẩm), hoặc danh sách các công việc cần hoàn thành. Nó bao gồm cả việc đảm bảo các công việc trong backlog cần được cập nhật và đánh giá độ ưu tiên chính xác dự trên giá trị kinh doanh. Product owner cũng có trách nhiệm đảm bảo kinh doanh và nhóm Scrum có cùng sự chia sẻ hiểu biết về tầm nhìn của dự án, mục tiêu của dự án, và chi tiết các công việc cần hoàn thành, mà team cần phải lên kế hoạch và xây dựng đầu mục công việc.
+
+Mặc dù, Product owner có quyền hạn tuyệt đối trong việc đánh giá độ ưu tiên và cập nhật backlog, nhưng Scrum Master và nhóm dự án cũng sẽ tham gia vào quy trình này với mục đích là cung cấp thông tin về ước tính, phụ thuộc, các kỹ thuật trong công việc, etc.
+
+**Srum Master**
+
+Scrum master có trách nhiệm đảm bảo rằng phương pháp Scrum được hiểu và sử dụng hiệu quả. Người này là lãnh đạo phục vụ cho nhóm dự án, loại bỏ các trở ngại ra khỏi quy trình của họ, điều phối các sự kiện (các cuộc họp - meetings), và giáo dục thành viên nhóm.
+
+Scrum Master cũng tham gia cùng với Product Owner trong việc quản lý backlog và giao tiếp về tầm nhìn của dự án, mục tiêu dự án, và chi tiết các công việc trong backlog.
+
+Cuối cùng, Scrum Master phục vụ tổ chức bằng cách điều phối tổ chức cùng thích nghi với Scrum, không chỉ một dự án, mà mở rộng ra toàn bộ tổ chức.
+
+{:#scrumActivities}
+### Các hoạt động Scrum (Sự kiện, lễ hội)
+
+Phương thức Scrum định nghĩa ra 5 hoạt động meeting trực tiếp tập trung vào những mục đích cụ thể. Chúng bao gồm refinement (sàng lọc) backlog, meeting lên kế hoạch cho sprint, meeting hàng ngày, sprint reviews, và sprint retrospectives. Bốn meetings cuối là cơ hội cho nhóm Scrum có thể kiểm tra và thích ứng (2 trong số 3 trụ cột) với mỗi sprint.
+
+
+<div id="examTipbox">
+  <div id="examTipIcon">
+    <img src="/assets/images/icons-check.png" alt="check-icon">
+  </div>
+  <div id="examTipContent">
+    <h5>EXAM TIP<br/><hr/></h5>
+    <h7>
+      Trong bài kiểm tra, có thể chúng ta sẽ thấy Scrum events, hoặc Scrume ceremonies.
+    </h7>
+    <h7>Chúng ta những khái niệm cũ của Scrum activities (meetings)</h7>
+  </div>
+</div>
+
+<br/>
+
+**Backlog refinement - Sàng lọc backlog**
+
+Meeting sàng lọc backlog là nơi "groming the backlog" (xử lý các công việc tồn đọng) được hoàn thành. Nó có nghĩa cơ bản là mọi người cùng tham gia trong dự án cùng thảo luận và cập nhật những đầu mục trong backlog. (Nếu không chắc về ý nghĩa của nó, cứ đọc tiếp - chúng ta sẽ giải thích hoạt động này kỹ càng hơn khi miêu tả về product backlog.)
+
+**Sprint planning meeting - Meeting lên kế hoạch cho sprint**
+
+Trong cuộc họp kế hoạch sprint, mọi người cùng xác định cái gì sẽ được phân phối trong sprint sắp tới và làm thế nào để đạt được kết quả. Product owner đưa ra cập nhật cho các mục trong backlog, và nhóm sẽ thảo luận cùng nhau để đảm bảo có cùng một chia sẻ hiểu biết. Nhóm phát triển dự án dự đoán cái gì có thể phân phối được trong sprint, dựa trên ươc tính của họ, công suất dự kiến (projected capacity) và hiệu quả trong quá khứ. Với những dự án đoán của họ, họ định nghĩa ra là mục tiêu của sprint (sprint goal). Nhóm phát triển dự án sẽ xác định chức năng nào họ sẽ xây dựng và bằng cách nào họ sẽ tự tổ chức để phân phối được mục tiêu của sprint. (Sprint planning - hay iteration planning - được bao phủ đầy đủ trong chương 5)
+
+**Daily Scrum - Meeting hàng ngày**
+
+Meeting hàng ngày được gói gọn trong đúng 15 phút, được tổ chức cùng một thời điểm và địa điểm mỗi ngày, trong khi nhóm làm việc để hoàn thành mục tiêu sprint. Scrum master đảm bảo cuộc họp được diễn ra hàng ngày, và theo dõi chướng ngại vật bất thường. Daily meeting chủ yếu là để thành viên của nhóm phát triển dự án cùng đồng bộ công việc của họ và báo cáo bất cứ bất thường nào đang gặp phải. Phạm vi của cuộc họp này tuyệt đối nghiêm ngặt - mỗi thành viên phải trả lời đúng 3 câu hỏi vể cái họ đang làm trong mục tiêu sprint:
+
+1. Cái gì đã hoàn thành kể từ cuộc họp hàng ngày hôm qua?
+2. Kế hoạch sẽ thực hiện trong hôm nay?
+3. Có vấn đề trở ngại gì trong tiến độ không?
+
+Ba câu hỏi này giúp mỗi thành viên của nhóm phát triển đánh giá tiến độ để đạt được mục tiêu sprint. Trong câu trả lời các câu hỏi, họ cùng nhau liên kết và thảo luận hay giải quyết vấn đề trực tiếp với nhau. (Chúng ta sẽ bao phủ cuộc họp này chi tiết hơn trong chương 5, nơi chúng ta nói về đứng họp hằng ngày - trong agile gọi chung là Daily Scrum.)
+
+Như những dự án Scrum lớn hơn, nhiều nhóm Scrum có thể cần làm việc với nhau. Để làm được việc ấy, họ hay có một cách tiếp cận phổ biến gọi là "Scrum of Scrums". Như cái tên gọi của nó, đây là một cuộc họp trong mỗi đại diện từ mỗi team sẽ báo cáo tiến độ của mỗi nhóm. Chỉ giống như cuộc họp hàng ngày bình thường, những người tham gia trả lời 3 câu hỏi, và họ có thể trả lời thêm câu hỏi thứ tư để giúp đối mặt với xung đột tiềm ẩn giữa các nhóm: **Bạn có làm cái gì đó có ảnh hưởng đến nhóm khác không? Are you about to put something in another team’s way?**
+
+Quy trình này được biểu diễn bên dưới:
+
+![scrumofScrums]({{ site.baseurl }}/assets/images/scrumofScrums.png)
+
+Cũng như daily scrums, cuộc họp Scrum of Scrums diễn ra theo lịch bình thường, nhưng không cần thiết phải hàng ngày. Hãy để mỗi team họp với nhau hằng ngày vào 9h sáng. Sau cuộc họp đó, lúc 9h30 - có thể hàng ngày hoặc hai lần một tuần, nếu cần thiết - người đại diện của mỗi team sẽ tham gia vào cuộc họp Scrum of Scrums. Nếu những người tham gia tiếp thu được bất cứ vấn đề nào ảnh hưởng đến nhóm của họ, họ sẽ báo cáo chúng ngay lập tức cho nhóm của họ sau cuộc họp.
+
+Nếu lớn hơn nữa thì thậm chí có thể tổ chức đến "scrum of scrum of scrums" nơi mà các nhóm sẽ lặp lại kiểu mẫu với ba tầng họp. Ở đây, đại diện từ mỗi scrum of scrums sẽ tham gia một cuộc họp "scrum of scrum of scrums" để điều phối công việc trong một nhóm dự án lớn.
+
+![scrumofscrumofscrums]({{ site.baseurl }}/assets/images/scrumofscrumofscrums.png)
+
+**Sprint review - đánh giá sprint**
+
+Cuộc họp đánh giá sprint được tổ chức tại thời điểm kết thúc sprint và bao gồm nhóm phát triển dự án, Product owner và Scrum Master (và cũng có thể có sự tham gia của stakeholder khác). Trong cuộc họp này, nhóm demo những tiến triển, hoặc sản phẩm đang phát triển mà đã được họ xây dựng được trong sprint cho Product owner. Product owner sẽ thanh tra công việc để xem cái gì được chấp nhận - từ chối nếu nó "DONE" hoặc giải thích cái gì đang thiếu sót.
+
+Nhóm phát triển và Product Owner thảo luận về tiến triển và những đầu mục còn lại trong product backlog. Cùng nhau, họ tạo những thay đổi cần thiết trong backlog và quyết định cái gì cần được làm tiếp theo.
+
+**Sprint retrospectives - hồi tưởng sprint**
+
+Sau đánh giá sprint, nhưng trước khi bắt đầu cuộc họp lên kế hoạch cho sprint mới, nhóm phát triển dự án tổ chức hoạt động cuối cùng của họ để "thanh tra và thích ứng" cho sprint vừa rồi - gọi là sprint retrospective. Mặc dù những người khác có thể được mời để tham gia, cuộc họp này chủ yếu dành cho nhóm phát triển.
+
+Đây là cơ hội để học hỏi và nhìn thấy những điểm cần cải thiện. Thời gian của cuộc họp này - sau cuộc họp đánh giá sprint, nhưng trước cuộc họp lên kế hoạch sprint - cho phép họ xem xét lại những phản hồi của Product Owner từ cuộc họp đánh giá sprint trong sự cân nhắc của họ, và cũng vạch ra những cải thiện họ xác định trong suốt quá trình hồi tưởng để lên kế hoạch cho srint tiếp theo.
+
+Kết quả phản chiếu trong toàn bộ cuộc họp retro có thể bao phủ bất cứ những gì xảy ra trong toàn bộ sprint, bao gồm cả khía cạnh con người, quy trình và sản phẩm. Thành viên của nhóm trình bày cái gì tốt, xem xét cơ hội cải thiện, và quyết định cái gì thay đổi để thực thi trong sprint tiếp theo.
+
+{:#scrumArtifact}
+### Scrum artifacts - Hiện vật Scrum
+
+Chúng ta đã cùng thảo luận về các vai trò và hoạt động trong Scrum, giờ chúng ta sẽ chuyển sang các hiện vật Scrum.
+
+Có ba mục hữu hình được cung cấp hay sử dụng bởi nhóm trong suốt sprint - product increment (tăng trưởng sản phẩm), product backlog (tồn đọng sản phẩm) và sprint backlog (tồn đọng sprint).
+
+**Product increment - tăng trưởng sản phẩm**
+
+Trong mỗi sprint, thành viên của nhóm phát triển xây dựng sự gia tăng của giải pháp (điểm kết thúc sản phẩm của dự án). Như chúng ta đã thấy, trong sprint review, họ sẽ demo bản tăng trưởng cuối cùng để nhận phản hồi từ Product owner và lọc ra những mục đã hoàn thành. Để tối đa hóa cơ hội sự tăng trưởng sản phẩm được chấp nhận, nhóm và Product owner cần phải cùng đồng ý một định nghĩa hoàn thành DEFINE OF DONE trước khi nhóm bắt đầu làm việc, điều này phải được chia sẽ hiểu biết chung giữa các thành viên về cái gì cần hoàn thành và sẽ được phản ánh vào sự tăng trưởng đó.
+
+**Product backlog - tồn đọng sản phẩm**
+
+Product backlog là một danh sách đã được đánh độ ưu tiên của toàn bộ công việc cần phải hoàn thành để xây dựng sản phẩm - nó phục vụ như là một nguồn cho toàn bộ yêu cầu của sản phẩm. Những mục trong backlog có thể bao gồm những đặc tính cần phải xây dựng, chức năng, yêu cầu, thuộc tính chất lượng (ví dụ yêu cầu phi chức năng), những sự tăng cường và những sửa lỗi. Danh sách này là động, nó tiến triển theo sự tiến triển của sản phẩm và cần phải cập nhật thường xuyên.
+
+Các mục trong backlog thì được đánh độ ưu tiên bởi Product owner và sắp xếp theo thứ tự ưu tiên cao nhất ở đầu tiên trên backlog. Nhóm sẽ luôn cố gắng làm việc trong mục nằm đầu tiên về độ ưu tiên tiếp theo - hoặc sớm nhất có thể, các phụ thuộc đã đưa ra và các yếu tố khác. Các hạng mục công việc được tinh chỉnh dần dần khi chúng sắp được hoàn thiện, vì vậy, các hạng mục có mức độ ưu tiên cao nhất là chi tiết nhất và ước tính của nhóm cho các hạng mục đó chính xác hơn. Các hạng mục có mức độ ưu tiên thấp nhất có thể không được phát triển, vì chúng có thể liên tục bị trì hoãn để có lợi cho công việc có mức độ ưu tiên cao hơn.
+
+Backlog thì liên tục được tinh chỉnh, và quy trình của việc thêm hạng mục chi tiết vào backlog, và tinh chỉnh những ước tính của chúng là sàng lọc backlog. Hoạt động Scrum được mô tả trước đó, còn được gọi là "tinh chỉnh công việc tồn đọng". Hoạt động này được hoàn thành bởi team phát triển và product owner làm việc cùng với nhau. Nhóm ước tính các hạng mục công việc, và product owner đánh độ ưu tiên của nó. Ví dụ, mỗi thời gian nhóm tinh chỉnh ước tính của họ với mức cao của chi tiết, product owner cũng cần điều chỉnh mức độ ưu tiên của những hạng mục trong backlog.
+
+**Sprint backlog: Tồn đọng sprint**
+
+Sprint backlog là một tập hợp con của các hạng mục trong product backlog mà được chọn lựa trong mục tiêu của sprint (sprint backlog không phỉa là một danh sách riêng biệt với product backlog). Cùng với sprint backlog, nhóm phát triển một kế hoạch về cách họ sẽ đạt được mục tiêu của sprint - đây là cam kết của họ về chức năng mà họ sẽ cung cấp trong sprint. Sprint tồn đọng đóng vai trò như một cái nhìn dễ thấy về công việc đang được thực hiện và chỉ có thể được cập nhật bởi nhóm phát triển.
+
+<div id="practises" style="font-size: 12px;">
+  <h5>Bài tập: Quyền sở hữu và trách nhiệm Scrum</h5>
+
+  <p>Trong bảng dưới đây, đánh dấu check vào cột thích hợp cho development team, hay Scrum Master hay Product owner để đánh giá ai chủ sở hữu hay chịu trách nhiệm cho mỗi mục.</p>
+</div>
+
+|Item - hạng mục| Development team | Product owner | Scrum master |
+|-----|-----|-----|-----|
+| Estimates - ước tính  | ✔  |   |   |
+| Backlog priorities - đánh độ ưu tiên  |   |  ✔ |   |
+| Agile coaching - đào tạo agile  |   |   |  ✔ |
+| Coordination of work - Phối hợp làm việc  | ✔  |   |   |
+| The definition of DONE - định nghĩa hoàn thành  | ✔  | ✔  | ✔  |
+| Process adherence - Tuân thủ quy trình  |   |   | ✔  |
+| Technical decisions - quyết định công nghệ  | ✔  |   |   |
+| Sprint planning - lên kế hoạch sprint  | ✔  | ✔  | ✔  |
+
+ĐÁP ÁN:
+
+![scrumOwner]({{ site.baseurl }}/assets/images/scrumOwner.png)
+
+
+{:#xp}
+# Extreme Programming (XP)
