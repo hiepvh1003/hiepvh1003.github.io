@@ -910,6 +910,7 @@ table, table th, table td {
 
 #tblContent {
     width: 100%;
+    border: 1px dotted !important;
 }
 
 #tblContent th, #tblContent td {

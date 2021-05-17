@@ -36,6 +36,7 @@ hidden: false
 | [　&#9;・　Các hoạt động Scrum (Sự kiện, lễ hội) ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#scrumActivities) |
 | [　&#9;・　Scrum artifacts - Hiện vật Scrum ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#scrumArtifact) |
 | [ Extreme Programming ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#xp) |
+| [  - Giá trị cốt lõi của XP ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#xpCoreValue) |
 
 <br/>
 {:#summary}
@@ -822,3 +823,26 @@ Sprint backlog là một tập hợp con của các hạng mục trong product b
 
 {:#xp}
 # Extreme Programming (XP)
+
+Lập trình cực đại - được gọi với tên ngắn gọn là XP dựa trên cơ sở của eXtreme Programming - là một phương pháp Agile tập trung vào phát triển phần mềm. Trong khi Scrum tập trung vào quản lý dự án ở mức độ ưu tiên công việc và nhận phản hồi, thì XP tập trung vào thực hành tốt nhất để phát triển phần mềm. Vì vậy, sẽ có rất nhiều tài liệu tham khảo phần mềm trong thảo luận sau. Đối với các giá trị và nguyên tắc của Tuyên ngôn Agile, như chúng ta đã tìm hiểu trong phần trước, hãy xem liệu có thể nghĩ ra những cách mà các giá trị và thực hành của XP có thể ứng dụng cho các loại dự án công việc tri thức hay không.
+
+{:#xpCoreValue}
+## Giá trị cốt lõi của XP
+
+Giá trị cốt lõi của XP là đơn giản, giao tiếp, phản hồi, can đảm và tôn trọng; những giá trị này tự thể hiện trong các hoạt động được thực hiện trong suốt vòng đời XP.
+
+» **Simplicity - Đơn giản** : Giá trị này tập trung cào sự giảm thiểu phức tạp, các tính năng bổ sung, và lãng phí. Nhóm XP luôn ghi nhớ cụm từ "Tìm điều đơn giản nhất có thể hoạt động" và xây dựng giải pháp đó trước.
+
+» **Communication - Giao tiếp** : Giá trị này tập trung vào việc đảm bảo toàn bộ nhóm dự án biết kỳ vọng của họ và cái gì người khác đang thực hiện. Ví dụ, cuộc họp đứng mỗi ngày là một công cụ giao tiếp chính (những cuộc họp này được miêu tả chi tiết trong chương 5)
+
+» **Feedback - Phản hồi** : Nhóm dự án nên nhận ra sự phù hợp sớm. Thất bại sớm có thể hữu ích, đặc biệt nếu trong khi làm, chúng ta lấy được thông tin mới trong khi chúng ta vẫn có thời gian để cải thiện sản phẩm.
+
+» **Courage - Can đảm** : Cần có sự can đảm mới có thể cho phép công việc của chúng ta được nhìn thấy bởi người khác. Trong lập trình cặp (pair programming), thành viên nhóm dự án chia sẽ mã nguồn với nhau và thường cần phải làm cho nó đơn giản. Được hỗ trợ bơi các bản dựng tự động và unit test, các nhà phát triển cần có sự tự tin để thực hiện các thay đổi quan trọng.
+
+» **Respect - Tôn trọng** : Sự tôn trọng là điều cần thiết trong các dự án XP, nơi mọi người làm việc cùng nhau như một nhóm và mọi người đều phải chịu trách nhiệm về sự thành công hay thất bại của dự án. Giá trị này cũng liên quan đến pair programming; các thành viên trong nhóm cần nhận ra rằng mọi người làm việc là khác nhau và tôn trọng những khác biệt đó.
+
+Hình dưới đây minh họa quy trình XP. Nếu một số thuật ngữ trên sơ này là tiếng Hy lạp đối với chúng ta; chúng ta sẽ xem xét lại các thuật ngữ kỹ thuật được sử dụng trong sơ đồ này và trong phần thảo luận về XP sẽ chi tiết hơn trong chương sau.
+
+![xpprocess]({{ site.baseurl }}/assets/images/xpprocess.png)
+
+Như thể hiện trong mô hình, nhóm dự án XP sử dụng yêu cầu nhẹ nhàng gọi là "User stories" để lên kế hoạch cho hoàn thành sản phẩm và các vòng lặp. Các vòng la

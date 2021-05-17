@@ -26,7 +26,7 @@ Website: [Sang Võ - Ruby on Rails Developer](https://blog.sangv2.com/)
 
 ## # Chính Phạm - iOS Developer
 
-Website: [Chinh Pham's Blog - iOS Developer](https://chinhpham.net/)
+Website: [Chinh Pham's Blog - iOS Developer](https://kiyochinh.com/)
 
 ## # LuatHN - RoR Developer
 
