@@ -35,8 +35,12 @@ hidden: false
 | [　&#9;・　Vai trò trong nhóm dự án Scrum ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#scrumRoles) |
 | [　&#9;・　Các hoạt động Scrum (Sự kiện, lễ hội) ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#scrumActivities) |
 | [　&#9;・　Scrum artifacts - Hiện vật Scrum ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#scrumArtifact) |
-| [ Extreme Programming ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#xp) |
+| [  EXTREME PROGRAMMING (XP) ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#xp) |
 | [  - Giá trị cốt lõi của XP ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#xpCoreValue) |
+| [  - Các vai trò trong nhóm XP]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#XPRoles) |
+| [  - Các thực hành cốt lõi XP]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#corepractices) |
+| [ LEAN PRODUCT ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#leanProduct) |
+| [  - Những khái niệm cốt lõi của LEAN ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#coreConcepts) |
 
 <br/>
 {:#summary}
@@ -822,7 +826,7 @@ Sprint backlog là một tập hợp con của các hạng mục trong product b
 
 
 {:#xp}
-# Extreme Programming (XP)
+# EXTREME PROGRAMMING (XP)
 
 Lập trình cực đại - được gọi với tên ngắn gọn là XP dựa trên cơ sở của eXtreme Programming - là một phương pháp Agile tập trung vào phát triển phần mềm. Trong khi Scrum tập trung vào quản lý dự án ở mức độ ưu tiên công việc và nhận phản hồi, thì XP tập trung vào thực hành tốt nhất để phát triển phần mềm. Vì vậy, sẽ có rất nhiều tài liệu tham khảo phần mềm trong thảo luận sau. Đối với các giá trị và nguyên tắc của Tuyên ngôn Agile, như chúng ta đã tìm hiểu trong phần trước, hãy xem liệu có thể nghĩ ra những cách mà các giá trị và thực hành của XP có thể ứng dụng cho các loại dự án công việc tri thức hay không.
 
@@ -845,4 +849,195 @@ Hình dưới đây minh họa quy trình XP. Nếu một số thuật ngữ tr�
 
 ![xpprocess]({{ site.baseurl }}/assets/images/xpprocess.png)
 
-Như thể hiện trong mô hình, nhóm dự án XP sử dụng yêu cầu nhẹ nhàng gọi là "User stories" để lên kế hoạch cho hoàn thành sản phẩm và các vòng lặp. Các vòng la
+Như thể hiện trong mô hình, nhóm dự án XP sử dụng yêu cầu nhẹ nhàng gọi là "User stories" để lên kế hoạch cho hoàn thành sản phẩm và các vòng lặp. Các lần lặp lại thường kéo dài hai tuần và các nhà phát triển làm việc theo cặp để viết mã trong các lần lặp này. Tất cả các phần mềm được phát triển đều qua quá trình kiểm tra nghiêm ngặt và thường xuyên. Sau đó, khi được khách hàng phê duyệt, phần mềm được phân phối dưới dạng các bản phát hành nhỏ.
+
+"Spikes" (Nhịp đập) là những khoảng thời gian làm việc được thực hiện để giảm thiểu các mối đe dọa và vấn đề, các "Nhịp kiến trúc" là những lần lặp lại được sử dụng để chứng minh một cách tiếp cận công nghệ. Sự đột biến được kết hợp vào các quy trình lập kế hoạch phát hành.
+
+
+{:#XPRoles}
+## Các vai trò trong nhóm XP
+
+XP định nghĩa các vai trò trong nhóm khác so với Scrum - Vai trò trong XP là Coach (Huấn luyện viên), khách hàng, lập trình viên và tester. Hãy xem mỗi vai trò tham gia trong dự án XP.
+
+**Coach - huấn luyện viên**
+
+Huấn luyện viên như là một người hướng dẫn cho nhóm, giới thiệu về quy trình và giúp cho thành viên của nhóm giữ vững lộ trình. Huấn luyện viên cũng là người điều phối - giúp nhóm trở nên hiệu quả hơn - và là một ống dẫn, tăng cường giao tiếp cả trong nhóm và giữa các nhóm với nhau. Vai trò này chia sẻ nhiều trách nhiệm với Scrum Master. Mặc dù định nghĩa chính thức của hai nhiệm vụ này khác nhau, nhưng chúng thường được dùng thay thế cho nhau.
+
+Hơn nữa với vai trò huấn luyện, cũng là người quản lý, điều phối giao tiếp nội bộ và các hoạt động của nhóm, nhưng đây không phải là vai trò chính thức của XP.
+
+**Customer - khách hàng**
+
+Trong một nhóm XP, khách hàng là người đại diện doanh nghiệp cung cấp các yêu cầu, độ ưu tiên và điều hướng kinh doanh. Người này định nghĩa sản phẩm được sẽ xây dựng, xác định độ ưu tiên của các tính năngm và xác nhận rằng sản phẩm đang làm hoạt động đúng hay không. Vai trò này cũng tương tự như Product owner trong Scrum.
+
+**Programmer - Lập trình viên**
+
+Lập trình viên là những nhà phát triển trực tiếp xây dựng sản phẩm bằng cách viết và thực thi mã nguồn theo yêu cầu User stories.
+
+**Tester - Nhà kiểm thử**
+
+Tester cung cấp đảm bảo chất lượng và giúp khách hàng định nghĩa và viết những bài kiểm thử độ hài lòng cho user stories. Vai trò này cũng có thể được điền vào vị trí của Programmer nếu họ có yêu cầu kỹ năng.
+
+<div id="examTipbox">
+  <div id="examTipIcon">
+    <img src="/assets/images/icons-check.png" alt="check-icon">
+  </div>
+  <div id="examTipContent">
+    <h5>EXAM TIP<br/><hr/></h5>
+    <h7>
+      Suy nghĩ về vai trò của nhóm dự án XP và Scrum - chúng ta có thể gặp một vài câu hỏi yêu cầu tái cơ cấu phương pháp dựa trên những yếu tố đang được sử dụng. Chúng ta cũng nên hiểu rằng quan điểm Agile, Product owner và Customer là những vai trò gần như tương đương, cũng như Scrum Master và Coach.
+    </h7>
+  </div>
+</div>
+
+<br/>
+
+
+{:#corepractices}
+## Các thực hành cốt lõi XP
+
+Phương pháp XP dựa trên 13 phương pháp cốt lõi đơn giản nhưng mạnh mẽ, như được hiển thị bên dưới. Chúng ta xẽ xem xét từng phương pháp này chi tiết hơn, bắt đầu từ vòng ngoài.
+
+![xpcore]({{ site.baseurl }}/assets/images/xpcore.png)
+
+**Whole Team - Toàn nhóm**
+
+Thực hành whole team là một ý tưởng mà toàn bộ mọi người đóng góp cho dự án XP ngồi cùng nhau ở cùng một vị trí, với tư cách là các thành viên của một nhóm duy nhất. XP nhấn mạnh khái niệm tổng quát hóa các chuyên gia, trái ngược với các chuyên gia riêng biệt. Nói cách khác, bất kỳ ai đủ điều kiện để thực hiện một vai trò đều có thể đảm nhận - vai trò này không dành riêng cho những người chuyên về một lĩnh vực cụ thể. Thực hành này giúp tối ưu hóa việc sử dụng các nguồn lực vì những người có thể thực hiện nhiều công việc có thể chuyển từ vai trò này sang vai trò khác khi nhu cầu phát sinh. Phương pháp này cũng cho phép chia sẻ thông tin hiệu quả hơn và giúp loại bỏ khả năng những người ở một số vai trò nhất định sẽ nhàn rỗi hoặc làm việc quá sức tại một số thời điểm nhất định trong dự án.
+
+**Planning Games - Trò chơi kế hoạch**
+
+XP có hai hoạt động kế hoạch hay là trò chơi kế hoạch cơ sở - đó là kế hoạch phát hành và kế hoạch lặp.
+
+Phát hành là việc đẩy chức năng mới lên sản phẩm người dùng. Một dự án bình thường có một hoặc nhiều phát hành, với không nhiều hơn một hay hai phát hành trong một năm đơn lẻ. Trong kế hoạch phát hành, khách hàng phát thảo những yêu cầu chức năng, và các nhà phát triển ước tính độ khó của chức năng sẽ xây dựng. Đối với những ước tính này và độ ưu tiên, khách hàng thiết kế kế hoạch cho việc phân phối dự án. Kể từ những nỗ lực ban đầu ở ước tính sẽ không chính xác, quy trình này sẽ được xem xét lại thường xuyên và cải thiện như độ ưu tiên và ước tính tiến triển.
+
+Các vòng lặp là một vòng tròn phát triển ngắn với một phát hành mà Scrum gọi là sprint. Kế hoạch vòng lặp hoàn thành ở bắt đầu mỗi vòng lặp. Khách hàng giải thích các chức năng họ muốn thấy trong vòng lặp tiếp theo, và rồi nhóm phát triển sẽ chia nhỏ những chức năng này thành các nhiệm vụ và ước tính công việc. Dựa trên những ước tính đó (cái mà được tinh chỉnh nhiều hơn so với ước tính kế hoạch phát hành) và tổng công việc đã hoàn thành trong vòng lặp trước, nhóm cam kết những danh mục công việc họ nghĩ sẽ có thể hoàn thành trong giai đoạn 2 tuần.
+
+**Small release - phát hành nhỏ**
+
+Thường xuyên, phát hành nhỏ vào môi trường kiểm thử được khuyến khích trong XP, bao gồm cả ở hai giai đoạn lặp lại, đến tiến trình demo, gia tăng hiển thị cho khách hàng, và tại giai đoạn phát hành, nhanh chóng triển khai phần mềm làm việc đến người dùng cuối. Chất lượng được bảo trì trong những khung thời gian phân phối ngắn bởi những kiểm thử nghiêm ngặt và đi qua những bài thực hành như kết hợp liên tục (continuous integration), trong các trường hợp kiểm thử chạy liên tục có thể.
+
+**Customer Tests - khách hàng kiểm thử**
+
+Một phần của xác định chức năng yêu cầu, khách hàng mô tả một hoặc nhiều tiêu chí kiểm thử mà sẽ được chỉ thị cho phần mềm hoạt động đúng dự tính. Nhóm rồi sẽ xây dựng kiểm thử tự động để chứng minh chúng đúng với tiêu chí của khách hàng đặt ra.
+
+**Collective Code Ownership - Quyền sở hữu mã nguồn tập thể**
+
+Trong XP, bất cứ cặp phát triển nào cũng có thể cải thiện và sửa đổi bất cứ mã nguồn nào. Có nghĩa là nhiều người sẽ cùng làm việc với toàn bộ mã nguồn, kết quả sẽ được tăng lên một cách hữu ích và kiến thức được mở rộng ra. Thực hành này dẫn dắt chất lượng dự án tăng lên múc độ cao hơn; với nhiều người cùng xem mã nguồn, có nhiều cơ hội hơn để phát hiện ra bất thường. Ảnh hưởng cũng sẽ tác động ít hơn nếu có bất cứ lập trình viên nào rời đi, kể từ khi kiến thức của người đấy đã được chia sẻ.
+
+**Code standards - Tiêu chuẩn mã nguồn**
+
+Mặc dù quyền sở hữu mã nguồn tập thể có nhiều lợi điểm của nó, cho phép bất kỳ ai sửa đổi mã nguồn có thể là kết quả là một vấn đề nếu các thành viên trong nhóm có cách tiếp cận khác nhau trong mã nguồn. Để giải quyết vấn đề này, nhóm dự án XP cùng tuân thủ theo một chuẩn mực mã nguồn thích hợp mà toàn bộ mã nguồn trông giống như chỉ một người lập trình viên có kiến thức đã viết. Tiêu chuẩn riêng biệt của mỗi team sử dụng không quan trọng; chỉ cần là nhóm có thể có cách tiếp cận thích hợp để viết mã nguồn.
+
+**Sustainable Pace - Bước đi bền vững**
+
+XP nhận ra rằng mức năng suất cao nhất do một nhóm hoạt động với tốc độ bền vững đạt được. Mặc dù thời gian làm thêm giờ có thể là cần htiết, nhưng thời gian làm việc lặp đi lặp lại không bền vững và phản tác dụng. Việc duy trì tốc độ phát triển bền vững sẽ tối ưu hóa việc mang lại giá trị lâu dài.
+
+**Metaphor - Phép ẩn dụ**
+
+XP sử dụng phép ẩn dụ và tương tự để trình bày thiết kế và tạo ra tầm nhìn công nghệ chung. Những miêu tả này thiết lập sự so sánh rằng toàn bộ những người liên quan có thể hiểu để trình bày hệ thống vận hành như thế nào. Ví dụ, "module thanh toán giống như một kế toán viên đảm bảo các giao dịch được nhập vào, các tài khoản và số dự thích hợp sẽ được tạo ra".
+
+Cho dù nếu nhóm không thể tiếp cận với cách ẩn dụng để miêu tả vài thứ, họ có thể sử dụng tập những tên phổ biến để sử dụng cho những thành phần khác nhau để đảm bảo rằng mọi người hiểu ở đâu và tại sao những thay đổi nên được áp dụng.
+
+**Continuous Integration - Tích hợp liên tục**
+
+Tích hợp bao gồm mang mã nguồn kết hợp với nhau để đảm bảo rằng nó có thể thực thi và hoạt động được. Thực hành này là tiêu chí, bởi vì nó mang nhiều mặt vấn đề trước khi nhiều mã nguồn được xây dựng trên các lỗi và thiết kế không tương thích.
+
+XP sử dụng tích hợp liên tục, có nghĩa là mọi lúc mà lập trình viên kiểm tra mã nguồn để đưa lên kho mã nguồn (thường là vài lần trong ngày), kiểm thử tích hợp sẽ tự động chạy. Như những bài kiểm thử nổi bật được những bản dựng bị hỏng hoặc các vấn đề tích hợp, để các vấn đề có thể được giải quyết ngay lập tức.
+
+**Test-Driven Development - Phát triển định hướng kiểm thử**
+
+Kiểm thử là một phần tiêu chí của phương pháp XP. Để đảm bảo sự bao phủ các kiểm thử tốt để các vấn đề có thể được làm nổi bật sớm trong quá trình phát triển, nhóm phát triển XP thường sử dụng thực hành của Phát triển định hướng kiểm thử. Với cách tiếp cận này, nhóm viết kiểm thử được chấp nhận trước khi phát triển mã nguồn mới.
+
+Nếu các bài kiểm thử hoạt động đúng, mã nguồn ban đầu sẽ làm thất bại bài kiểm thử, từ khi chức năng yêu cầu chưa được phát triển. Mã nguồn sẽ được thông qua bài test khi nó được viết chính xác. Quy trình phát triển định hưởng kiểm thử cố gắng rút ngắn chu kỳ kiểm tra - phản hồi nhiều nhất có thể để nhận được lợi ích của phản hồi sớm.
+
+**Refactoring - Sự tái cấu trúc**
+
+Sự tái cấu trúc là quy trình cải thiện thiết kế của mã nguồn đã tồn tại mà không làm thay đổi hành vi bên ngoài của nó hay thêm chức năng mới. Bằng việc giữ cho thiết kế hiệu quả, sự thay đổi và chức năng mới có thể dễ dàng được áp dụng vào mã nguồn. Sự tái cấu trúc tập trung vào việc gỡ bỏ những trùng lặp mã nguồn, hạ thấp các mối nối liên kết (kết nối phụ thuộc giữa các modules), và tăng cường sự gắn kết.
+
+**Simple design - Thiết kế đơn giản**
+
+Bằng việc giữ cho thiết kế đơn giản nhưng vẫn thích nghi, nhóm XP có thể phát triển nhanh và thích nghi nếu cần thiết. Thiết kế được giữ phù hợp cho những gì dự án đang yêu cầu. Nó có thể được xem xét lại, lặp lại nhiều lần và cải thiện để đảm bảo nó còn lại những phần phù hợp.
+
+XP tuân theo một triết lý thiết kế có chủ định: "What is the simplest thing that could work? - Cái gì đơn giản nhất thì có thể hoạt động được". trái ngược với các cấu trúc phức tạp đáp ứng tính linh hoạt có thể trong tương lai. Vì sự cồng kềnh và phức tạp của mã nguồn liên quan đến nhiều những dự án thất bại, thiết kế đơn giản cũng là một chiến lược giảm thiểu rủi ro.
+
+**Pair Programming - Lập trình cặp**
+
+Trong XP, mã nguồn sản phẩm được viết bởi hai nhà phát triển làm việc cặp với nhau. Trong khi một người viết mã nguồn, người còn lại sẽ đánh giá nó - và cả hai thay đổi vai trò liên tục. Thực hành này có thể bị xem là không hiệu quả, nhưng XP khẳng định rằng nó tiết kiệm thời gian, bởi vì cặp đôi làm việc chung với nhau sẽ tìm ra vấn đề sớm và lợi ích là cả hai sẽ mở rộng được kiến thức nền tảng. Làm việc theo cặp cũng giúp chênh lệch kiến thức về hệ thống trong team giảm đi.
+
+Bằng cách tiếp cận có kỷ luật và nghiêm ngặt để áp dụng các phương pháp này, nhóm XP đã thành công trong việc cung cấp các hệ thồng phần mềm chất lượng cao.
+
+<div id="practises" style="font-size: 12px;">
+  <h5>Bài tập - XP CHUNK (thực tế) or MADE-UP JUNK (rác)</h5>
+
+  <p>Tách biệt các khái niệm và thực hành XP thực tế (XP CHUNKS) với MADE-UP JUNK trong bảng sau bằng cách đánh dấu vào cột thích hợp.</p>
+
+  <br/>
+  <img src="/assets/images/chunkjunk.png" alt="chunkjunk">
+
+</div>
+
+{:#leanProduct}
+# LEAN PRODUCT
+
+Nói một cách chính xác, LEAN không phải là một phương pháp Agile; tuy nhiên, cách tiếp cận LEAN được liên kết chặt chẽ với Agile, như chúng ta sẽ thấy. LEAN bắt nguồn từ hệ thống sản xuất Toyota được phát triển để cải tiến hệ thống sản xuất hàng loạt của Henry Ford để chế tạo ô tô. Vì vậy, Lean bắt đầu như một phương pháp sản xuất, sau đó được áp dụng cho phát triển phần mềm và cuối cùng được điều chỉnh cho các loại công việc kiến thức khác.
+
+Khi đề cập đến Lean trong bối cảnh Agile, chúng ta thực sự đang nói về một tập hợp con của Lean được gọi là "Lean production development - sự phát triển sản phẩm tinh gọn". Trong khi các hệ thống sản xuất tinh gọn ban đầu xử lý các sản phẩm sản xuất, thì việc phát triển sản phẩm tinh gọn liên qua nđến việc phát triển các sản phẩm mới và tốt hơn. Các nguyên tắc cấp cao của phát triển sản phẩm tinh gọn bao gồm:
+
+» Sử dụng các công cụ quản lý trực quan.
+
+» Xác định giá trị định nghĩa bởi khách hàng.
+
+» Xây dựng trong học hỏi và không ngừng cải thiện.
+
+<div id="backgroundInfo" style="font-size: 12px;">
+  <h5>Thông tin ẩn sau</h5>
+
+  <hr/>
+
+  <h6>Tại sao Agile và Lean lại liên quan đến nhau?</h6>
+
+  <p>Các nguyên tắc Lean mức độ cao được liệt kê trên là chung cho Kanban và tất cả phương pháp Agile. Mặc dù các ý kiến khác nhau, nhưng có thể thấy Lean là một tập hợp các phương pháp Agile và Kanban. Từ quan điểm này, phát triển sản phẩm tinh gọn, Kanban và các phương pháp Agile đều là những thể hiện chuyên biệt của tư duy tinh gọn.</p>
+
+  <p>
+  Chúng là những nhánh bắt đầu với các nguyên tắc chung của Lean và bổ sung thêm hướng dẫn cho các lĩnh vực cụ thể của chúng. Mặc dù quan điểm này sẽ không được kiểm tra trong kỳ thi, nhưng có có thể giúp chúng ta hiểu mối quan hệ giữa các Lean và các phương pháp Agile, Kanban.
+  </p>
+
+  <img src="/assets/images/leanandagile.png" alt="leanandagile">
+</div>
+
+{:#coreConcepts}
+## Những khái niệm cốt lõi của LEAN
+
+Lean có tập trung vào 7 khái niệm cốt lõi như hình bên dưới:
+
+![leancoreconcepts]({{ site.baseurl }}/assets/images/leancoreconcepts.png)
+
+Hãy cùng xem xét 7 khái niệm cốt lõi chi tiết hơn:
+
+» **Eliminate waste - Loại bỏ lãng phí**: Để tối ưu hóa giá trị, chúng ta cần tối thiểu hóa lãng phí. Trong công việc tri thức, lãng phí có thể ở dạng công việc được hoàn thành một phần, sự chậm trễ, quá trình xử lý, các tính năng không cần thiết, v.v. Do đó, để tăng giá trị mà chúng ta nhận được từ các dự án, chúng ta phải phát triển các cách để xác định và rồi loại bỏ chúng, sự lãng phí.
+
+
+» **Empower the team - Trao quyền lực cho nhóm**: Thay vì áp dụng phương pháp quản lý vi mô, chúng ta nên tôn trọng kiến thức vượt trội của các thành viên trong nhóm về các bước kỹ thuật cần thiết trong dự án và để họ đưa ra các quyết định nội bộ sao cho công việc hiệu quả và thành công.
+
+» **Deliver fast - Phân phối nhanh** : Chúng ta có thể tối đa hóa lợi tức đầu tư (ROI - return on investment) của dự án bằng cách nhanh chóng sản xuất các sản phẩm có giá trị và lặp lại thông qua thiết kế. Chúng ta sẽ tìm ra giải pháp tốt nhất thông qua sự phát triển nhanh chóng của các tùy chọn.
+
+» **Optimize the whole - Tối ưu hóa tổng thể** : Chúng ta hướng tới việc xem hệ thống không chỉ là tổng thể các bộ phận của nó. Chúng ta vượt ra ngoài các phần của dự án và tìm cách điều chỉnh nó phù hợp với tổ chức. Là một phần của việc tối ưu hóa tổng thể, chúng ta cũng tập trung vào việc hình thành các mối quan hệ giữa các nhóm tốt hơn.
+
+» **Build quality in - Xây dựng chất lượng** : Phát triển tinh gọn (lean) không cố gắng test chất lượng ở cuối cùng; thay vào đó, chúng ta xây dựng chất lượng vào sản phẩm và liên tục đảm bảo chất lượng trong suốt quá trình phát triển, sử dụng các kỹ thuật như tái cấu trúc, tích hợp liên tục và unit test.
+
+» **Defer desicions - Trì hoãn quyết định** : Chúng ta cân bằng giữa việc lập kế hoạch sớm với việc đứa ra quyết định và cam kết càng muộn càng tốt. Ví dụ: Điều này có thể có nghĩa là ưu tiên công việc tồn đọng cho đến khi đến lúc thực hiện công việc hoặc tránh bị ràng buộc vào một giải pháp có giới hạn công nghệ ban đầu.
+
+» **Amplify learning - Khuếch đại học tập** : Khái niệm này liên quan đến việc tạo điều kiện giao tiếp sớm và thường xuyênm nhận phản hồi càng sớm càng tốt và xây dựng dựa trên những gì chúng ta học được. Vì các dự án công việc tri thức là kinh nghiệm học tập kinh doanh và công nghệ, chúng ta bắt đầu học sớm và tiếp tục học hỏi.
+
+<div id="examTipbox">
+  <div id="examTipIcon">
+    <img src="/assets/images/icons-check.png" alt="check-icon">
+  </div>
+  <div id="examTipContent">
+    <h5>EXAM TIP<br/><hr/></h5>
+    <h7>
+      Đề thi có thể trực tiếp hay gián tiếp hỏi về bảy khái niệm cốt lõi này. Tuy nhiên, ta nên biết rằng những ý tưởng này đã được truyền đạt theo nhiều cách khác nhau. Điều này có nghĩa là ta không thể chỉ ghi nhớ 7 cụm từ được liệt kê ở trên; ta phải hiểu những khái niệm này đủ tốt để nhẫn ra chúng ngay cả khi chúng được diễn đạt hơi khác một chút.
+    </h7>
+  </div>
+</div>
+
+<br/>

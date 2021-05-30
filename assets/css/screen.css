@@ -1030,3 +1030,16 @@ table, table th, table td {
 #practises h5 {
     text-align: center;
 }
+
+#backgroundInfo {
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: 1px dotted #73AD21;
+    font-size: 12px;
+}
+
+#backgroundInfo h5 {
+    text-align: right;
+    margin-bottom: -10px;
+}
