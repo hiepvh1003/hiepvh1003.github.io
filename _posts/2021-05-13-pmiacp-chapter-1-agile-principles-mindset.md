@@ -41,6 +41,18 @@ hidden: false
 | [  - Các thực hành cốt lõi XP]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#corepractices) |
 | [ LEAN PRODUCT ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#leanProduct) |
 | [  - Những khái niệm cốt lõi của LEAN ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#coreConcepts) |
+| [  - Bảy lãng phí trong LEAN ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#7wastes) |
+| [ KANBAN ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#kanban) |
+| [  - Năm nguyên tắc của Kanban ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#fivePrinciples) |
+| [  - Hệ thống kéo của kanban ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#kanbanpullsys) |
+| [  - Giới hạn WIP trong Kanban ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#limitWIP) |
+| [ Phát triển hướng chức năng (Feature-Driven Development - FDD) ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#featuredriven) |
+| [  Phương pháp phát triển hệ thống động (DSDM - Dynamic Systems Development Method)]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#dsdm) |
+| [  Crystal ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#crystal) |
+| [  Tổng quan quy trình Agile ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#agileprocessoverview) |
+| [  Agile Leadership ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#agileleadership) |
+| [  - Quản lý và Lãnh đạo ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#managervsleader) |
+| [  - Lãnh đạo phục vụ ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#servantLeader) |
 
 <br/>
 {:#summary}
@@ -114,7 +126,7 @@ Khái niệm tương tự này áp dụng cho các dự án - và một số d�
 
 Trước tiên, chúc ta hãy thảo luận một chút về lịch sử không được đề cập trong exam nhưng sẽ giúp ta hiểu bối cảnh. Ban đầu, con người lang thang trên trái đất với tư cách là người săn bắt hái lượm. Khi mọi người bắt đầu trồng trọt và chăn nuôi gia súc, nó đã thay đổi xã hội và công việc. Đây là cuộc Cách mạng Nông nghiệp. Do đó, mọi người ít lang thang hơn, và họ sống làm việc tại một nơi.
 
-Sự chuyển đổi lớn tiếp theo đến từ sự phát triển của máy móc và nhà máy khi mọi người rời trang trại và làng mạc của họ để chuyển đến thành phố. Đây là cuộc Cách mạng Công nghiệp, cuối cùng dẫn đến sự phát triển của nhiều công cụ và khái niệm quản lý dự án cổ điển, bao gồm Biểu đồ Gantt, phân rã chức năng và lao động bản địa. Đối lại, những phát triển này dẫn đến việc tạo ra các công cụ quản lý dự án tiên tiến hơn, chẳng hạn như Cấu trúc phân tích công việc (WBS - Work Breakdown Structure).
+Sự chuyển đổi lớn tiếp theo đến từ sự phát triển của máy móc và nhà máy khi mọi người rời trang trại và làng mạc của họ để chuyển đến thành phố. Đây là cuộc Cách mạng Công nghiệp, cuối cùng dẫn đến sự phát triển của nhiều công cụ và khái niệm quản lý dự án cổ điển, bao gồm Biểu đồ Gantt, phân rã chức năng và lao động bản địa. Đổi lại, những phát triển này dẫn đến việc tạo ra các công cụ quản lý dự án tiên tiến hơn, chẳng hạn như Cấu trúc phân tích công việc (WBS - Work Breakdown Structure).
 
 Giai đoạn mới nhất - mà chúng ta đang ở hiện nay - được gọi là Cách mạng Công nghệ thông tin. Cuộc cách mạng này tập trung vào thông tin và cộng tác hơn là sản xuất. Nó đặt giá trị vào quyền sở hữu kiến thức và khả năng sử dụng kiến thức đó để tạo ra hoặc cải tiến hàng hóa và dịch vụ.
 
@@ -160,7 +172,7 @@ Vậy điều gì làm cho các dự án công việc tri thức khác với d�
 
 Khi các dự án công việc tri thức trở nên phổ biến hơn, mọi người nhận thấy rằng sự giao tiếp và công tác liên quan đến dự án này khiến công việc trở nên không chắc chắn và ít xác định hơn công việc sản xuất. Khi mọi người cố gắng áp dụng các kỹ thuật làm việc sản xuất vào các dự án công việc tri thức, sự thất vọng - và thất bại của dự án - tăng lên. Các phương pháp Agile đã được phát triển đễ giải quyết vấn đề này. Những người tiên phong trong lĩnh vực Agile đã thu thập các kỹ thuật hiệu quả nhất cho công việc tri thức và điều chỉnh chúng để sử dụng trong dự án, thử nghiệm để xem điều gì hiệu quả nhất. Sáng kiến mới này bắt đầu trong lĩnh vực phát triển phần mềm, nhưng bây giờ được sử dụng trong tất cả các loại dự án công việc tri thức.
 
-Sự phát triển các phương pháp Agile này đã diễn ra trong nhiều năm và được thực hiện bởi những người khác nhau. Do đó, Agile có nhiều phương pháp sử dụng các thuật ngữ khác nhau.  Ví dụ: Scrum gọi efforts phát triển timeboxed là "sprint" trong khi XP gọi là "iterătions". Chương này sẽ thiết lập một framework để hiểu tư duy Agile và giải thích một số khái niệm cơ bản để làm tốt bài exam PMI-ACP.
+Sự phát triển các phương pháp Agile này đã diễn ra trong nhiều năm và được thực hiện bởi những người khác nhau. Do đó, Agile có nhiều phương pháp sử dụng các thuật ngữ khác nhau.  Ví dụ: Scrum gọi efforts phát triển timeboxed là "sprint" trong khi XP gọi là "iteractions". Chương này sẽ thiết lập một framework để hiểu tư duy Agile và giải thích một số khái niệm cơ bản để làm tốt bài exam PMI-ACP.
 
 {:#definevsEmpirical}
 ## Quy trình xác định so với thực nghiệm
@@ -176,7 +188,7 @@ Khi đối mặt với sự không chắc chắn như vậy, cần phải có m�
 
 <div id="toolkitBox">
   <div id="toolkitIcon">K&S</div>
-  <h5 id="toolkitContent">Tư duy Agile<br/><hr/></h5>
+  <h2 id="toolkitContent">Tư duy Agile<br/><hr/></h2>
 </div>
 
 <br/>
@@ -188,7 +200,7 @@ Tuyên bố quan trọng nhất về các giá trị và nguyên tắc này là 
 
 2. Chúng ta **mang lại kết quả đáng tin cậy** (deliver reliable results) bằng cách thu hút khách hàng tương tác thường xuyên và chia sẻ quyền sở hữu.
 
-3. Chúng ta **mong đợi sự không chắc chắn** (expect uncertainty) và quản lý nó thông qua các lần lặt, dự đoán và thích ứng.
+3. Chúng ta **mong đợi sự không chắc chắn** (expect uncertainty) và quản lý nó thông qua các lần lặp, dự đoán và thích ứng.
 
 4. Chúng ta **giải phóng sự sáng tạo và đổi mới** (unleash creativity and innovation) bằng cách nhận ra rằng các cá nhân là nguồn lực giá trị và tạo ra một môi trường nơi họ có thể tạo sự khác biệt.
 
@@ -292,7 +304,7 @@ Ví dụ: Giả sử chúng ta đang phát triển tài liệu đào tạo cho m
 
 <div id="toolkitBox">
   <div id="toolkitIcon">K&S</div>
-  <h5 id="toolkitContent">Tuyên ngôn Agile<br/><hr/></h5>
+  <h2 id="toolkitContent">Tuyên ngôn Agile<br/><hr/></h2>
 </div>
 
 Tên của domain I - Agile Principles and Mindset không chỉ nêu bật tư duy Agile mà còn có các giá trị và nguyên tắc cơ bản. Đối với bài kiểm tra, chúng ta cần hiểu kỹ về tuyên bố quan trọng nhất về các giá trị và nguyên tắc Agile - một tài liệu có tên là Tuyên ngôn Agile (Agile Manifesto).
@@ -605,7 +617,7 @@ accordingly. |  Retrospectives  |
 
 <div id="toolkitBox">
   <div id="toolkitIcon">K&S</div>
-  <h5 id="toolkitContent">Các phương pháp Agile<br/><hr/></h5>
+  <h2 id="toolkitContent">Các phương pháp Agile<br/><hr/></h2>
 </div>
 
 <br/>
@@ -1041,3 +1053,257 @@ Hãy cùng xem xét 7 khái niệm cốt lõi chi tiết hơn:
 </div>
 
 <br/>
+
+{:#7wastes}
+## Bảy lãng phí trong LEAN
+
+Mặc dù điều quan trọng là phải hiểu tất cả bảy khái niệm này, mục tiêu loại bỏ lãng phí là động lực chính cho phương pháp tiếp cận tinh gọn. Lean sử dụng thuật ngữ Muda 無駄 của Nhật Bản để chỉ bảy loại lãng phí cần được loại bỏ. Các chuyên gia tinh gọn Mary và Tom Poppendieck, những người đã viết nhiều về việc sử dụng Lean trong các dự án phần mềm, đã chuyển đổi bảy lãng phí trong sản xuất truyền thống thành bảy lãng phí trong phát triển phần mềm như bảng dưới đây.
+
+|Lãng phí| Miêu tả | Ví dụ |
+|-----|-----|-----|
+| Partially done work - Công việc đã hoàn thành một phần | Công việc đã bắt đầu, nhưng chưa hoàn thành; một phần công việc hoàn thành có thể bị rối loạn     |  Mã nguồn đang chờ test <br/> Spec đang chờ phát triển     |
+| Extra processes - Quá nhiều quy trình  | Quá nhiều công việc không thêm được giá trị     |   Tài liệu không sử dụng được <br/>   Phê duyệt không cần thiết  |
+| Extra features - Chức năng bổ sung  | Các tính năng không bắt buộc hoặc được coi là "nice-to-haves"     | Gold-plating <br/> Tính năng công nghệ      |
+| Task switching - Chuyển đổi công việc  | Đa tác vụ giữa các dự án khác nhau có nghĩa là phải chuyển đổi ngữ cảnh liên tục     | Những người được chỉ định cho nhiều dự án      |
+| Waiting - Đợi chờ  | Chậm trễ trong chờ đợi reviews và quyết định    | Đợi đánh giá prototype <br/> Đợi quyết định tài liệu      |
+| Motion - Chuyển động  | Effort cần thiết để giao tiếp và chuyển thông tin hoặc phân phối người hoặc một nhóm người sang nhóm khác; nếu các nhóm không cùng vị trí, effort này có thể cần phải lớn hơn.     |    Phân tán nhóm <br/> Bàn giao công việc   |
+| Defects - khiếm khuyết  | Tài liệu hoặc phần mềm bị lỗi cần sửa     |   Khiếm khuyết yêu cầu <br/> Lỗi phần mềm    |
+
+<div id="practises" style="font-size: 12px;">
+  <h5>Bài tập - Đánh mục lãng phí</h5>
+
+  <p>Hãy dựa vào bảng Poppendieck để tham khảo, đánh nhãn cho bài tập lãng phí bên dưới.</p>
+</div>
+
+|Hoạt động | Loại lãng phí|
+|-----|-----|
+| Xếp hàng vào thang máy  | Waiting |
+| Khởi động lại máy tính khi chương trình gặp sự cố | Defects |
+| Lưu tài liệu ở định dạng cũ để tương thích | Extra features |
+| Tạo thông báo bằng tiếng Pháp và tiếng Nga để tuân thủ các tiêu chuẩn của công ty, ngay cả khi không ai ở địa điểm của bạn nói ngôn ngữ này | Extra processes & Extra features |
+| Gửi đơn đặt hàng văn phòng phẩm và giấy để được phê duyệt |  Extra processes |
+
+ĐÁP ÁN:
+
+![typeofwaste]({{ site.baseurl }}/assets/images/typeofwaste.jpg)
+
+<p style="font-style: italic;">
+Tất nhiên, những loại hoạt động này không phải lúc nào cũng lãng phí. Lãng phí chỉ xảy ra nếu không thu được bất kỳ lợi ích nào từ hoạt động này. Vì vậy, mặc dù các thông báo an toàn nên được cung cấp cho bất kỳ ai cần chúng, các bản dịch không cần thiết của các thông báo đó có thể bị coi là lãng phí. Tương tự như vậy, việc phê duyệt các đơn đặt hàng văn phòng phẩm và giấy có thể hữu ích để ngăn chặn việc lạm dụng hoặc trộm cắp vặt, nhưng đối với những người chỉ cần một số nugồn cung cơ bản, quá trình này không có giá trị gì và có thể bị coi là lãng phí.
+</p>
+
+Lean đã đóng góp các kỹ thuật và khái niệm quan trọng cho Agile, bao gồm 7 dạng lãng phí, hệ thống pull, ánh xạ dòng giá trị và công việc đang tiến hành, hay còn gọi là WIP (những khái niệm này sẽ được cung cấp tiếp theo.). Như chúng ta đã thấy, Lean cũng là nguồn gốc của phương pháp Kanban, sẽ được thảo luận tiếp theo. Tuy nhiên, trước khi tiếp tục, hãy làm thử bài tập dưới đây, bài tập này dùng để cũng cố sự hiểu biết về nguyên tắc của Lean.
+
+
+<div id="practises" style="font-size: 12px;">
+  <h5>Bài tập - Nối những thực hành Agile với những nguyên tắc của Lean</h5>
+</div>
+
+![matchleannAgile]({{ site.baseurl }}/assets/images/matchleannAgile.png)
+
+ĐÁP ÁN:
+
+![anwserofLeanNAgile]({{ site.baseurl }}/assets/images/anwserofLeanNAgile.png)
+
+{:#kanban}
+# KANBAN
+
+Phương pháp Kanban đề ra từ hệ thống sản xuất tinh gọn được phát triển bởi Toyota. Kanban là một từ tiếng Nhật có nghĩa là "bảng chỉ dẫn". Bảng hiệu hay bảng Kanban đóng vai trò quan trọng trong phương pháp học Kanban. Bảng này hiển thị các hạng mục công việc trong từng giai đoạn của quá trình sản xuất, do nhóm xác định. Đây là một ví dụ đơn giản về một bảng như vậy:
+
+![kanbanex]({{ site.baseurl }}/assets/images/kanbanex.png)
+
+{:#fivePrinciples}
+## Năm nguyên tắc của Kanban
+
+Phát triển Kanban hoạt động dựa trên năm nguyên tắc cốt lõi:
+
+» **Visualize the workflow - hiển thị hóa luồng công việc** : Những dự án công việc tri thức, theo định nghĩa, vận dụng tri thức, là bất khả xâm phạm và vô hình. Do đó, có một số cách để hiển thị hóa quy trình làm việc là rất quan trọng để tổ chức, tối ưu hóa và theo dõi quy trình đó.
+
+» **Limit WIP (work in progress) - Giới hạn công việc đang thực hiện** : Hạn chế số lượng công việc đang thực hiện sẽ cải thiện năng suất, tăng khả năng hiển thị các vấn đề và tắc nghẽn, đồng thời tạo điều kiện cải tiến liên tục. Điều này giúp nhóm phát triển dễ dàng xác định các vấn đề hơn và giảm thiểu lãng phí và chi phí liên quan đến các thay đổi. Nó cũng dẫn đến một "lực kéo" công việc ổn định thông qua effort phát triển, vì công việc mới chỉ có thể được tiếp tục khi công việc hiện tại được hoàn thành.
+
+» **Manage flow - Quản lý luồng** : Bằng cách theo dõi luồng của công việc thông qua dự án, các vấn đề có thể được xác định và các thay đổi có thể được đo lường về tính hiệu quả.
+
+» **Make process policies explicit - Đưa ra các chính sách quy trình rõ ràng** : Điều quan trọng là phải giải thích rõ ràng cách mọi thứ hoạt động để nhóm có thể thảo luận cởi mở về những cải tiến theo hướng khách quan, thay vì cảm tính hoặc chủ quan.
+
+» **Improve collaboratively - Cải thiện hợp tác** : Thông qua đo lường và thử nghiệm khoa học, nhóm nên sở hữu chung và cải tiến các quy trình mà nhóm sử dụng.
+
+{:#kanbanpullsys}
+## Hệ thống kéo của kanban
+
+Kanban có một số tính năng khác biệt để phân biệt với Scrum, XP và Agile nói chung. Sự khác biệt chính mà chúng ta nên hiểu đối với kỳ thi là các nhóm Kanban sử dụng một "hệ thống kéo" để di chuyển công việc qua quá trình phát triển, thay vì lập kế hoạch công việc của họ theo các lần lặp lại hộp thời gian. Mỗi khi một nhóm Kanban hoàn thành một hạng mục công việc, nó sẽ kích hoạt một "lực kéo" để mang hạng mục tiếp theo mà họ sẽ làm.
+
+Như chúng ta sẽ thấy, chỉ có một số ví dụ nhất định có sẵn cho mỗi cột trên Kanban và bất cứ khi nào có ô trống trên bảng, đó là tín hiệu cho nhóm kéo công việc từ giai đoạn trước, nếu có bất kỳ mục nào có sẵn. Vì vậy, công việc liên tục được kéo từ phía bên trái của bảng sang phía bên phải.
+
+(*Lưu ý*: Điều này có thể trông giống như việc di chuyển các hạng mục công việc trong quá trình từ trái sang phải trên một bảng tác vụ Agile, nhưng không phải vậy. Trên bảng Kanban, năng lực là tín hiệu cho nhóm kéo các hạng mục công việc vào giai đoạn tiếp theo của quy trình. Trên bảng tác vụ Agile, nhóm chỉ cần di chuyển các hạng mục công việc từ trái sang phải để hiển thị trạng thái của chúng trong quy trình.)
+
+Hệ thống kéo này có nghĩa là Kanban ít nhấn mạnh hơn vào các lần lặp so với các phương pháp Agile. Mặc dù nhóm Kanban có thể sử dụng các phép lặp họ muốn, nhưng cơ chế kéo vừa mô tả có nghĩa là không cần nó. Tất nhiên hầu hết các tổ chức muốn tăng thêm công việc sẽ có sẵn để tiêu thụ. Tuy nhiên, nhịp phát triển của nhóm không cần phải kết hợp với nhịp phân phối đó hoặc bất kỳ tổng hợp nào của nó.
+
+Ví dụ, một nhóm agile có thể quyết định sử dụng hai tuần lặp lại các lần triển khai vào môi trường thử nghiệm cũng như triển khai trực tiếp cho khách hàng mỗi quý. Vì vậy, trong mỗi khung thời gian triển khai trực tiếp hàng quý (13 tuần), họ thường sẽ hoàn thành sáu lần lặp lại công việc. Vì vậy, nhóm biết rằng họ sẽ có sáu lần lặp lại giữa mỗi bản phát hành chính và sẽ lên kế hoạch cho các tính năng và story cho phù hợp.
+
+Mặt khác, một nhóm Kanban vẫn có thể có các bản phát hành hàng quý cho khách hàng, nhưng họ sẽ không sử dụng bất kỳ lần lặp nội bộ nào. Thay vào đó, bất kỳ gói công việc nào được chấp nhận mà họ đã sẵn sàng sẽ là ứng cử viên cho bản phát hành tiếp theo. Họ vẫn có thể lập kế hoạch và theo dõi công việc của mình cho các bản phát hành, nhưng thay vì sử dụng các chỉ số vận tốc, chẳng hạn như điểm được chấp nhận trên mỗi lần lặp, họ sẽ sử dụng các chỉ số về thời gian chu kỳ, thời gian thực hiện và thông lượng được mô tả trong chương 6.
+
+
+{:#limitWIP}
+## Giới hạn WIP trong Kanban
+
+Các giới hạn WIP sẽ được giải thích đầy đủ hơn trong chương tiếp theo - nhưng về cơ bản, thuật ngữ này đề cập đến việc giới hạn số lượng mục có thể ở trong một trạng thái tiến triển nhất định, như được xác định bởi các cột trên bảng Kanban của nhóm. Khi đạt đến giới hạn ở đầu cột, không có mục mới nào được chuyển vào cột đó cho đến khi mục khác được chuyển ra ngoài. Dưới đây là một ví dụ về bảng Kanban có giới hạn WIP:
+
+![kanbanlimitWIP]({{ site.baseurl }}/assets/images/kanbanlimitWIP.png)
+
+Nhìn vào ví dụ này, chúng ta thấy danh sách tồn động của nhóm là ở cột thứ nhất. Cột thứ hai cho biết rằng có 3 user stories hiện tại đang được chọn để phát triển, giới hạn WIP ở đầu cột thứ 4. Các cột Phát triển và Đồng ý cũng có giới hạn WIP - cột thứ ba và thứ hai, tương ứng.
+
+Tại sao giới hạn WIP lại quan trọng? Lý do là giảm WIP thực tế là tăng tính hiệu quả của nhóm - nó tăng tốc độ tỉ lệ công việc hoàn thành. Nếu tuyên bố đó có vẻ còn gây tranh cãi, thì mối quan hệ giữa công việc đang thực hiện và năng suất đã thực sự được chính minh về mặt toán học bởi Littles Law, như minh họa bên dưới. Định luật này chứng minh rằng thời lượng của một hàng đợi (mất bao lâu để hoàn thành công việc) tỷ lệ thuận với quy mô của nó (bao nhiêu công việc được tiến hành). Nói cách khác, các nhóm giới hạn WIP sẽ hoàn thành công việc của họ nhanh hơn.
+
+![littellaw]({{ site.baseurl }}/assets/images/littellaw.png)
+
+Phương pháp Kanban đã giúp phổ biến các bảng nhiệm vụ với các giới hạn WIP và các hệ thống kéo tạo ra bằng cách giới hạn WIP. Nó cũng cho phpé và khuyến khích các thành viên trong nhóm thử các cách tiếp cận mới và thay đổi quy trình. Với mô hình kéo liên tục, có thể không cần lặp lại và do đó, các hoạt động như tạo ước tính có thể bị coi là lãng phí và được giảm bớt hoặc loại bỏ hoàn toàn.
+
+{:#featuredriven}
+# Phát triển hướng chức năng (Feature-Driven Development - FDD)
+
+Phát triển theo hướng tính năng (FDD) là một cách tiếp cận đơn giản dễ hiểu nhưng lại mạnh mẽ để xây dựng sản phẩm hoặc giải pháp. Một nhóm dự án theo phương pháp FDD trước tiên sẽ phát triển một mô hình tổng thể cho sản phẩm, xây dựng danh sách tính năng và lập kế hoạch công việc. Sau đó, nhóm chuyển qua các bước thiết kế và xây dựng để phát triển các chức năng này.
+
+![ffdprocess]({{ site.baseurl }}/assets/images/ffdprocess.png)
+
+FFD đề xuất một loạt các thực hành, bắt nguồn từ kỹ thuật phần mềm. Những thực hành này bao gồm:
+
+» **Domain object modeling - Mô hình đối tượng miền** : Trong thực hành này, nhóm dự án khám phá và giải thích miền (hoặc môi trường doanh nghiệp) của vấn đề cần giải quyết.
+
+» **Developing by feature - Phát triển chức năng** : Này bao gồm việc chia nhỏ các chức năng thành các phần công việc nhỏ 2 tuần hay ngắn hơn và gọi chúng là các tính năng.
+
+» **Individual class (code) ownership - Quyền sở hữu lớp (mã nguồn) cá nhân** : Với thực hành này, các mã nguồn có một chủ sở hữu duy nhất để đảm bảo tính nhất quán, hiệu suất và tính toàn vẹn của khái niệm (Điều này hoàn toàn trái ngược với ý tưởng sở hữu mã tập thể của XP nhằm mục đích truyền bá kiến thức cho thành viên khác trong nhóm.)
+
+» **Feature teams - Nhóm tính năng** : Đây là các nhóm nhỏ, được thành lập động, có chức năng kiểm tra chức năng, thiết kế và cho phpé đánh giá nhiều phương án thiết kế trước khi chọn một. Nhóm tính năng giúp giảm thiểu rủi ro liên quan đến quyền sở hữu cá nhân.
+
+» **Inspections - Thanh tra** : Đây là những đánh giá giúp đảm bảo thiết kế và mã nguồn có chất lượng cao.
+
+» **Configuration management - Quản lý cấu hình** : Điều này liên quan đến việc gắn nhãn, theo dõi các thay đổi và quản lý mã nguồn.
+
+» **Regular builds - Các bản build thường xuyên** : Thông qua các bản build thường xuyên, nhóm đảm bảo rằng mã mới tích hợp được với mã cũ. Thực hành này cũng cho phép tạo một bản demo.
+
+» **Visibility of progress and results - Khả năng hiển thị tiến độ và kết quả** : Phương pháp này theo dõi tiến độ dựa trên công việc đã hoàn thành.
+
+Phát triển hướng tính năng là phương pháp Agile đã phổ biến sơ đồ luồng tích lũy (được thảo luận trong chương 2) và sơ đồ bãi đậu xe, là những bản tóm tắt một trang về tiến độ dự án.
+
+Cả hai đều là các công cụ theo dõi và chẩn đoán hữu ích hiện được sử dụng bởi các phương pháp tiếp cận Agile khác.
+
+{:#dsdm}
+# Phương pháp phát triển hệ thống động (DSDM - Dynamic Systems Development Method)
+
+DSDM là một trong những phương pháp Agile, nó bắt đầu khá chi tiết và mang tính quy định. Phạm vi của nó về vòng đời của dự án khá rộng, bao gồm các khía cạnh của dự án Agile, từ tính khả thi và bài toán kinh doanh đến việc thực hiện.
+
+Hình dưới đây minh họa vòng đời của DSDM:
+
+![dsdm_life]({{ site.baseurl }}/assets/images/dsdm_life.png)
+
+DSDM được tập trung dựa vào 8 nguyên tắc. Mặc dù những nguyên tắc này cũng được tạo trước khi Tuyên ngôn Agile được viết, chúng cũng gần với Tuyên ngôn. Tám nguyên tắc đấy là:
+
+**1. Focus on the business need - Tập trung vào kinh doanh cần**
+
+**2. Deliver on time - Phân phối liên tục**
+
+**3. Collaborate - Hợp tác**
+
+**4. Never compromise quality - Không bao giờ thỏa hiệp chất lượng**
+
+**5. Build incrementally from firm foundations - xây dựng từng bước từ nền tảng vững chắc**
+
+**6. Develop iteratively - Phát triển một cách lặp lại**
+
+**7. Communicate continuously and clearly - Giao tiếp liên tục và rõ ràng**
+
+**8. Demonstrate control - Thể hiện sự kiểm soát**
+
+DSDM đã ảnh hưởng đến sự phát triển của Agile bằng cách giúp đỡ phổ biến các cân nhắc kiến trúc lần đầu, bộ lọc phù hợp nhanh và các hợp đồng Agile.
+
+{:#crystal}
+# Crystal
+
+Crystal không chỉ là một phương pháp; nó bao gồm một nhóm các phương pháp tùy chỉnh, cụ thể theo tình huống được mã hóa bằng tên màu. Mỗi phương pháp được tùy chỉnh theo mức độ quan trọng và quy mô của nhóm, điều này cho phép Crystal bao gồm nhiều loại dự án, từ một nhóm nhỏ xây dựng hệ thống quan trọng thấp (Crystal Clear) đến một nhóm lớn xây dựng hệ thống quan trọng cao (Crystal Magenta).
+
+Khung Crystal cung cấp một ví dụ tuyệt vời về cách các phương pháp Agile có thể được điều chỉnh để phù hợp với các đặc điểm cụ thể của một dự án. Ví dụ, hình bên dưới cho thấy năm "màu sắc" (phương pháp) đầu tiên của Crystal.
+
+![crystalmethod]({{ site.baseurl }}/assets/images/crystalmethod.png)
+
+Trong sơ đồ này, quy mô nhóm được hiển thị trên trục hoành và mức độ quan trọng của dự án được hiển thị trên trục tung. "Mức độ nghiêm trọng" của một dự án dựa trên tác động tiềm ẩn của lỗi sản phẩm - liệu nó có thể gây mất thỏa mái, quỹ thiết yếu hay cuộc sống. Ví dụ: chúng ta có thể thấy rằng Crystal Clear được thiết kế cho các dự án nhỏ với quy mô nhóm cốt lõi từ một đến sáu người, trong đó thất bại có htể dẫn đến mất thỏa mái (ví dụ, một sự cố trình xử lý văn bản dẫn đến mất thời gian kinh doanh). Khi các dự án thu hút nhiều người hơn và phát triển các ứng dụng ngày càng quan trọng, chúng ta cần mở rộng quy trình của mình ngoài giao dịch trực tiếp và đưa ra các biện pháp xác nhận và truy xuất nguồn bổ sung.
+
+Đối với bài kiểm tra, chúng ta không cần phải hiểu chi tiết về cách hoạt động của các phương pháp crystal khác nhau, nhưng chúng ta nên hiểu cách crystal sử dụng các yếu tố quan trọng và quy mô nhóm để phân loại dự án, như được trình bày ở trên. Việc crystal sử dụng phương pháp chia tỷ lệ này để xác định phương pháp tốt nhất cho một dự án đã ảnh hưởng đáng kể đến tư duy Agile. Một khái niệm có ảnh hưởng khác mà Crystal đã góp phần vào Agile là khái niệm giao tiếp thẩm thấu (được đề cập trong chương 4). Các phương pháp Crystal cũng bao gồm và thúc đẩy nhiều nguyên tắc Agile khác.
+
+
+{:#agileprocessoverview}
+<div id="toolkitBox">
+  <h2 id="toolkitContent">Tổng quan quy trình Agile<br/><hr/></h2>
+</div>
+
+<br/>
+
+![agileprocessoverview]({{ site.baseurl }}/assets/images/agileprocessoverview.png)
+
+Các chương còn lại giải thích các công cụ Agile, thực hành và khái niệm được đề cập trong lĩnh vực còn lại. Hình trên cung cấp chế độ xem dòng thời gian về thời điểm nhiều hoạt động chung ta sẽ thảo luận thường xuyên trong một dự án Agile đơn giản, bao gồm các hoạt động được lặp đi lặp lại. Khi đọc cuốn sách này, hãy xem lại sơ đồ này nếu cần để xem các khái niệm khác nhau phù hợp với quy trình Agile tổng thể như thế nào.
+
+Tuy nhiên, có một điều cần ghi nhớ. Biểu đồ này cho thấy quy trình điển hình cho một dự án Agile chung chung, nhưng quy trình đó không giống với các dự án Lean và Kanban. Nhóm Lean và Kanban có thể không sử dụng lặp, thay vào đó sử dụng mô hình Kéo để chuyển công việc thông qua hệ thống. Họ vẫn sẽ sử dụng các bản trình diễn, đánh giá và review, nhưng họ sẽ không liên kết trực tiếp thời gian của các cuộc họp này với việc cung cấp một lượng lớn chức năng, như Agile chung thường làm ở mỗi cuối lần lặp.
+
+{:#agileleadership}
+<div id="toolkitBox">
+  <div id="toolkitIcon">K&S</div>
+  <h2 id="toolkitContent">Agile Leadership<br/><hr/></h2>
+</div>
+
+Agile mang tính chất nhân văn hơn là máy móc, bằng chứng là giá trị linh hoạt của "các cá nhân và sự tương tác qua các quy trình và công cụ". Khái niệm đánh giá con người qua các quy trình vượt ra ngoài cách chúng ta quản lý công việc được thực hiện trong dự án; nó cũng tác động đến cách chúng ta tổ chức và động viên các thành viên trong nhóm, cũng như cách chúng ta đảm nhận vai trò lãnh đạo của mình. Lãnh đạo là khai tahc1 các động lực nội tại của mọi người. Để trở thành nhà lãnh đạo hiệu quả, chúng ta cần khám phá lý do tại sao các thành viên trong nhóm muốn làm mọi việc, hiểu điều gì thúc đẩy họ, sau đó sắp xếp các nhiệm vụ và mục tiêu dự án của họ cho phù hợp. Chính bằng cách sắp xếp các mục tiêu dự án với các mục tiêu cá nhân mà chúng ta có thể đạt được mức năng suất cao hơn.
+
+{:#managervsleader}
+## Quản lý và Lãnh đạo
+
+Các kỹ thuật lãnh đạo được sử dụng trong các dự án Agile liên quan đến việc thực hiện phương pháp tiếp cận giữa các cá nhân, thay vì các phương pháp chỉ đạo, ra lệnh và kiểm soát. Có một câu nói nổi tiếng của Warren Bennis nói lên sự khác biệt giữa hai cách tiếp cận này: "Quản lý là thúc đẩy mọi người làm những gì cần phải làm. Lãnh đạo là khiến mọi người muốn làm những gì cần phải làm".
+
+Thay vì bảo mọi người phải làm gì, chúng ta cần tạo ra một môi trường nơi mọi người muốn làm những gì cần phải làm. Sự khác biệt giữa hai môi trường giống như sự khác biệt giữa kéo một sợi dây (khi mọi người muốn làm những gì cần phải làm) và đẩy dây (khi mọi người chỉ đơn giản là được cho biết phải làm gì).
+
+Quản lý có trọng tâm cơ học hơn lãnh đạo; nó liên quan đến nhiệm vụ, kiểm soát và tốc độ. Ngược lại, lãnh đạo đặt trọng tâm nhân văn vào con người và mục đích; nó quan tâm nhiều hơn đến việc trao quyền, hiệu quả và làm những điều đúng đắn.
+
+Bảng sau đây minh hoạt sự khác biệt giữa trọng tâm quản lý và trọng tâm lãnh đạo:
+
+|Quản lý tập trung vào| Lãnh đạo tập trung vào|
+|-----|-----|
+| Công việc/ vấn đề  |  Con người  |
+| Điều khiển | Trao quyền  |
+| Effeciency (hiệu suất) | Effectiveness (hiệu quả)  |
+| Làm đúng mọi thứ | Làm mọi thứ một cách đúng đắn  |
+| Tốc độ | Phương hướng  |
+| Thực hành | Nguyên tắc  |
+| Chỉ huy | Giao tiếp  |
+
+Vậy điều này có nghĩa là lãnh đạo tốt hơn quản lý? Chúng ta có thể chỉ có lãnh đạo mà không có quản lý? Không, chúng ta chắc chắn cần cơ chế quản lý tại chỗ. Nhưng để thực sự hiệu quả, chúng ta cần đặt vai trò lãnh đạo lên trên những cơ chế đó. Chúng ta có thể nâng cao năng suất của nhóm một cách tốt nhất thông qua sự kết hợp giữa quản lý và lãnh đạo.
+
+<div id="practises" style="font-size: 12px;">
+  <h5>Bài tập</h5>
+
+  <p>Hãy xem lại các mục dưới đây và đánh dấu mục mô tả công việc của bạn. Khi hoàn thành, hãy nhìn lại chủ yếu các đánh dấu nằm ở Công việc tri thức hay Công việc sản xuất</p>
+</div>
+
+|Hoạt động | Chính là lãnh đạo hay quản lý|
+|-----|-----|
+| Human resource management  | Management  |
+| Career planning | Leader  |
+| Team time tracking |  Management |
+| Team member  (công nhận) |  Leader |
+| Task assignment | Management  |
+| Team brainstorming | Leader  |
+| Planning workshops |  Leader |
+| Creating Gantt charts | Management  |
+
+ĐÁP ÁN:
+
+![leaderormanager]({{ site.baseurl }}/assets/images/leaderormanager.png)
+
+{:#servantLeader}
+<div id="toolkitBox">
+  <div id="toolkitIcon">T&T</div>
+  <h2 id="toolkitContent">Lãnh đạo phục vụ<br/><hr/></h2>
+</div>
+
+<br/>
+
+Agile thúc đẩy mô hình lãnh đạo phục vụ công nhận rằng chính các thành viên trong nhóm, không phải người lãnh đạo, huấn luyện viên hay Scrum Master, là những người hoàn thành công việc kỹ thuật và đạt được giá trị kinh doanh. Phương pháp lãnh đạo phục vụ xác định lại vai trò của người lãnh đạo trong mối quan hệ với nhóm. Nó tập trung người lãnh đạo vào việc cung cấp những gì các thành viên trong nhóm cần, loại bỏ những cản trở đối với sự tiến bộ của họ và thực hiện các nhiệm vụ hỗ trợ để tối đa hóa năng suất của họ.
+
+Có bốn nhiệm vụ chính mà một nhà lãnh đạo thực hiện trong vai trò phục vụ nhóm:
+
+**1. Shield the team from interruptions - Bảo vệ team khỏi những 
