@@ -53,6 +53,18 @@ hidden: false
 | [  Agile Leadership ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#agileleadership) |
 | [  - Quản lý và Lãnh đạo ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#managervsleader) |
 | [  - Lãnh đạo phục vụ ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#servantLeader) |
+| [  - Mười hai nguyên tắc lãnh đạo dự án Agile ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#twelvePrinciples) |
+| [  - Bài tập thực hành lãnh đạo Agile ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#agileLeaderPractise) |
+| [  　・ Bài tập thực hành lãnh đạo Agile ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#modelDesiredBehavior) |
+| [  　・ Truyền đạt tầm nhìn dự án ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#visionProject) |
+| [  　・ Cho phép người khác hành động ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#enableothersAct) |
+| [  　・ Sẵn sàng thách thức hiện trạng ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#willingchallenge) |
+| [  - Nhiệm vụ của Lãnh đạo ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#leadershiptask) |
+| [  　・ Thực hành tính minh bạch thông qua hình ảnh hóa ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#visualizePracticeTransparency) |
+| [  　・ Tạo môi trường an toàn cho thử nghiệm ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#createasafeenv) |
+| [  　・ Thử nghiệm với các kỹ thuật và quy trình mới ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#newtechnprocess) |
+| [  　・ Chia sẻ kiến thức thông qua cộng tác ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#shareknowledge) |
+| [  　・ Khuyến khích khả năng lãnh đạo nổi bật thông qua một môi trường an toàn ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#encourageEmergentLeader) |
 
 <br/>
 {:#summary}
@@ -1306,4 +1318,182 @@ Agile thúc đẩy mô hình lãnh đạo phục vụ công nhận rằng chính
 
 Có bốn nhiệm vụ chính mà một nhà lãnh đạo thực hiện trong vai trò phục vụ nhóm:
 
-**1. Shield the team from interruptions - Bảo vệ team khỏi những 
+**1. Shield the team from interruptions - Bảo vệ team khỏi những gián đoạn**
+
+Các nhà lãnh đạo phục vụ cần phải cô lập và bảo vệ các thành viên trong nhóm khỏi sự luân chuyển, gián đoạn và yêu cầu đối với công việc không nằm trong dự án.
+
+Khi các đại diện của doanh nghiệp tham gia chặt chẽ vào một dự án, họ có thể dễ dàng đưa ra các yêu cầu thay đổi hoặc cải tiến trực tiếp cho các nhà phát triển, điều này sẽ làm gián đoạn nỗ lực phát triển theo kế hoạch. Trong khi các dự án Agile khuyến khích tích cực những hiểu biết và yêu cầu kinh doanh này, chúng cần phải được thông qua các kênh giao tiếp thích hợp. Đại diện doanh nghiệp nên đưa ra các yêu cầu như vậy trong cuộc họp lập kế hoạch sprint hoặc gửi chúng cho Product Owner để đưa vào product backlog. Một phần của việc trở thành lãnh đạo phục vụ bao gồm việc nhắc nhở mọi người về các kênh được chỉ định để nhóm làm việc có thể duy trì sự tập trung của họ vào trong sprint và thiết lập tốc độ đáng tin cậy cho phép sử dụng tiến trình của nhóm giúp lập kế hoạch công việc trong tương lai.
+
+Mặc dù điều quan trọng là phải che chắn cho đội khỏi các cuộc luân chuyển nội bộ, nhưng người lãnh đạo phải đặc biệt cảnh giác trong việc bảo vệ khỏi các cuộc luân chuyển bên ngoài. Việc khiến mọi người không tập trung vào công việc của dự án và luân chuyển qua lại sẽ làm giảm hiệu suất. Nếu người lãnh đạo có thể bảo vệ nhóm khỏi những yêu cầu phi lý từ bên ngoài, thì năng suất của họ sẽ được nâng cao. Các thành viên trong nhóm ngồi cùng vị trí về mặt vật lý là một cách hiệu quả để ngăn chặn sự can thiệp từ bên ngoài. Nếu mọi người vẫn đang ở trong các phòng ban chức năng hoặc không gian làm việc của họ, thì quá dễ dàng để bị lôi kéo vào các công việc ngoài dự án.
+
+**2. Remove impediments to progress - Loại bỏ trở ngại để tiến bộ**
+
+Những người lãnh đạo phục vụ cần phải dọn sạch những chướng ngại vật trên con đường của nhóm mà có thể gây ra sự chậm trễ hoặc lãng phí. Những trở ngại này có thể bao gồm tài liệu hoặc các hoạt động tuân thủ làm chệch hướng nhóm hoàn thành các mục tiêu của sprint. Theo thuật ngữ Lean, công việc tuân thủ đề cập đến những nỗ lực không trực tiếp góp phần mang lại giá trị kinh doanh. Điều này có thể bao gồm các nhiệm vụ ghi lại thời gian trùng lặp, các cuộc họp phi dự án và các hoạt động hành chính khác.
+
+Tại cuộc họp trực tiếp hàng ngày, nơi nhóm báo cáo tiến độ, công việc đã lên kế hoạch và các vấn đề của mình, người lãnh đạo cần lưu ý các vấn đề và làm việc để giải quyết chúng trong ngày hôm đó, nếu có thể. Loại bỏ hoặc giảm bớt những trở ngại như vậy sẽ cho phép nhóm làm việc nhanh hơn và cuối cùng mang lại nhiều giá trị hơn cho doanh nghiệp.
+
+Một số công cụ quản lý dự án Agile hiện nay hỗ trợ các công việc còn tồn đọng. Những tồn đọng này là một loại danh sách loại bỏ chướng ngại vật được ưu tiên. Các nhà lãnh đạo phục vụ có thể sử dụng các công cụ như vậy để theo dõi công việc loại bỏ trở ngại của họ.
+
+**3. Communicate (and re-communicate) the project vision - Truyền đạt (và truyền đạt liên tục) tầm nhìn của dự án**
+
+Đây có vẻ là một nhiệm vụ kỳ quặc đối với hạng mục lãnh đạo phục vụ, nhưng việc truyền đạt và truyền đạt liên tục tầm nhìn của dự án là rất quan trọng để lãnh đạo thành công một nhóm.
+
+Chỉ khi các bên liên quan có hình ảnh rõ ràng về cách mục tiêu cho sản phẩm và dự án đã hoàn thành thì họ mới có thể điều chỉnh các quyết định của mình và hướng tới mục tiêu chung của dự án. Trong cuốn sách bán chạy nhất - Thử thách lãnh đạo - của James Kouzes và Barry Posner, họ nói rằng các nhà lãnh đạo cần tiết lộ một "hội nghị thượng đỉnh" để những người khác có thể "vạch ra lộ trình của họ". Nói các đơn giản, một tầm nhìn chung giúp thu hút tất cả mọi người cùng một hướng.
+
+Các quan điểm khác nhau thường phát triển giữa các thành viên trong nhóm có thiện chí. Ví dụ: trong dự án phần mềm, mong muốn của nhà phát triển về sự đơn giản hoặc công nghệ mới có thể khiến công việc của họ khác với yêu cầu của người dùng. Mong muốn của nhà phân tích hoặc chuyên gia đảm bảo chất lượng về sự hoàn chỉnh và tuân thủ có thể khác với yêu cầu của nhà tài trợ về tiến độ và hoàn thành. Truyền đạt và truyền đạt liên tục lại tầm nhìn dự án giúp các bên liên quan nhận ra những khác biệt này và đưa chúng trở lại phù hợp với mục tiêu dự án.
+
+Kouzes và Posner nhận thấy rằng những nhà lãnh đạo hiệu quả nhất dành phần trăm thời gian làm việc của họ để truyền đạt và truyền đạt liên tục lại tầm nhìn của dự án cũng như của công ty so với những người lãnh đạo thấp hơn. Họ tin rằng các nhà lãnh đạo hầu như không thể thông qua quá mức tầm nhìn của dự án và tuyên bố rằng đó là một bước quan trọng để lãnh đạo hiệu quả.
+
+Vì vậy, các dự án Agile không nên chỉ có một thực hành tầm nhìn khi bắt đầu dự án hoặc khi phát triển các mục tiêu lặp lại. Tập trung hạn chế như vậy không đủ. Thay vào đó, các nhà lãnh đạo phục vụ cần liên tục tìm các cơ hội để truyền đạt tầm nhìn của dự án và tìm ra những cách mới để minh họa và củng cố tầm nhìn đó.
+
+**4. Carry food and water - Cung cấp đầy đủ resource**
+
+Thức ăn và nước uống ở đây không phải là hiểu đúng nghĩa đen của nó; đó là việc cung cấp các nguồn lực thiết yếu mà một nhóm cần để giúp họ được nuôi dưỡng và làm việc hiệu quả. Các nguồn lực như vậy có thể bao gồm các công cụ, bồi dưỡng và khuyến khích.
+
+Những người được thúc đẩy bởi tính chuyên nghiệp và nghĩa vụ một mình không thể tiếp tục cống hiến hết khả năng của họ, hết lần này đến lần khác. Các nhà lãnh đạo cần tìm hiểu điều gì thúc đẩy các thành viên trong nhóm của họ với tư cách cá nhân và tìm cách khen thưởng cho họ khi làm việc tốt. Như một biện pháp đơn giản, một nơi tuyệt vời để bắt đầu là một lời "cảm ơn" chân thành đến ai đó vì họ đã làm việc chăm chỉ.
+
+Các nhà lãnh đạo cũng cần ăn mừng những chiến thắng - tất nhiên là những chiến thắng lớn, nhưng cũng cần cho chiến thắng nhỏ - khi dự án tiến triển. Thông thường, việc lưu lại các kỷ niệm dự án cho đến cuối là điều thường bị hấp dẫn, nhưng nếu các thành viên trong nhóm không được thường xuyên công nhận, thì dự án có thể không bao giờ đạt được kết quả thành công. Lễ kỷ niệm và sự công nhận giúp xây dựng động lực và các nhà lãnh đạo cần thường xuyên nuôi dưỡng nhóm của họ bằng những phần thưởng như vậy để giữ cho dự án tiến lên một cách hiệu quả.
+
+Các hoạt động đào tạo và phát triển chuyên môn khác cũng là những ví dụ về các nguồn lực mà nhóm có thể cần để hoạt động hiệu quả. Scrum Master hoặc huấn luyện viên nên quan tâm và sắp xếp đào tạo thích hợp cho các cá nhân trong nhóm. Bằng cách xây dựng kỹ năng của các thành viên trong nhóm, dự án sẽ thu được lợi ích kiến thức mới của họ. Những hành động như vậy cũng cho thấy rằng chúng ta không chỉ cố gắng khai thác công việc và thông tin từ các thành viên trong nhóm, chúng ta còn muốn tự bản thân họ cũng phát triển.
+
+![servantleadership]({{ site.baseurl }}/assets/images/servantleadership.png)
+
+{:#twelvePrinciples}
+## Mười hai nguyên tắc lãnh đạo dự án Agile
+
+Ngoài bốn nhiệm vụ cốt lõi mà chúng ta vừa thảo luận, có những hoạt động khác mà các nhà lãnh đạo phục vụ nên ghi nhớ. Jeffrey Pinto, trong Lãnh đạo dự án: từ lý thuyết đến thực hành, đưa ra danh sách các nguyên tắc tuyệt vời sau đây để các nhà lãnh đạo tuân theo:
+
+» **Learn the team members’ needs - Tìm hiểu nhu cầu của các thành viên trong nhóm** : Tìm hiểu những gì thúc đẩy và là động lực của mọi người.
+
+» **Learn the project’s requirements - Tìm hiểu yêu cầu dự án** : Nói chuyện với khách hàng và nhà đầu tư; tìm ra các ưu tiên của họ.
+
+» **Act for the simultaneous welfare of the team - Hành động vì lợi ích đồng thời của nhóm lẫn dự án** : Cân bằng và thúc đẩy nhu cầu và mong muốn của cả nhóm và các bên liên quan khác của dự án.
+
+» **Create an environment of functional accountability - Tạo ra một môi trường trách nhiệm theo chức năng** : Đảm bảo mọi người biết thành công và thất bại trông như thế nào, đồng thời trao quyền cho nhóm tự tổ chức để đạt được mục tiêu. Hãy tự hào về những thành tích đạt được, nhưng đừng che giấu hoặc né tránh những thất bại - thay vào đó, hãy kiểm tra chúng, học hỏi và thích nghi chúng.
+
+» **Have a vision of the completed project - Có tầm về dự án hoàn thành** : Tạo một hội nghị thượng đỉnh để những người khác có thể lập biểu đồ cho khóa học của riêng họ. Khi chúng ta chìm trong đám cỏ dại, thật tốt khi biết chúng ta đang cố gắng đi đến đâu, vì vậy chúng ta có thể điều hướng đường đi của mình.
+
+» **Use the project vision to drive your own behavior - Sử dụng tầm nhìn của dự án để định hướng hành vi của chính mình** : Mô hình hành động hướng tới các mục tiêu của dự án.
+
+» **Serve as the central figure in successful project team development - Đóng vai trò trung tâm trong nhóm phát triển dự án thành công** : Mô hình hành vi mong muốn cho nhóm.
+
+» **Recognize team conflict as a positive step - Nhận ra xung đột trong nhóm là một bước tích cực** : Cuộc tranh luận không được lọc tạo ra sự ủng hộ mạnh mẽ cho các chủ đề được thảo luận kỹ lưỡng.
+
+» **Manage with an eye toward ethics - Quản với con mắt hướng tới đạo đức** : Hãy trung thực và có đạo đức, bởi vì mọi người không muốn gắn liền với các mục tiêu hoặc sứ mệnh mà họ cảm thấy là phi đạo đức.
+
+» **Remember that ethics is not an afterthought, but an integral part of our thinking - Hãy nhớ rằng đạo đức không phải là một suy nghĩ sau cùng, mà là một phần không thể thiếu trong suy nghĩ của chúng ta** : Chúng ta không thể tin tưởng vào sau này - giống như chất lượng, nó phải là thành phần cốt lõi.
+
+» **Take time to reflect on the project - Hãy dành thời gian để suy ngẫm về dự án** : Xem xét, chẩn đoán và điều chỉnh; cải thiện thông qua sự thay đổi và học hỏi tiến bộ.
+
+» **Develop the trick of thinking backward - Phát triển thủ thuật của tư duy lạc hậu** : Điều này có nghĩa là tưởng tượng rằng chúng ta đã đạt được mục tiêu cuối cùng, sau đó làm việc ngược lại để xác định những gì phải xảy ra để đạt được điều đó và những vấn đề và rủi ro mà chúng ta có thể tránh được. Vì vậy, trước tiên hãy thảo luận và quyết định xem "hoàn thành" sẽ như thế nào; sau đó lập biểu đồ con đường đi đến đó và lập kế hoạch chúng ta sẽ tránh mọi chướng ngại vật cản đường mình như thế nào.
+
+Chúng ta đã thảo luận vài thứ về những nguyên tắc này ở những phần khác của chương này, nhưng danh sách này cung cấp một cái nhìn tổng thể để chúng ta hiểu rõ về hiệu quả của nhà lãnh đạo phục vụ.
+
+<div id="examTipbox">
+  <div id="examTipIcon">
+    <img src="/assets/images/icons-check.png" alt="check-icon">
+  </div>
+  <div id="examTipContent">
+    <h5>EXAM TIP<br/><hr/></h5>
+    <h7>
+      Chúng ta không cần nhớ những nguyên tắc lãnh đạo này, hoặc những bài tập thực hành lãnh đạo sẽ thảo luận tiếp sau đây - bài exam sẽ không kiểm tra trực tiếp những khái niệm. Thay vào đó, những hiểu biết này sẽ được mô tả ẩn sau những câu hỏi giải quyết tình huống, ngữ cảnh. Khi đọc phần này, hãy suy nghĩ về cách tiếp cận lãnh đạo, và kết hợp chúng trong tư duy Agile.
+    </h7>
+  </div>
+</div>
+
+<br/>
+
+{:#agileLeaderPractise}
+## Bài tập thực hành lãnh đạo Agile
+
+Với tư cách lãnh đạo, chúng ta có thể giúp tạo ra một môi trường dự án hiệu quả bằng cách sử dụng các thực tiễn như mô hình hóa hành vi mà chúng ta muốn nhóm tuân theo, truyền đạt tầm nhìn dự án, khuyến khích các bên liên quan hành động và sẵn sàng thách thức.
+
+{:#modelDesiredBehavior}
+### Mô hình hành vi mong muốn
+
+Trong Leadership Challenge, Kouzes và Posner mô tả một nghiên cứu kéo dài 10 năm bằng cách hỏi hơn 75,000 người: "Bạn tìm kiếm hoặc ngưỡng mộ những giá trị, đặc điểm cá nhân hoặc tính cách nào ở nhà lãnh đạo của mình?"
+
+Những giá trị sau đây được xếp hạng cao nhất:
+
+・　**Honesty - Trung thực** : Mọi người sẽ không làm theo những nhà lãnh đạo mà họ biết là lửa dối, vì làm như vậy sẽ làm giảm giá trị bản thân của họ. Vì vậy, chúng ta nên đặc biệt chú ý đến tính minh bạch và đảm bảo rằng chúng ta tuân theo những gì chúng ta đã nói. Chúng ta không nên che giấu những sai lầm của mình - chúng ta nên thừa nhận một cách công khai. Đây không chỉ là một cách tiếp cận lành mạnh đối với chúng ta với tư cách là nhà lãnh đạo, mà nó còn là tấm gương cho cách chúng ta muốn nhóm mình hoạt động. Chúng ta không nên làm những việc như hỏi các thành viên trong nhóm về ước tính và sau đó nói rằng chúng ta sẽ tăng gấp đôi trước khi giao cho ban quản lý. Những tuyên bố như vậy làm tổn hại đến uy tín của chúng ta với nhóm và khiến họ có lý do để nghi ngờ tính chính trực của chúng ta. (một cách tiếp cận tốt hơn là giải thích khái niệm thêm một khoản dự phòng vào các ước tính và thảo luận về cách căn cứ vào khoản dự phòng đó dựa trên những kỳ vọng thực tế về những rủi ro liên quan đến dự án).
+
+・　**Forward-looking - Nhìn về phía trước** : Mọi người mong đợi những người dẫn dắt họ hiểu được nơi họ đang đi. Các nhà lãnh đạo nên có khả năng vẽ nên bức tranh cho cả nhóm để mọi người hiểu họ cuối cùng đang hướng tới điều gì.
+
+・　**Competent - Có năng lực** : Người lãnh đạo không cần phải có kỹ năng kỹ thuật mạnh nhất trong nhóm, vì các thành viên trong nhóm thường sẵn lòng cung cấp kiến thức chuyên môn khi được yêu cầu. Tuy nhiên, các nhà lãnh đạo phải là người có năng lực và không phải là người xấu hổ hay trách nhiệm đối với nhóm.
+
+・　**Inspiring - Truyền cảm hứng** : Mọi người muốn được truyền cảm hứng trong công việc của họ, thay vì bị bắt gặp mỗi ngày với cảm giác tiêu điều và u ám. Do đó, các nhà lãnh đạo cần phải tìm cách giải thích tầm nhìn và hành trình của dự án bằng sự nhiệt tình và tinh thần thực sự.
+
+Khi thể hiện những đặc điểm này với tư cách là nhà lãnh đạo, chúng ta không chỉ khuyến khích mọi người làm theo mình mà còn mô hình hóa những hành vi mà chúng ta muốn các thành viên trong nhóm mình thi đua. Trên thực tế, chúng ta đã dẫn dắt bằng những ví dụ thực tiễn.
+
+{:#visionProject}
+### Truyền đạt tầm nhìn dự án
+
+Trong cuộc thảo luận trước đây của chúng ta về lãnh đạo phục vụ, chúng ta đã nói về tầm quan trọng của việc truyền đạt và truyền đạt liên tục tầm nhìn dự án để giữ cho các bên liên quan có cùng tầm nhìn về mục tiêu dự án. Một nhà lãnh đạo có thể sử dụng nhiều phương pháp khác nhau để đạt được điều này, dựa trên những gì hiệu quả nhất cho nhóm cụ thể.
+
+Ví dụ: nhóm XP sử dụng phép ẩn dụ, một số nhóm phát triển câu thần chú và các nhóm khác tạo quảng cáo chiêu hàng hoặc dự án Tweeets, trong đó họ giải thích mục đích dự án bằng 140 ký tự trở xuống.
+
+Dù sử dụng phương pháp nào, điều quan trọng là phải thường xuyên truyền đạt các mục tiêu của dự án để đảm bảo rằng tất cả các bên liên quan đều nhận thức được và thích ứng với tầm nhìn.
+
+{:#enableothersAct}
+### Cho phép người khác hành động
+
+Để cho phép các thành viên trong nhóm cảm thấy tự tin trong việc đưa ra quyết định và thực hiện các hành động nhằm thúc đẩy dự án một cách hiệu quả, chúng ta cần thúc đẩy một môi trường hợp tác. Điều này liên quan đến việc xây dựng lòng tin giữa các thành viên trong nhóm và củng cố những người khác bằng cách chia sẻ quyền lực. Chúng ta cũng cần tạo ra một môi trường làm việc an toàn, nơi mọi người không ngại hỏi những gì họ có thể nghĩ là câu hỏi ngớ ngẩn. Mọi người học nhanh hơn nhiều khi họ có thể đưa ra câu hỏi mà không sợ bị trả thù hay chế giễu.
+
+Tăng cường sức mạnh cho những người khác bằng cách chia sẻ quyền lực có nghĩa là người quản lý dự án, Scrum Master hoặc người lãnh đạo không giữ kế hoạch hoặc ước tính của dự án cho chính mình. Thay vào đó, người lãnh đạo đảm bảo rằng thông tin và kiến thức được lan truyền trong cả nhóm.
+
+Ví dụ: điều này có thể liên quan đến việc chuyển từ các công cụ lập kế hoạch như biểu đồ Gantt mà chỉ một hoặc hai người có thể cập nhật và duy trì sang sử dụng bảng nhiệm vụ mà cả nhóm có thể tham gia. Khi làm như vậy, thông tin về dự án và trạng thái công việc sẽ dễ tiếp cận hơn với nhóm và dự án sẽ được hưởng lợi vì nhiều người có thể kiểm tra, cập nhật và tối ưu hóa kế hoạch hơn.
+
+![switchTooltochart]({{ site.baseurl }}/assets/images/switchTooltochart.png)
+
+{:#willingchallenge}
+### Sẵn sàng thách thức hiện trạng
+
+Thách thức hiện trạng có nghĩa là chúng ta tìm kiếm những cách đổi mới để thay đổi, phát triển và cải thiện - sau đó, thử nghiệm và chấp nhận rủi ro bằng cách liên tục tạo ra những chiến thắng nhỏ và học hỏi từ những sai lầm của chúng ta. Lặp lại là mô hình thu nhỏ hoàn hảo để thử nghiệm. Chúng ta có thể thử những ý tưởng mới cho một hoặc hai lần lặp lại trước khi cam kết với chúng. Nếu các ý tưởng hoạt động, chúng ta có thể thể chế hóa chúng. Nếu chúng không hoạt động, nó không tổn thất lớn; ít nhất chúng ta đã cố gắng, và chúng ta đã học được điều gì đó từ kinh nghiệm.
+
+Cho phép các bên liên quan đề xuất những ý tưởng mới để cải tiến và sau đó, cho họ một cơ hội thử những ý tưởng đó là một cách để củng cố khái niềm rằng ý tưởng của mọi người đều có giá trị. Không có gì thất vọng hơn việc có một ý tưởng tốt rơi vào tai người điếc. Nếu điều này xảy ra, mọi người sẽ sớm ngừng cố gắng đưa ra các đề xuất và sẽ không còn quan tâm đến dự án nữa. Vì vậy, để duy trì sự tham gia của các bên liên quan, chúng ta nên tận dụng các cơ hội mà các dự án Agile mang lại cho chúng ta để thực hiện các thử nghiệm nội bộ, quy mô nhỏ trong một môi trường hỗ trợ, ít rủi ro.
+
+Với tư cách nhà lãnh đạo, chúng ta cần khuyến khích nhóm của mình tahch1 thức hiện trạng về cách chúng ta hoạt động, không chỉ vì các thành viên trong nhóm có vị trí tuyệt vời để đề xuất cải tiến quy trình, mà còn vì làm như vậy giúp thúc đẩy họ. Để đạt được thành công trong nỗ lực này, chúng ta cần có kỹ năng tư duy phân tích giúp nhóm của mình lên ý tưởng và giải pháp cũng như kỹ năng lắng nghe tích cực để đảm bảo chug1 ta hiểu chính xác các đề xuất của mọi người.
+
+{:#leadershiptask}
+## Nhiệm vụ của Lãnh đạo
+
+Trước khi chuyển sang chương tiếp theo, chúng ta sẽ đúc kết lại thảo luận về các nguyên tắc và tư duy Agile bằng cách xem xét một số nhiệm vụ lãnh đạo trong đề cương nội dung kỳ thi cho lĩnh vực này. Mặc dù khái niệm này sẽ được thảo luận chi tiết hơn trong các chương sau, chúng ta sẽ giới thiệu chúng tở đây để giúp hiểu các nhiệm vụ cụ thể của vùng kiến thức này mà còn cả các mục tiêu và giá trị cơ bản của phương pháp tiếp cận Agile đối với lãnh đạo.
+
+{:#visualizePracticeTransparency}
+### Thực hành tính minh bạch thông qua hình ảnh hóa
+
+"Minh bạch" có nghĩ là cởi mở và trung thực, không chỉ về tiến trình và thành tích của chúng ta, mà còn về các vấn đề và trở ngại của chúng ta.
+
+Các nhóm Agile thể hiện sự minh bạch bằng cách hiển thị công khai công việc, tiến độ và kết quả đánh giá của họ cho các bên liên quan khác xem. Khi bước vào một phòng nhóm Agile, ta sẽ thấy các biểu đồ hiển thị vận tốc, tỷ lệ sai sót và kết quả của lần xem xét cuối cùng - bao gồm cả những gì đang hoạt động tốt và những gì cần cải thiện là điều bình thường.
+
+Khi không có gì phải che giấu và mọi thứ được chia sẻ, các cuộc trò chuyện có thể thẳng thắn hơn và mọi người có thể bớt đề phòng hơn và tập trung vào việc cải thiện. Mọi người sẽ không sợ hãi hoặc miễn cưỡng thảo luận về các vấn đề hoặc sai lầm, bởi vì môi trường minh bạch xung quanh họ là tấm gương để họ được chấp nhận và mong đợi để nói về các vấn đề cũng như tiến bộ.
+
+{:#createasafeenv}
+### Tạo môi trường an toàn cho thử nghiệm
+
+Khi mọi người tin rằng có thể thử các phương pháp tiếp cận mới và họ sẽ không bị chỉ trích nếu không thành công ngay lần đầu tiên, thì nhiều khả năng họ sẽ tiếp tục và thử những điều mới. Chính trong những thử nghiệm này, những sáng kiến và đột phá hữu ích nhất thường được tạo ra. Một mô hình phổ biến là khi mọi người ngày càng vững chắc trong sự nghiệp, họ càng lo lắng hơn về việc ngăn chặn thất bại và tỏ ra kém cỏi hơn so với đồng nghiệp của mình, điều này có thể hạn chế sự sẵn sàng thử nghiệm của họ.
+
+Nếu một người bạn yêu cầu chúng ta giúp đỡ vào cuối tuần với tư cách là người giải trí cho buổi tiệc của trẻ em, chúng ta có thể thử một số trò chơi khác nhau và giúp bọn trẻ vui vẻ. Nếu bọn trẻ không thích cái đầu tiên, đó không phải là vấn đề lớn - chúng ta sẽ thử cái khác. Tuy nhiên, nếu chúng ta tình cờ có bằng tiến sĩ về tâm lý trẻ em, nhiều bài báo được xuất bản về hạnh phúc trẻ em và một hoạt động tư vấn với tỷ lệ giờ cao, thì nỗi lo về uy tín và danh tiếng của chúng ta có thể hạn chế sự sẵn sàng thử các cách tiếp cận mới của chúng ta.
+
+Đối với nhóm Agile, chúng ta cần tạo ra môi trường an toàn để thử nghiệm. Điều này bao gồm việc khuyến khích các thử nghiệm và trải nghiệm, không tập trung vào các thử nghiệm đã thất bại và khuyến khích việc hình thành các ý tưởng mới. Ở Toyota, họ có hòm thư góp ý để nhân viên gửi ý kiến. Bây giờ, điều này không có gì mới; hầu hết các tổ chức có một hộp thư như vậy. Ở hầu hết công ty, ban lãnh đạo sẽ chọn ra một hoặc hai ý tưởng tốt nhất để thực hiện và sau đó thưởng cho người gửi một khoản tiền thưởng lớn nếu đề xuất của họ hoạt động hiệu quả. Tuy nhiên, Toyota dành phần thưởng nhỏ cho tất cả những ai gửi ý tưởng. Điều này dẫn đến rất nhiều đề xuất được đưa ra. Trong quyển sách của Matthew May, The Elegant Solution - Giải pháp thanh lịch, ông nói rằng Toyota thực hiện hơn một triệu đề xuất mỗi năm! Đó là 3,000 đề xuất hoặc thử nghiệm mỗi ngày. Khi chúng ta đang đổi mới với tốc độ đó, đổi thủ cạnh tranh sẽ thực sự khó bắt kịp.
+
+{:#newtechnprocess}
+### Thử nghiệm với các kỹ thuật và quy trình mới
+
+Không phải tất cả các đề xuất cải tiến đều thành công. Một số ý tưởng nghe có vẻ thất bại và một số ý tưởng có vẻ hoạt động không được tốt lắm. Các thực sự duy nhất để tìm hiểu xem một quy trình hoặc kỹ thuật mới có hiệu quả với dự án của chúng ta hay không là thử nghiệm. Một yếu tố Agile quan trọng là hỗ trợ thử nghiệm qua những vòng lặp ngắn để xem những gì hiệu quả và nên được thể chế hóa, và những gì không và nên loại bỏ.
+
+Các nhà di truyền học thích nghiên cứu các kiểu thừa kế ở ruồi bởi vì những loài côn trùng này sinh sản trong ngày nên chúng thu được kết quả nhanh chóng. Các lần lặp lại ngắn cung cấp các chu kỳ phản hồi ngắn giống nhau và cung cấp các khoảng thời gian thử nghiệm sẵn sàng cho các cách tiếp cận mới.
+
+{:#shareknowledge}
+### Chia sẻ kiến thức thông qua cộng tác
+
+Điều quan trọng là các nhóm phải chia sẻ kiến thức về sản phẩm mà họ đang làm và cách mọi thứ hoạt động trong nhóm họ. Tuy nhiên, việc viết ra tất cả những điều này mất nhiều thời gian và mọi người thường không thích đọc nó.
+
+Các kỹ sư cũng có một định kiến đáng có là không thích sản xuất tài liệu khi họ có thể đang "làm công việc thực" và thậm chí ít có xu hướng "đọc hướng dẫn" khi họ có thể mày mò.
+
+Đây là lý do tại sao công việc hợp tác - thông qua việc ghép nối nhân viên hoặc chuyển giao kiến thức đặc biệt thông qua vị trí chung - đã nổi lên như một phương pháp hay nhất Agile. Bằng cách làm việc với mọi người, chúng ta học được những gì họ làm, cách họ giải quyết vấn đề và cách giúp họ hiệu quả nhất khi họ gặp khó khăn. Chỉ cần thay đổi người làm việc cùng, kiến thức dự án có thể được phân tán trong cả nhóm, giảm tác động của việc mất thông tin nếu một thành viên trong nhóm rời đi.
+
+{:#encourageEmergentLeader}
+### Khuyến khích khả năng lãnh đạo nổi bật thông qua một môi trường an toàn
+
+Khả năng lãnh đạo xuất sắc là khi một thành viên trong nhóm chủ động và thử một cách tiếp cận mới sau khi được đồng ý của nhóm. Các thành viên trong nhóm Agile không chỉ được trao quyền để đưa ra quyết định mà còn có khả năng lãnh đạo các hoạt động cải tiến. Nếu ai đó xác định một quy trình hiệu quả hơn, họ được khuyến khích thử một thử nghiệm để chúng minh xem nó có thể hoạt động hay không.
