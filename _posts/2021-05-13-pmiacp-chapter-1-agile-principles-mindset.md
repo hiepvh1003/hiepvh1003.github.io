@@ -118,7 +118,7 @@ Domain này tập trung vào agile mindset, những giá trị và nguyên tắc
   <li>Tạo môi trường an toàn cho thử nghiệm</li>
   <li>Thử nghiệm các kỹ thuật và quy trình mới.</li>
   <li>Chia sẻ kiến thức bằng cách cộng tác.</li>
-  <li>Khuyến khích lãnh đạo khẩn cấp thông qua môi trường an toàn.</li>
+  <li>Khuyến khích lãnh đạo phục vụ thông qua môi trường an toàn.</li>
   <li>Thực hành lãnh đạo phục vụ.</li>
 
 </div>
