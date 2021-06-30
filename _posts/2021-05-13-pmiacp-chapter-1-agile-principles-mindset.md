@@ -65,6 +65,7 @@ hidden: false
 | [  　・ Thử nghiệm với các kỹ thuật và quy trình mới ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#newtechnprocess) |
 | [  　・ Chia sẻ kiến thức thông qua cộng tác ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#shareknowledge) |
 | [  　・ Khuyến khích khả năng lãnh đạo nổi bật thông qua một môi trường an toàn ]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#encourageEmergentLeader) |
+| [ Chapter Review]({{ site.baseurl }}/pmiacp-chapter-1-agile-principles-mindset/#chappterReview) |
 
 <br/>
 {:#summary}
@@ -1497,3 +1498,290 @@ Các kỹ sư cũng có một định kiến đáng có là không thích sản 
 ### Khuyến khích khả năng lãnh đạo nổi bật thông qua một môi trường an toàn
 
 Khả năng lãnh đạo xuất sắc là khi một thành viên trong nhóm chủ động và thử một cách tiếp cận mới sau khi được đồng ý của nhóm. Các thành viên trong nhóm Agile không chỉ được trao quyền để đưa ra quyết định mà còn có khả năng lãnh đạo các hoạt động cải tiến. Nếu ai đó xác định một quy trình hiệu quả hơn, họ được khuyến khích thử một thử nghiệm để chúng minh xem nó có thể hoạt động hay không.
+
+{:#chappterReview}
+# Chapter Review
+
+**1. Which of the following is NOT an advantage of limiting work in progress? Cái nào dưới đây không phải là điểm mạnh của việc giới hạn công việc đang thực hiện?**
+
+ A. It reduces the potential need to rework a large collection of flawed, partially completed items. (Giảm khả năng làm lại một lượng lớn công việc đã hoàn thành một phần hay những thiếu sót.)
+
+ B. It helps optimize throughput to make processes work more efficiently. (Nó giúp tối ưu quy trình một cách hiệu quả.)
+
+ C. It brings bottlenecks in the production process to the surface so they can be identified and resolved. (Nó đưa ra những nút thắt cổ chai trong quá trình sản xuất để có thể xác định và giải quyết.)
+
+ D. It maximizes resource utilization to make processes work more efficiently. (Nó tối đa hóa việc sử dụng tài nguyên để làm cho các quy trình hoạt động hiệu quả hơn.)
+
+**2. The relationship between leadership and management in agile methods is: (Mối quan hệ giữa quản lý và lãnh đạo là:)**
+
+ A. Leadership replaces all aspects of management. (Lãnh đạo thay thế tất cả các khía cạnh của quản lý)
+
+ B. Leadership is subsidiary to management. (Lãnh đạo là con của quản lý)
+
+ C. Management and leadership are used together. (Quản lý và lãnh đạo được sử dụng cùng nhau)
+
+ D. Management and leadership are incompatible. (Quản lý và lãnh đạo không tương thích với nhau)
+
+**3. The core values of XP include: (Giá trị cốt lỗi của XP bao gồm:)**
+
+ A. Courage, communication, input (Dũng cảm, giao tiếp, đầu vào)
+
+ B. Simplicity, control, respect (Đơn giản, kiểm soát, tôn trọng)
+
+ C. Feedback, simplicity, communication (Phản hồi, đơn giản, giao tiếp)
+
+ D. Solutions, feedback, control (Giải pháp, phản hồi, kiểm soát)
+
+**4. In the Agile Manifesto, what is valued more than processes and tools?**
+
+  A. Customer collaboration
+
+  B. Individuals and interactions
+
+  C. Working software
+
+  D. Responding to change
+
+**5. The acronym WIP stands for:**
+
+  A. Worth in performance
+
+  B. Work in progress
+
+  C. Waste in process
+
+  D. Work is progressing
+
+**6. The three pillars of Scrum are:**
+
+  A. Transparency, Communication, Adaptation
+
+  B. Inspection, Adaptation, Evolution
+
+  C. Adaptation, Inspection, Communication
+
+  D. Transparency, Inspection, Adaptation
+
+**7. On a typical agile team, who has the best insight into task execution?**
+
+  A. Project manager
+
+  B. Team members
+
+  C. ScrumMaster
+
+  D. Agile coach
+
+**8. Which of the following Agile Manifesto values deals most closely with WIP ?**
+
+  A. Customer collaboration over contract negotiation
+
+  B. Individuals and interactions over processes and tools
+
+  C. Working software over comprehensive documentation
+
+  D. Responding to change over following a plan
+
+**9. What is one of the three questions that are addressed in the daily scrum?**
+
+  A. What have I done since the last daily scrum?
+
+  B. Why didn’t I get my work done yesterday?
+
+  C. How will I do my work to day?
+
+  D. What is my plan for the week?
+
+**10. What are three of the seven lean core concepts?**
+
+  A. Eliminate waste, empower the team, deter decisions
+
+  B. Build quality in, exterminate waste, optimize learning
+
+  C. Optimize the whole, defer decisions, amplify learning
+
+  D. Deliver decisions, amplify the team, evaluate waste
+
+**11. The four primary roles of a servant leader include :**
+
+  A. Shielding team members from interruptions
+
+  B. Resolving conflicts
+
+  C. Determining which stories to include in an iteration
+
+  D. Assigning tasks to the team members
+
+**12. In Scrum, the definition of done is created with the input of everyone except the:**
+
+  A. Development team
+
+  B. Product owner
+
+  C. ScrumMaster
+
+  D. Process owner
+
+**13. In the lean approach, which of the following wouldn’t be considered an example of one of the seven forms of waste?**
+
+  A. The handoff between coding and testing
+
+  B. Testing the code
+
+  C. Code that is waiting for testing
+
+  D. Assigning a developer to work on two projects at the same time
+
+**14. The XP core practices include:**
+
+  A. Whole team, planning games, small releases
+
+  B. One team, process game, big releases
+
+  C. Paired team, planning games, quick releases
+
+  D. Build team, process game, incremental releases
+
+**15. Which of the following is one of the planned opportunities for inspection and adaptation in the Scrum method?**
+
+  A. Velo city review meeting
+
+  B. Sprint risk meeting
+
+  C. Daily scrum
+
+  D. Retrospective planning meeting
+
+**16. Which of the following is an Agile Manifesto value?**
+
+  A. Individuals and interactions over following a plan
+
+  B. Working software over processes and tools
+
+  C. Responding to change over comprehensive documentation
+
+  D. Customer collaboration over contract negotiation
+
+**17. The agile triangle of constraints is said to be inverted from the traditional triangle because it allows:**
+
+  A. Scope and time to vary instead of cost
+
+  B. Cost and time to vary instead of scope
+
+  C. Scope and cost to be fixed instead of time
+
+  D. Scope to vary while time and cost are fixed
+
+**18. Which of the following Agile Manifesto principles reflects the agile focus on team empowerment?**
+
+  A. Working software is the primary measure of progress.
+
+  B. Welcome changing requirements, even late in development.
+
+  C. Simplicity—the art of maximizing the amount of work not done—is essential.
+
+  D. Build projects around motivated individuals.
+
+**19. The Kanban pull system means that:**
+
+  A. Kanban team members “pull” work from each other, pairing up as needed.
+
+  B. Each time a work item is completed, the next work item is “pulled” into that stage of the process.
+
+  C. Iterations are “pulled” into the process as needed to keep the work organized.
+
+  D. Kanban teams have shorter work queues, which means that the work takes longer to complete (as shown by Littles Law).
+
+**20. Which of the following isn’t a core aspect of the agile mindset?**
+
+  A. Welcome change
+
+  B. Learn through discovery
+
+  C. Respect the process
+
+  D. Deliver value continuously
+
+------------------- HẾT CHƯƠNG 1 -------------------
+
+Giỡn chứ coi đáp án đã nha: Lười dịch với lại đọc cho hiểu để đi thi nên để nguyên tiếng Anh chỗ này. Tới hồi không hiểu thì sẽ dịch sau:
+
+1. Answer: D
+
+Explanation: Since this question is looking for the answer that is NOT an advantage of limiting work in progress (WIP), if an option is true, that means it is not the answer we are looking for. Limiting WIP does reduce the potential need for rework. It also improves process efficiency and helps us find production bottlenecks. The only option listed here that is NOT an advantage of limiting WIP is the one that refers to maximizing resource utilization. Limiting WIP focuses on optimizing throughput, not resources, and we may actually decrease resource optimization to get more throughput.
+
+2. Answer: C
+
+Explanation: Agile methods employ a combination of management and leadership. Leadership neither totally replaces nor is subsidiary to management—and since the two approaches can be used together, they aren’t incompatible.
+
+3. Answer: C
+
+Explanation: The correct XP core values from the options presented are feedback, simplicity, and communication. The options “input,” “solutions,” and “control” are not core values of XP.
+
+4. Answer: B
+
+Explanation: The first value of the Agile Manifesto is “Individuals and interactions over processes and tools.” Therefore, “individuals and interactions” is the correct choice.
+
+5. Answer: B
+
+Explanation: WIP stands for “work in progress” or “work in process,” not “worth in performance,” “waste in process,” or “work is progressing.”
+
+6. Answer: D
+
+Explanation: The three pillars are Transparency, Inspection, and Adaptation. Evolution and communication are both admirable goals, but they are not Scrum pillars.
+
+7. Answer: B
+
+Explanation: Agile’s servant leadership approach recognizes that the “doers” of the work, the team members, are closest to the work and therefore have the best insight into its execution. This is why agile project managers, ScrumMasters, and coaches defer to the team’s decisions about how best to execute the work.
+
+8. Answer: C
+
+Explanation: The second value of the Agile Manifesto—“Working software over comprehensive documentation”—is most closely related to WIP because it recommends that we focus on results and completed deliverables, rather than partially completed or in-progress work. If documentation efforts are slowing down the team’s ability to complete a deliverable (keeping a lot of work in progress), they should be reduced as much as possible to support the ultimate goal of creating a useful, functional product.
+
+9. Answer: A
+
+Explanation: The three questions addressed in the daily scrum are: “What have I done since the last daily scrum?” “What do I plan to do today?” and “Are there any impediments to my progress?” To keep the meeting focused and moving quickly the other questions listed in the answer choices are not discussed in the daily scrum.
+
+10. Answer: C
+
+Explanation: The valid lean core concepts on this list are optimize the whole, defer decisions, and amplify learning. (The remaining lean core concepts are eliminate waste, empower the team, build quality in, and deliver fast.) The remaining answer options all include at least one incorrect item— “deter decisions,” “exterminate waste,” “deliver decisions,” and “evaluate waste.” Be sure you read each answer choice carefully—“defer” looks very much like “deter,” especially when you are under pressure.
+
+11. Answer: A
+
+Explanation: The four primary roles of a servant leader are shielding the team from interruptions, removing impediments to progress, communicating the project vision, and “carrying food and water.” Although we haven’t discussed the other three answer options in chapter 1, we’ll see in later chapters that they aren’t correct. Servant leaders don’t take the lead in resolving conflicts—they first let the team try to resolve issues on their own. The team determines which stories to include in an iteration, rather than accepting the stories chosen by the team leader. Finally, task assignment isn’t a servant leadership role; agile teams are encouraged to select their own work.
+
+12. Answer: D
+
+Explanation: The whole team, including the development team, product owner, and ScrumMaster, is responsible for creating the shared definition of done. Since “process owner” is a made-up term, this is the correct choice for someone who would NOT be involved in defining done.
+
+13. Answer: B
+
+Explanation: Testing the code is the only one of these options that wouldn’t be considered waste in lean. The seven wastes of lean are partially done work, extra processes, extra features, task switching, waiting, motion, and defects. Handoffs are an example of motion, code that is waiting for testing is partially done work, and a developer who is working on multiple projects is an example of task switching.
+
+14. Answer: A
+
+Explanation: The XP core practices include whole team, planning games, and small releases. The choices “one team,” “process game,” “big releases,” “paired team,” “quick releases,” “build team,” and “incremental releases” are not XP core practices.
+
+15. Answer: C
+
+Explanation: The meetings that are Scrum’s planned opportunities for inspection and adaptation are the sprint planning meeting, daily scrum, sprint retrospective, and sprint review. Velocity review meetings, sprint risk meetings, and retrospective planning meetings are not recognized Scrum events.
+
+16. Answer: D
+
+Explanation: The third value of the Agile Manifesto is “Customer collaboration over contract negotiation.” While the other choices use terms from the other three agile values, they aren’t combined correctly.
+
+17. Answer: D
+
+Explanation: Unlike the traditional constraint triangle, in which scope is fixed and time and cost may need to bend to achieve that planned scope, agile teams typically allow scope to vary within fixed parameters of cost and time. In other words, they aim to deliver the most value they can by X date within X budget.
+
+18. Answer: D
+
+Explanation: Agile Manifesto principle five, “Build projects around motivated individuals” addresses the importance of giving teams the environment and support they need, and trusting them to get the job done. Supporting and trusting the team members means recognizing that they are experts at what they do, and that they can work most effectively if they are empowered to plan and organize their own work.
+
+19. Answer: B
+
+Explanation: In Kanbans “pull system,” each time the team completes an item of work, it triggers a “pull” to bring in the next item to that stage. The other answer options are all incorrect. Although Kanban teams do tend to have shorter work queues (due to the pull system and limiting WIP), Littles Law actually demonstrates that shorter queues reduce how long it takes to complete the work, rather than lengthening it.
+
+20. Answer: C
+
+Explanation: The concepts of welcoming change, learning through discovery, and continuous delivery of value are all core aspects of the agile mindset. That leaves the option “respect the process” as the outlier. Also, the first value of the Agile Manifesto—“individuals and interactions over processes and tools”—is another indication that “respect the process” isn’t part of the agile mindset.
