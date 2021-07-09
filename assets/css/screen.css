@@ -46,6 +46,7 @@ pre {
 
 .main-content {
     min-height: 300px;
+    text-align: justify;
 }
 
 .site-content {
