@@ -28,6 +28,13 @@ hidden: false
 | [ Đánh giá giá trị ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#assessingvalue) |
 | [  - Các chỉ số đánh giá tài chính ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#financialAssessmentMetrics) |
 | [　&#9;・　Return on Investment - Lợi tức đầu tư (ROI) ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#roi) |
+| [　&#9;・　Present Value - Giá trị hiện tại ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#presentvalue) |
+| [　&#9;・　Net Present Value (NPV) - Giá trị hiện tại ròng ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#netpresentvalue) |
+| [　&#9;・　Internal Rate of Return (IRR) - Tỷ lệ hoàn vốn nội bộ ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#internalRateReturn) |
+| [　&#9;・　Earned Value Management (EVM) - Quản lý giá trị nhận được ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#evm) |
+
+
+
 
 | [  - SPRINT ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#sprint) |
 | [　&#9;・　Vai trò trong nhóm dự án Scrum ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#scrumRoles) |
@@ -203,3 +210,172 @@ Sử dụng các công thức tài chính để đánh giá giá trị của m�
 Lợi tức đầu tư, hay ROI, đo lường khả năng sinh lời của một khoản đầu tư bằng cách tính tỷ lệ giữa lợi ích nhận được từ khoản đầu tư đó so với số tiền đã đầu tư vào đó. ROI được biểu thị bằng tỷ lệ phần trăm và tỷ lệ phần trăm đó càng cao, lợi tức mà dự án dự kiến mang lại càng tốt.
 
 > ROI = Tỷ lệ giữa lợi ích nhận được từ một khoản đầu tư so với số tiền đầu tư vào đó, được biểu thị bằng phần trăm.
+
+Mặc dù ROI là một số liệu hữu ích, nhưng nó có thể không cho chúng ta biết giá trị thực sự mà một dự án sẽ mang lại. Để biết lý do tại sao, chúng ta hãy xem một ví dụ. Hình dưới đây cho thấy một dự án sẽ chạy từ tháng Một đến tháng Sáu và sau đó đưa ra một giải pháp sẽ tạo ra một số lợi nhuận tài chính. Từ tháng Một đến tháng Sáu, chúng ta sẽ chi tiền cho dự án, trả tiền theo giờ cho các nguồn lực  (được thể hiện bằng tiền màu nhạt cho thấy dòng tiền tích lũy âm). Vào tháng Sáu,
+chúng ta sẽ triển khai giải pháp của mình và bắt đầu có thu nhập kah3 quan (thể hiện bằng tiền dương).
+
+![ROIEx]({{ site.baseurl }}/assets/images/ROIEx.png)
+
+Khi chúng ta thêm thu nhập mới vào số liệu dòng chảy ra, chúng ta có thể thấy dòng tiền ròng (được hiển thị bên dưới bằng đường màu xám). Dựa trên biểu đồ này, bạn nghĩ khi nào tổng lợi nhuận của chúng ta bằng tổng đầu tư?
+
+![nestcashflow]({{ site.baseurl }}/assets/images/nestcashflow.png)
+
+Thật hấp dẫn để giả định rằng lợi nhuận của chúng ta sẽ bằng với khoản đầu tư của chúng ta vào tháng Bảy, khi dòng tiền ròng của chúng ta bằng không. Theo một cách nào đó, điều này là đúng; tại thời điểm đó, chúng ta sẽ nhận lại được số tiền bằng số tiền chúng ta bỏ ra. Tuy nhiên, chúng ta cần xem xét các tác động của lạm phát. Quy tắc cơ bản của tài chính là số tiền chúng ta mong đợi nhận được trong tương lai sẽ ít hơn giá trị số tiền chúng ta có sẵn để đầu tư ngày hôm nay. Điều này đặc biệt đúng nếu chúng ta phải vay tiền để tạo ra lợi tức trong tương lai, vì chúng ta sẽ cần phải trả lại số tiền vay với lãi suất. Vì vậy, khi xác định thời gian hoàn vốn, chúng ta cần có cách tính đến ảnh hưởng của lạm phát và chi phí vay tiền.
+
+{:#presentvalue}
+### Present Value - Giá trị hiện tại
+
+Đây là nơi xuất hiện khái niệm giá trị hiện tại. Giá trị hiện tại là một cách tính giá trị của một khoản tiền trong tương lai theo các điều kiện hiện tại, với một tỷ lệ lãi suất và tỷ lệ lạm phát giả định. Hãy áp dụng khái niệm giá trị hiện tại cho dự án mẫu của chúng ta.
+
+Trong hình bên dưới, đường màu xám đậm hơn với các điểm đánh dấu x cho biết giá trị hiện tại của số tiền mà chúng ta sẽ nhận được trong tương lai, dựa trên lãi suất dự kiến là 2% (đại diện cho lạm phát). Như chúng ta có thể thấy từ hình này, giá trị hiện tại của khoản đầu tư dự án không đi sâu vào âm hay dương như dòng tiền ròng, vì giá trị của nó được điều chỉnh theo tác động của lạm phát.
+
+![presentvalue]({{ site.baseurl }}/assets/images/presentvalue.png)
+
+{:#netpresentvalue}
+<div id="toolkitBox">
+  <div id="toolkitIcon">T&T</div>
+  <h2 id="toolkitContent">Net Present Value (NPV) - Giá trị hiện tại ròng<br/><hr/></h2>
+</div>
+
+<br/>
+
+Chúng ta có thể mở rộng khái niệm giá trị hiện tại để tìm giá trị hiện tại của lợi tức mong đợi cho một dự án. Số liệu này được gọi là giá trị hiện tại ròng hoặc NPV và nó có thể được định nghĩa như sau:
+
+> NPV = Giá trị hiện tại của dòng doanh thu (thu nhập trừ chi phí) trong một khoảng thời gian.
+
+Để đánh giá giá trị cảu một dự án theo quy mô tiền hiện tại, chúng ta tính NPV của dự án. Đây là giá trị hiện tại của dòng doanh thu hoặc thu nhập trừ đi chi phí trong một khoảng thời gian, chẳng hạn như tháng hoặc năm. Việc tính toán NPV của các dự án tiềm năng khác nhau cho phép một số công ty so sánh chúng ngang bằng nhau và chọn ra dự án tốt nhất.
+
+Nói chung, bất cứ dự án nào có NPV dương đều là một khoản đầu tư tốt, vì chúng ta sẽ kiếm lại nhiều hơn số tiền chúng ta đã đầu tư theo thời gian hiện tại. Tuy nhiên, nếu đang sử dụng NPV để so sánh giá trị mong đợi từ nhiều dự án tiềm năng, thì NPV càng cao càng tốt.
+
+<div id="examTipbox">
+  <div id="examTipIcon">
+    <img src="/assets/images/icons-check.png" alt="check-icon">
+  </div>
+  <div id="examTipContent">
+    <h5>EXAM TIP<br/><hr/></h5>
+    <h7>
+      Đối với bài kiểm tra, chúng ta nên hiểu định nghĩa của NPV và số liệu này khác với ROI và IRR như thế nào. Chúng ta nên biết rằng một dự án có NPV cao hơn kỳ vọng sẽ mang lại nhiều giá trị hơn so với một dự án tương đương có NPV thấp hơn. Số liệu này có thể được đề cập trong các câu hỏi tình huống liên quan đến việc đánh giá giá trị của dự án hoặc so sánh giá trị giữa các dự án. Chúng ta có thể được yêu cầu giải thích những con số này, nhưng chúng ta sẽ được yêu cầu tính toán chúng.
+      <br/>
+    </h7>
+  </div>
+</div>
+
+<br/>
+
+Các tổ chức đã nhận thấy NPV rất có giá trị để so sánh tiền ra và tiền vào đến nỗi chỉ số này được sử dụng rộng rãi để đánh giá lợi nhuận của dự án. Nó cho phép chúng ta đánh giá dòng chi phí và thu nhập của dự án và tìm thời gian hoàn vốn - sau khi điều chỉnh lạm phát - thực sự của dự án. Trong các dự án lớn nhiều năm, thời gian hoàn vốn thực sự có thể dài hơn đáng kể, đặc biệt nếu tiền để đầu tư vào các dự án này được vay với lãi suất cao.
+
+NPV có thể đặc biệt hữu ích để so sánh các dự án có các khung thời gian khác nhau hoặc dự kiến sẽ bắt đầu mang lại giá trị vào các thời điểm khác nhau. Ví dụ: điều gì sẽ xảy ra nếu chúng ta đang cố gắng lựa chọn giữa một dự án mà chúng ta mong đợi sẽ mang lại ROI 2% trong 12 tháng và một dự án mà chúng ta mong đợi sẽ mang lại ROI 4% trong 36 tháng? Lạm phát và lãi vay trong một khoảng thời gian dài hơn có phủ nhận ROI cao hơn của dự án thứ hai không? Để tìm hiểu, chúng ta tính NPV của hai dự án và xem dự án nào mang lại nhiều giá trị hơn bằng tiền hiện nay. Trong trường hợp thế này, NPV của hai dự án sẽ cung cấp cho chúng ta nhiều thông tin hơn so với ROI của chúng. Tuy nhiên, hạn chế của việc tính toán NPV là chúng ta phải ước tính mức lạm phát và lãi suất trong tương lai - và những phỏng đoán đó có thể không chính xác.
+
+{:#internalRateReturn}
+<div id="toolkitBox">
+  <div id="toolkitIcon">T&T</div>
+  <h2 id="toolkitContent">Internal Rate of Return (IRR) - Tỷ lệ hoàn vốn nội bộ<br/><hr/></h2>
+</div>
+
+<br/>
+
+Để xem cách các tổ chức giải quyết vấn đề phải đoán phạm phát và lãi suất trong tương lai, hãy chuyển sang khái niệm tỷ suất hoàn vốn nội bộ hay còn gọi là IRR. Để hiểu khái niệm này, chúng ta phải sử dụng thuật ngữ tài chính "lãi suất chiết khấu", có nghĩa là lãi suất cần kiếm được trên một số tiền nhất định ngày hôm nay để kết thúc với một số tiền nhất định trong tương lai.
+
+Định nghĩa chính thức của IRR là tỷ lệ chiết khấu mà tại đó "dòng tiền vào của dự án (doanh thu) và dòng tiền ra của dự án (chi phí) bằng nhau". Một cách khác để nói điều này là hỏi: "Tỷ lệ chiết khấu sẽ chuyển thời gian hoàn vốn sang kết thúc của dự án?"
+
+> IRR = Tỷ lệ chiết khấu mà tại đó dòng tiền vào của dự án (doanh thu) và dòng tiền ra của dự án (chi phí) bằng nhau.
+
+Số liệu này giúp đơn giản hóa việc đánh giá các dự án, vì chúng ta không phải đoán lãi suất và tỷ lệ lạm phát trong tương lai, như chúng ta làm đối với NPV. Thay vì sử dụng lãi suất dự kiến và tỷ lệ lạm phát để tính toán giá trị của một dự án theo điều ngày nay, chúng ta sử dụng ước tính của chúng ta về thời gian và hoàn vốn của dữ án để tính lãi suất thực tế (hay còn gọi là "tỷ lệ chiết khấu" cho dự án).
+
+Cách dễ nhất để nghĩ về IRR là so sánh nó với lãi suất trả bằng tài khoản tiết kiệm. Khi quyết định gửi tiền tiết kiệm vào đâu, nếu chúng ta hiểu biết, chúng ta sẽ mua sắm và cố gắng chọn tài khoản sẽ mang lại cho chúng ta lợi nhuận cao nhất. Theo cách tương tự, khi một công ty đang chọn đầu tư vào dự án nào đó, nó sẽ tính toán tỷ suất sinh lợi kỳ vọng cho từng dự án tiềm năng và chọn dự án được dự đoán sẽ mang lại IRR cao nhất.
+
+Ở góc độ kinh tế, tỷ lệ này càng cao thì dự án càng tốt.
+
+<div id="examTipbox">
+  <div id="examTipIcon">
+    <img src="/assets/images/icons-check.png" alt="check-icon">
+  </div>
+  <div id="examTipContent">
+    <h5>EXAM TIP<br/><hr/></h5>
+    <h7>
+      Nếu một câu hỏi kiểm tra hỏi về "tỷ lệ hoàn vốn" hoặc "tỷ lệ chiết khấu" cho một dự án, thì nó đang đề cập đến IRR của dự án. Đối với bài kiểm tra, chúng ta nên hiểu định nghĩa về IRR và chỉ số này khác với NPV và ROI như thế nòa. Chúng ta nên biết rằng dự án có IRR cao hơn là khoản đầu tư tốt hơn so với dự án tương đương có IRR thấp hơn. Số liệu này có thể được đề cập trong các câu hỏi tình huống liên quan đến quyết định đầu tư vào dự án nào. Chúng ta có thể được yêu cầu giải thích những con số này, nhưng chúng ta không được yêu cầu tính toán chúng.
+
+      Lưu ý rằng việc so sánh tỷ lệ ROI, NPV và IRR với nhau là không có ý nghĩa.
+
+      Nếu câu trả lời cho một câu hỏi kiểm tra bao gồm nhiều hơn một trong các chỉ số này, đừng chỉ chọn tùy chọn có tỷ lệ cao nhất; thay vào đó, hãy đọc kỹ câu hỏi để xác định số liệu nào có liên quan đến tình huống được mô tả.
+    <br/>
+    </h7>
+  </div>
+</div>
+
+<br/>
+
+<div id="practises" style="font-size: 12px;">
+  <h5>Bài tập - Hiểu về ROI, NPV và IRR</h5>
+</div>
+
+**1. Which of the following definitions best describes return on investment (ROI) ?**
+
+ A. The point in time when the revenue received equals the costs expended for the project
+
+ B. How much revenue the project will bring in once it is completed and operational, compared to its ongoing operating costs
+
+ C. The ratio of the money we receive at the end of a project to the money we have invested in it
+
+ D. The percentage of money the project will cost once all project expenditures are collected
+
+**2. A sponsor is trying to determine which project has the greatest business value. One project returns $5 million in three years, and another project returns $6 million in four years. The cost of borrowing capital to fund the project is 4 percent. Which of the following is the best approach to determine the project with the greatest value?**
+
+ A. Select the project that returns $6 million in four years, since it returns the highest amount.
+
+ B. Select the project that returns $5 million in three years, since it has the shorter payback period.
+
+ C. Calculate the NPV of the projects, and choose the project with the lowest cost.
+
+ D. Calculate the NPV of the projects, and choose the project with the highest value.
+
+**3. A sponsor is considering the business value of two projects. Which of the following definitions best describes the approach for assessing and applying the concept of internal rate of return (IRR) ?**
+
+ A. Calculate the internal rate of return, and choose the project with the highest rate.
+
+ B. Calculate the internal rate of return, and choose the project with the lowest cost.
+
+ C. Calculate the internal rate of return, and choose the project with the highest revenue.
+
+ D. Calculate the internal rate of return, and choose the project with the lowest revenue.
+
+<h4>ĐÁP ÁN</h4>
+
+**1. Answer: C.**
+
+ROI is the ratio of the money we receive at the end of a project to the money we have invested in it, expressed as a percentage. Looking at the other options, choice A describes the project payback or breakeven point, not ROI (which doesn’t specify a point in time). Choice B focuses on revenue only, omitting any consideration of the money we have invested, and instead referring to operational costs after the project is over. Choice D describes project costs rather than ROI. Therefore, choice C is our best option.
+
+**2. Answer: D.**
+
+To evaluate the value of two projects that will be completed at different times, we can use net present value (NPV) to level the amounts into today’s values. So calculating the NPV and choosing the project with the highest NPV value is the way to go. Choice A points us to the project with the highest return, but the question is asking for the best approach. Likewise, options B and C do not address the best approach to take.
+
+**3. Answer: A.**
+
+Internal rate of return (IRR) shows the earning potential for a project.
+Like comparing investment interest rates, the higher the rate, the better the investment proposition. So to use IRR to evaluate projects, we calculate the IRR for each and then select the project with the highest IRR value. Costs and revenue are rolled into the calculation of IRR and are not part of the final IRR evaluation.
+
+{:#evm}
+<div id="toolkitBox">
+  <div id="toolkitIcon">T&T</div>
+  <h2 id="toolkitContent">Earned Value Management (EVM) - Quản lý giá trị nhận được<br/><hr/></h2>
+</div>
+
+<br/>
+
+Bây giờ, chúng ta đã thấy cách các tổ chức đánh giá giá trị của các dự án tiềm năng; hãy chuyển sang các công cụ mà họ có thể sử dụng để giám sát việc phân phối giá trị trong khi một dự án đang được tiến hành. Công cụ đầu tiên được đề cập là quảnl ý giá trị nhận được (EVM). Để hiểu được lợi của EVM, chúng ta sẽ bắt đầu bằng cách xem xét một số lựa chọn thay thế cho giá trị theo dõi.
+
+Mong công cụ thường được sử dụng để theo dõi chi tiêu của dự án là "đường cong chữ S". Đây đơn giản là một biểu đồ theo dõi chi phí hoặc một số biến số khác theo thời gian. Những đồ thị này được gọi là đường cong S vì đường cong tăng trưởng thường có hình dạng chữ S, như trong ví dụ sau:
+
+![scurvegraph]({{ site.baseurl }}/assets/images/scurvegraph.png)
+
+Ưu điểm của đường cong chữ S là chúng dễ diễn giải và có thể nhanh chóng cho chúng ta biết liệu dự án của chúng ta đã hết hay còn dưới ngân sách. Tuy nhiên, các đường cong chữ S không cung cấp bất kỳ thông tin nào về lịch trình. Vì vậy, đường cong chữ S của chúng ta có thể cho thấy rằng chúng ta có đang chi tiêu khôn ngoan, nhưng chúng ta có thể bị chậm tiến độ và không biết điều đó.
+
+Để theo dõi trạng thái của tiến độ dự án, người ta thường sử dụng biểu đồ Gantt, như ví dụ sau:
+
+![ganttchart]({{ site.baseurl }}/assets/images/ganttchart.png)
+
+Tuy nhiên, biểu đồ Gantt cũng có giới hạn, vì chúng thiếu thành phần chi tiêu của tình trạng dự án - giống như đường cong S thiếu thành phần lịch trình. Vì hầu hết, các dự án sẽ vượt trước hoặc chậm so với ngân sách và tiến độ vào một thời điểm nào đó, nên có thể khó đánh giá tình trạng tổng thể của các dự án. Ngoài ra, do tính chất lặp đi lặp lại  của các dự án Agile, các biểu đồ Gantt có thể trở nên chồng chéo nhau, khó hiểu.
+
+Để đánh giá tình trạng tổng thể của một dự án, những gì chúng ta thực sự cần là một sơ đồ duy nhất có thể hiển thị trạng thái dự án cả về tiến độ và tổng giá trị được giao đến nay. Quản lý giá trị nhận được đã được tạo ra để giải quyết vấn đề này. Cách tiếp cận này kết hợp dữ liệu chi tiêu và lịch trình để tạo ra một bộ chỉ số dự án toàn diện, bao gồm giá trị theo kế hoạch (PV - Planned value), giá trị nhận được (EV - earned value), phương sai lịch trình (Schedule variance), phương sai chi phí (CV - cost variance), chỉ số hiệu suất lịch trình (SPI - schedule perfomance index), và chi phí chỉ số hiệu suất (CPI - cost perfomance index).
+
+
