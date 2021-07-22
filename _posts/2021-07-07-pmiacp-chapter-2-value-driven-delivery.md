@@ -32,8 +32,8 @@ hidden: false
 | [　&#9;・　Net Present Value (NPV) - Giá trị hiện tại ròng ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#netpresentvalue) |
 | [　&#9;・　Internal Rate of Return (IRR) - Tỷ lệ hoàn vốn nội bộ ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#internalRateReturn) |
 | [　&#9;・　Earned Value Management (EVM) - Quản lý giá trị nhận được ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#evm) |
-
-
+| [　&#9;　Sử dụng EVM cho các dự án Agile ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#usingEVM) |
+| [　&#9;　Xây dựng một công cụ giá trị nhận được Agile ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#earnedvaluetool) |
 
 
 | [  - SPRINT ]({{ site.baseurl }}/pmiacp-chapter-2-value-driven-delivery/#sprint) |
@@ -378,4 +378,44 @@ Tuy nhiên, biểu đồ Gantt cũng có giới hạn, vì chúng thiếu thành
 
 Để đánh giá tình trạng tổng thể của một dự án, những gì chúng ta thực sự cần là một sơ đồ duy nhất có thể hiển thị trạng thái dự án cả về tiến độ và tổng giá trị được giao đến nay. Quản lý giá trị nhận được đã được tạo ra để giải quyết vấn đề này. Cách tiếp cận này kết hợp dữ liệu chi tiêu và lịch trình để tạo ra một bộ chỉ số dự án toàn diện, bao gồm giá trị theo kế hoạch (PV - Planned value), giá trị nhận được (EV - earned value), phương sai lịch trình (Schedule variance), phương sai chi phí (CV - cost variance), chỉ số hiệu suất lịch trình (SPI - schedule perfomance index), và chi phí chỉ số hiệu suất (CPI - cost perfomance index).
 
+{:#usingEVM}
+### Sử dụng EVM cho các dự án Agile: Ưu và nhược điểm
 
+Mọi người hay hỏi rằng liệu có thể sử dụng số liệu giá trị nhận được cho các dự án Agile hay không? Câu trả lời là có. Nhưng trong khi toán học vẫn hoạt động theo cách tương tự như trên các dự án non-agile, chúng ta cần phải cẩn thận về những gì chúng ta đang đo lường. Giá trị nhận được so sánh hiệu suất thực tế của dự án với hiệu suất theo kế hoạch tại một thời điểm cụ thể. Vì vậy, chất lượng của kế hoạch cơ sở là một yếu tố thành công quan trọng trong việc sử dụng phương pháp này. Nếu kế hoạch ban đầu của chúng ta không còn chính xác, điều này có thể giống như theo dõi chuyến đi đường bộ từ Calgaray đến thành phố Salt Lake trên bản đồ của Pháp! Đối với các dự án Agile, chúng ta biết rằng kế hoạch ban đàu 6của chúng ta sẽ cẩn phải thay đổi, do đó, cơ sở cho EVM hiệu quả nhanh chóng bị xói mòn khi kế hoạch của chúng ta phát triển.
+
+Một lưu ý khác về giá trị nhận được là nó không thực sự cho biết liệu dự án có mang lại giá trị thành công hay không? Chúng ta có thể đúng giờ, đúng ngân sách, nhưng phải xây dựng một sản phẩm chất lượng thấp, tồi tệ mà khách hàng không thích hoặc không cần. Chi phí và lịch trình không phải là bức tranh toàn cảnh - dự án của chúng ta có thể vẫn diễn ra tồi tệ ngay cả khi nó có vẻ tốt từ quan điểm giá trị kiếm được.
+
+Sau khi đọc về những vấn đề này mà các đội agile cần phải cảnh giác, chúng ta có thể tự hỏi: Tại sao lại sử dụng EVM? Một trong những lợi ích chính của chỉ số giá trị kiếm được từ chúng là một chỉ số dẫn đầu. EVM rất được mong đợi để cố gắng dự đoán ngày hoàn thành và chi phí cuối cùng. Xét cho cùng, các chỉ số dẫn đầu không hoàn hảo thường có giá trị hơn các chỉ số cuối cùng, vì các chỉ số dẫn đầu thường cho chúng ta cơ hội xem lại kế hoạch và thay đổi cách tiếp cận của mình.
+
+Một lợi ích khác của giá trị kiếm được là nó trực quan. Mọi người thường quên các biểu đồ EVM và chỉ tập trung vào các con số, nhưng trung tâm của kỹ thuật này là một số biểu đồ hữu ích. Các hình ảnh biểu diễn thông tin liên quan đến phần não phải của chúng ta, giúp chúng ta hiểu và diễn giải dữ liệu một cách trực quan để chúng ta có thể lập kế hoạch phản ứng thích hợp. Mô tả trực quan cũng tốt hơn để làm việc cộng tác, vì mọi người có thể dễ dàng đánh dấu, trỏ tới và ngoại suy từ hình ảnh hơn là chữ hoặc số.
+
+{:#earnedvaluetool}
+### Xây dựng một công cụ giá trị nhận được Agile
+
+Làm thế nào để các đội agile có thể tận dụng các lọi ích dự báo và giao tiếp bằng hình ảnh của EVM, đồng thời giảm thiểu những mặt trái của phương pháp đó? Để xem cách thực hiện, chúng ta sẽ xây dựng một biểu đồ có tất cả các chỉ số mà chúng ta cần, từng bước một. Chúng ta sẽ bắt đầu với một đường cong chữ S kép, như sau:
+
+![DoubleSVurve]({{ site.baseurl }}/assets/images/DoubleSVurve.png)
+
+Ở đây, chúng ta có một đường chi tiêu quen thuộc, được hiển thị bằng màu đen, đang được theo dõi so với quy mô đô la ở phía bên phải của biểu đồ. Chúng ta cũng có một đường màu xanh lá cây cho phạm vi đã hoàn thành (các tính năng được xây dựng cho đến nay), đang được theo dõi dựa trên thang điểm câu chuyện ở phía bên trái.
+
+Độ dốc của hình màu xám cho biết vận tốc của đội. Ở những nơi có độ dốc lớn, nhóm nghiên cứu có thể phát triển rất nhiều điểm câu chuyện (story point) trong một thời gian ngắn. Ở những nơi bằng phẳng, tiến độ của họ rất chậm. (các khái niệm agile về vận tốc và điểm câu chuyện sẽ được giải thích ở chương 4, 5.)
+
+Đối với bước tiếp theo trong việc xây dựng biểu đồ của chúng ta, chúng ta sẽ thêm nền hiển thị các khu vực chức năng của dự án, như sau:
+
+![ScopeCostSchedulePerformance]({{ site.baseurl }}/assets/images/ScopeCostSchedulePerformance.png)
+
+Với nền hiển thị mới này, chúng ta có thêm rất nhiều thông tin. Chúng ta không chỉ có thể thấy rằng chỉ hơn 1000 điểm chức năng đã được hoàn thành, mà các thành phần cấu hình và kho của hệ thống cũng đã được xây dựng và nhóm hiện đang làm việc trên phần phạm vi của Bán hàng. Ngoài ra, chúng ta cũng có thể thấy dễ dàng rằng phạm vi đó được thêm vào phần Bán hàng của hệ thống vào tháng Hai. Vì sự thay đổi này đã làm tăng tổng phạm vi dự án (về điểm cốt truyện), tất cả các khu vực chức năng sau khi Bán hàng đều có một bước tiến để phản ánh sự thay đổi đó.
+
+Bây giờ, chúng ta có một biểu đồ hiển thị phạm vi, lịch biểu và hiệu suất chi phí cho đến nay, nhưng những gì chúng ta đang thiếu là bất kỳ dự báo nào cho chúng ta biết liệu chúng ta đang đi trước hay chậm so với ngân sách và lịch trình dự đoán của mình. Vì vậy, trong bước tiếp theo, chúng ta sẽ thêm các phép chiếu vào biểu đồ, để nó trông như sau:
+
+![ScopeCostSchedulePerformance&Projections]({{ site.baseurl }}/assets/images/ScopeCostSchedulePerformance&Projections.png)
+
+Bày giờ, chúng ta có thể thấy tiến độ thực tế của dự án như thế nào so với hiệu suất dự kiến - hiện tại trong dự án mẫu của chúng ta, chúng ta đã suất một chút, nhưng chúng ta đang đi trước trong việc xây dựng phạm vi. Với bước này, bây giờ chúng ta có một biểu đồ có thể được sử dụng để quản lý giá trị kiếm được linh hoạt, vì nó cung cấp các giá trị và chỉ số giống như EVM, nhưng mô tả chúng một cách trực quan, như được hiển thị trong hình tiếp theo.
+
+![visualToolForEVMMetrics&Projections]({{ site.baseurl }}/assets/images/visualToolForEVMMetrics&Projections.png)
+
+Sơ đồ trên cho thấy các số liệu EVM truyền thống như chỉ số hiệu suất lịch trình (SPI) và chỉ số hiệu suất chi phí (CPI) có thể được dịch sang các thuật ngữ Agile như thế nào? Ví dụ:
+
+- Chúng ta đã lên kế hoạch hoàn thành 30 điểm chức năng trong lần lặp cuối cùng, nhưng chúng ta chỉ hoàn thành 25 điểm. Để tìm SPI của chúng ta, chia 25 cho 30 thu được kết quả SPI = 0.83. Điều này cho chúng ta biết rằng chúng ta chỉ làm việc với mức 83% so với kế hoạch.
+
+- CPI là giá trị nhận được (EV, hoặc giá trị của các tính năng đã hoàn thành) tính đến thời điểm hiện tại chia cho chi phí thực tế (AC) tính đến thời điểm hiện tại. Vì vậy, trong sơ đồ trên, CPI = $2,200,000 / $2,800,000 = 0.79. Điều này có nghĩa là chúng ta chỉ nhận được 79 xu trên 1$ so với những gì cũng đã dự đoán.
