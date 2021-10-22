@@ -25,7 +25,7 @@ hidden: false
     <h6>A Scrum Master is responsible not only for enforcing the rules of Scrum but also enacting the five values of Scrum. Which of the following statements would properly communicate the Scrum value of “commitment” to the team?</h6>
   </div>
 
-  <div class="text-box">
+  <div class="headingAnswer">
     <!-- Answer A -->
     <div class="flip">
       <div class="flipContent">
@@ -35,6 +35,7 @@ hidden: false
         <div class="back">Correct</div>
       </div>
     </div>
+    <br class="clear" />
     <!-- Answer B -->
     <div class="flip">
       <div class="flipContent">
