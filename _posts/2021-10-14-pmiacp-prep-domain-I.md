@@ -15,7 +15,6 @@ hidden: false
 <div id="titleBlock" style="text-align: center;">
   <h4 style="margin-bottom: 0px;"> PREP TEST QUESTION - DOMAIN I - PART 1</h4>
   <hr style="width: 50%;">
-  
 </div>
 
 <!-- QUESTION -->
@@ -65,7 +64,8 @@ hidden: false
     </div>
     <!-- Note--> 
     <div class="text-box-note">
-      <h6>Note: N/A</h6>
+      <h6>Note: The Scrum value of commitment states ‘Because we have great control over our own destiny, we are more committed to success’
+The correct answer is: Because we have great control over our own destiny, we are more committed to succes</h6>
     </div>
   </div>
 
@@ -117,7 +117,9 @@ hidden: false
     </div>
     <!-- Note--> 
     <div class="text-box-note">
-      <h6>Note: N/A</h6>
+      <h6>Note: All answer choices listed are characteristics of Kanban and three of these are considered characteristics of agile in general. However, one limitation of Kanban, which is in conflict with the best agile practices, is its reliance on staff specialization in each phase, while agile preaches for generalizing specialists. Some argue that this may be considered a reason why Kanban is not considered agile ‘enough’.
+      The correct answer is: Kanban relies on staff specialization in each phase
+</h6>
     </div>
   </div>
 
@@ -169,7 +171,8 @@ hidden: false
     </div>
     <!-- Note--> 
     <div class="text-box-note">
-      <h6>Note: N/A</h6>
+      <h6>Note: There is no evidence that the team is indeed behind schedule. It is just the product owner’s concern. However, concerns should not be ignored. Therefore, the best course of action for the Scrum Master to confirm or reject the concern of the product owner and make sure that relevant information radiators are up to date.
+      The correct answer is: Ensure that the team updates information radiators</h6>
     </div>
   </div>
 
@@ -221,7 +224,8 @@ hidden: false
     </div>
     <!-- Note--> 
     <div class="text-box-note">
-      <h6>Note: N/A</h6>
+      <h6>Note: Based on the information described in the question, there is no point to continue the debate. This technical meeting is supposed to be the last meeting in the series. It was time to make a decision. While not ideal, this answer is the best option among the choice given.
+      The correct answer is: Select a technical approach and make a decision</h6>
     </div>
   </div>
 
@@ -274,7 +278,8 @@ hidden: false
     </div>
     <!-- Note--> 
     <div class="text-box-note">
-      <h6>Note: N/A</h6>
+      <h6>Note: The scenario emphasized the change management process, flexibility, welcoming, and accommodating changes while including the features that represented the highest value to the client. While the scenario does not explicitly mention the original plan that was not followed, of the choices provided, responding to change over following a plan best addresses the question asked and is, therefore, the best answer to the question asked.
+The correct answer is: Responding to change over following a plan</h6>
     </div>
   </div>
 
@@ -326,7 +331,8 @@ hidden: false
     </div>
     <!-- Note--> 
     <div class="text-box-note">
-      <h6>Note: N/A</h6>
+      <h6>Note: For the situation described, Focus has the largest impact on the value of the product delivered to the client
+The correct answer is: Focus, by working on only a few things at a time</h6>
     </div>
   </div>
 
@@ -378,7 +384,8 @@ hidden: false
     </div>
     <!-- Note--> 
     <div class="text-box-note">
-      <h6>Note: N/A</h6>
+      <h6>Note: The product owner needs to be educated on the importance of participating in the team’s events. As the customer representative, the product owner needs to be involved to ensure success in the project.
+The correct answer is: Coach the product owner on the importance of participating in the team events</h6>
     </div>
   </div>
 
@@ -430,7 +437,8 @@ hidden: false
     </div>
     <!-- Note--> 
     <div class="text-box-note">
-      <h6>Note: N/A</h6>
+      <h6>Note: This is the correct explanation of continuous integration
+The correct answer is: Small batches of the source code are checked in, the control system initiates a full build, a suite of automated is run, and developer is notified electronically of any code compilation failures</h6>
     </div>
   </div>
 
@@ -482,7 +490,8 @@ hidden: false
     </div>
     <!-- Note--> 
     <div class="text-box-note">
-      <h6>Note: N/A</h6>
+      <h6>Note: Adding WIP limits reduces waste and increases value being delivered.
+The correct answer is: The team should set an upper limit on the work in progress to reduce waste</h6>
     </div>
   </div>
 
