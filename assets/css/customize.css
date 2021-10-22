@@ -1,16 +1,49 @@
 
+.heading {
+    background-color: #FF9100;
+    color: white;
+    padding: 10px 10px;
+    font-size: 40px;
+    text-align: left;
+    width: 100%;
+    word-break: break-word;
+}
+
+.headingAnswer { 
+  padding: 10px 10px;
+  font-size: 15px;
+  text-align: left;
+  width: 100%;
+  word-break: break-word;
+  height: auto;
+}
+
+.clear {
+  clear: both; 
+}
+
+.text-box {
+    /* padding:10px; */
+    text-align: left;
+}
+
+.text-box-note {
+  padding:10px;
+  text-align: left;
+}
+
 .flip {
   width: 100%;
-  height: 75px;
+  height: auto;
   float: left;
   perspective: 500px;
   margin: 10px 0px;
 }
 
 .flipContent {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
-  height: 75px;
+  height: auto;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
 
   transition: transform 1s;
@@ -24,8 +57,8 @@
 
 .front,
 .back {
-  position: absolute;
-  height: 75px;
+  /* position: absolute; */
+  /* height: auto; */
   width: 100%;
   background: white;
   /* line-height: 300px; */
@@ -41,24 +74,4 @@
   background: #03446A;
   color: white;
   transform: rotateY( 180deg );
-}
-
-.heading {
-    background-color: #FF9100;
-    color: white;
-    padding: 10px 10px;
-    font-size: 40px;
-    text-align: left;
-    width: 100%;
-    word-break: break-word;
-}
-
-.text-box {
-    /* padding:10px; */
-    text-align: left;
-}
-
-.text-box-note {
-  padding:10px;
-  text-align: left;
 }
