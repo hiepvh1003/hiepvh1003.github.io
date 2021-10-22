@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PMI ACP - Prepare Test Question - Domain I"
+title:  "PMI ACP Prep Test Question - Domain I - Part 1"
 author: hiepvh
 categories: [ PMI ACP ]
 tags: [ pmi-acp, pm ]
@@ -13,7 +13,7 @@ hidden: false
 
 <!-- Title Block -->
 <div id="titleBlock" style="text-align: center;">
-  <h4 style="margin-bottom: 0px;"> PREP TEST QUESTION - DOMAIN I </h4>
+  <h4 style="margin-bottom: 0px;"> PREP TEST QUESTION - DOMAIN I - PART 1</h4>
   <hr style="width: 50%;">
   
 </div>
@@ -71,6 +71,7 @@ hidden: false
 
 </div>
 
+<!-- QUESTION -->
 <div class="text-card">
   <div class="heading">
     <h5>Question 2</h5>
@@ -174,6 +175,367 @@ hidden: false
 
 </div>
 
+<!-- QUESTION -->
+<div class="text-card">
+  <div class="heading">
+    <h5>Question 4</h5>
+    <h6>Before the start of the first iteration, the team held the final discussion in the series of meetings intended to select a technical approach among many suggested approaches for the product development. The meeting has been running late and eventually got stuck as the meeting participants did not seem to agree on anything. What is the best action for the team lead to take in this situation?</h6>
+  </div>
+
+  <div class="text-box">
+    <!-- Answer A -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          A. Suggest an architectural spike to explore the approach
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer B -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          B. Set another meeting, but this with external experts
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer C -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          C. Select a technical approach and make a decision
+        </div>
+        <div class="back">Correct</div>
+      </div>
+    </div>
+    <!-- Answer D -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          D. Encourage the discussion until a consensus is reached
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Note--> 
+    <div class="text-box-note">
+      <h6>Note: N/A</h6>
+    </div>
+  </div>
+
+</div>
 
 
-<br/>
+<!-- QUESTION -->
+<div class="text-card">
+  <div class="heading">
+    <h5>Question 5</h5>
+    <h6>An agile team used a simple change management process where the product owner could reprioritize user stories based on the customer feedback. New user stories would need to be the same relative size as those being replaced in order to maintain a fixed budget and schedule. The final product included the highest value customer features and the project was completed on schedule and budget. What Agile Manifesto value did the team emphasize to ensure project success?</h6>
+  </div>
+
+  <div class="text-box">
+    <!-- Answer A -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          A. Working software over comprehensive documentation
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer B -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          B. Individuals and interactions over processes and tools
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer C -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          C. Responding to change over following a plan
+        </div>
+        <div class="back">Correct</div>
+      </div>
+    </div>
+    <!-- Answer D -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          D. Customer collaboration over contract negotiation
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Note--> 
+    <div class="text-box-note">
+      <h6>Note: N/A</h6>
+    </div>
+  </div>
+
+</div>
+
+<!-- QUESTION -->
+<div class="text-card">
+  <div class="heading">
+    <h5>Question 6</h5>
+    <h6>A Scrum Master is helping the team understand and embrace the five Scrum values to ensure the team’s and the project’s health and success. The product owner has brought the team a daunting amount of user stories that need to be completed during the current project. Which specific Scrum value should the Scrum Master emphasize with the team to deliver the most valuable items to the client as quickly as possible?</h6>
+  </div>
+
+  <div class="text-box">
+    <!-- Answer A -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          A. Commitment, by having control over their own destiny
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer B -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          B. Focus, by working on only a few things at a time 
+        </div>
+        <div class="back">Correct</div>
+      </div>
+    </div>
+    <!-- Answer C -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          C. Respect, by working together and sharing successes and failures
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer D -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          D. Courage, by feeling supported and having more resources at their disposal
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Note--> 
+    <div class="text-box-note">
+      <h6>Note: N/A</h6>
+    </div>
+  </div>
+
+</div>
+
+<!-- QUESTION -->
+<div class="text-card">
+  <div class="heading">
+    <h5>Question 7</h5>
+    <h6>The product owner for an agile project has another project at the same time. As a result, the product owner spends very little time with the development team and the product is suffering. What should an agile practitioner on this team do first?</h6>
+  </div>
+
+  <div class="text-box">
+    <!-- Answer A -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          A. Coach the product owner on the importance of participating in the team events
+        </div>
+        <div class="back">Correct</div>
+      </div>
+    </div>
+    <!-- Answer B -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          B. Have the Scrum Master fill a dual role as Agile encourage generalizing specialists
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer C -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          C. Request a new product owner be assigned to the project
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer D -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          D. Escalate the issue to the project sponsor
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Note--> 
+    <div class="text-box-note">
+      <h6>Note: N/A</h6>
+    </div>
+  </div>
+
+</div>
+
+<!-- QUESTION -->
+<div class="text-card">
+  <div class="heading">
+    <h5>Question 8</h5>
+    <h6>An experienced software developer is working with a less experienced developer in pair programming setup. What should the more experienced developer say to less experienced developer to best explain continuous integration?</h6>
+  </div>
+
+  <div class="text-box">
+    <!-- Answer A -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          A. The source code is compiled in the control system at the end of the iteration, where it will undergo quality by the developers and the QA team prior to the next iteration
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer B -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          B. The source code is reviewed, line by line, by the more experienced partner in a pair programming setup and rewritten prior to being entered into the control system
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer C -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          C. The source code is compiled in the control system at the end of a release and then tested just before release dates approach at the “last responsible moment”
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer D -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          D. Small batches of the source code are checked in, the control system initiates a full build, a suite of automated is run, and developer is notified electronically of any code compilation failures
+        </div>
+        <div class="back">Correct</div>
+      </div>
+    </div>
+    <!-- Note--> 
+    <div class="text-box-note">
+      <h6>Note: N/A</h6>
+    </div>
+  </div>
+
+</div>
+
+<!-- QUESTION -->
+<div class="text-card">
+  <div class="heading">
+    <h5>Question 9</h5>
+    <h6>During the last few iterations of the agile project, the team members found themselves with many completed user stories. One team member suggested imposing an upper limit on the amount of work that the team takes on at any point during an iteration. What should an agile practitioner advise?</h6>
+  </div>
+
+  <div class="text-box">
+    <!-- Answer A -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          A. The team should set an upper limit on the work in progress to reduce waste
+        </div>
+        <div class="back">Correct</div>
+      </div>
+    </div>
+    <!-- Answer B -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          B. Consult the customer before setting an upper limit on the work in progress as the project goal is to add value to the customer
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer C -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          C. Only the sponsor can approve limits that lower resource utilization and may lead to wasting project funds
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer D -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          D. The team should not set an upper limit on the work in progress because that would reduce the team’s velocity
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Note--> 
+    <div class="text-box-note">
+      <h6>Note: N/A</h6>
+    </div>
+  </div>
+
+</div>
+
+<!-- QUESTION -->
+<div class="text-card">
+  <div class="heading">
+    <h5>Question 10</h5>
+    <h6>Team members are complaining that they can’t get their work done because the new sponsor, who is not familiar with agile practices, keeps contacting them project details. How should the Scrum Master address this?</h6>
+  </div>
+
+  <div class="text-box">
+    <!-- Answer A -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          A. Tell the team that the Scrum Master’s permission is required before discussing project details with the sponsor
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer B -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          B. Meet with the product owner and ask for their assistance in dealing with the sponsor
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Answer C -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          C. Contact the sponsor and request that they should direct all questions to the Scrum Master
+        </div>
+        <div class="back">Correct</div>
+      </div>
+    </div>
+    <!-- Answer D -->
+    <div class="flip">
+      <div class="flipContent">
+        <div class="front">
+          D. Ask one of the team members to serve as a speaks person so the others can get their work done
+        </div>
+        <div class="back">NOOOOOOOO</div>
+      </div>
+    </div>
+    <!-- Note--> 
+    <div class="text-box-note">
+      <h6>Note: N/A</h6>
+    </div>
+  </div>
+
+</div>
