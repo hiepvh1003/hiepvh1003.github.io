@@ -15,7 +15,6 @@ hidden: false
 <div id="titleBlock" style="text-align: center;">
   <h4 style="margin-bottom: 0px;"> PREP TEST QUESTION - DOMAIN I - PART 1</h4>
   <hr style="width: 50%;">
-  
 </div>
 
 <!-- QUESTION -->
