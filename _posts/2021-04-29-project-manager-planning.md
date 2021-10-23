@@ -6,7 +6,7 @@ categories: [ BrSE ]
 tags: [ PM ]
 image: assets/images/planning.jpg
 description: "Quản lý dự án là nghề làm dâu trăm họ, nhưng niềm vui là được học hỏi mỗi ngày, mỗi giờ, mỗi thời điểm."
-featured: true
+featured: false
 hidden: false
 # rating: 4.5
 ---

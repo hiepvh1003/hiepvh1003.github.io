@@ -17,6 +17,12 @@ hidden: false
   <hr style="width: 50%;">
 </div>
 
+{:#tblContent}
+| PREP TEST QUESTION - DOMAIN I |
+|-----|
+| [PART 1]({{ site.baseurl }}/pmiacp-prep-domain-I-part-1) |
+| [PART 2]({{ site.baseurl }}/pmiacp-prep-domain-I-part-2) |
+
 <!-- QUESTION -->
 <div class="text-card">
   <div class="heading">
