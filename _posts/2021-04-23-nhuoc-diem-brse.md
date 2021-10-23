@@ -6,7 +6,7 @@ categories: [ BrSE ]
 tags: []
 image: assets/images/disadvantages.jpg
 description: "Đây là một cái notes từ Group Tiếng Nhật cho BrSE"
-featured: true
+featured: false
 hidden: false
 rating: 4.5
 ---
