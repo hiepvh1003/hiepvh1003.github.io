@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PMI ACP Prep Test Question - Domain I - Part 1"
+title:  "PMI ACP Prep Test Question - Domain I - Part 2"
 author: hiepvh
 categories: [ PMI ACP ]
 tags: [ pmi-acp, pm ]
@@ -20,8 +20,9 @@ hidden: false
 {:#tblContent}
 | PREP TEST QUESTION - DOMAIN I |
 |-----|
-| [PART 1]({{ site.baseurl }}/pmiacp-prep-domain-I-part-1) |
-| [PART 2]({{ site.baseurl }}/pmiacp-prep-domain-I-part-2) |
+| [PREP TEST QUESTION - DOMAIN I - PART 1]({{ site.baseurl }}/pmiacp-prep-domain-I-part-1) |
+| [PREP TEST QUESTION - DOMAIN I - PART 2]({{ site.baseurl }}/pmiacp-prep-domain-I-part-2) |
+| [PREP TEST QUESTION - DOMAIN I - PART 3]({{ site.baseurl }}/pmiacp-prep-domain-I-part-3) |
 
 <!-- QUESTION -->
 <div class="text-card">
