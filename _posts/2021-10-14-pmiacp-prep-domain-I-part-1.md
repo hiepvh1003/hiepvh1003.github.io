@@ -23,6 +23,9 @@ hidden: false
 | [PREP TEST QUESTION - DOMAIN I - PART 1]({{ site.baseurl }}/pmiacp-prep-domain-I-part-1) |
 | [PREP TEST QUESTION - DOMAIN I - PART 2]({{ site.baseurl }}/pmiacp-prep-domain-I-part-2) |
 | [PREP TEST QUESTION - DOMAIN I - PART 3]({{ site.baseurl }}/pmiacp-prep-domain-I-part-3) |
+| [PREP TEST QUESTION - DOMAIN I - PART 4]({{ site.baseurl }}/pmiacp-prep-domain-I-part-4) |
+| [PREP TEST QUESTION - DOMAIN I - PART 5]({{ site.baseurl }}/pmiacp-prep-domain-I-part-5) |
+| [PREP TEST QUESTION - DOMAIN I - PART 6]({{ site.baseurl }}/pmiacp-prep-domain-I-part-6) |
 
 <!-- QUESTION -->
 <div class="text-card">
