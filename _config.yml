@@ -11,6 +11,7 @@ mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a
 include: ["_pages"]
 permalink: /:title/
 repository: "hiepvh1003/hiepvh1003.github.io"
+github: [metadata]
 
 # Authors
 authors:
