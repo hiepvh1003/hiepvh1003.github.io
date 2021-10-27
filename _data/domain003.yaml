@@ -1,0 +1,606 @@
+{
+  questions: [
+    {
+    quesNo: '1',
+    content: 'A member of an agile project team gathered data about the project and discovered an opportunity for improvement. What is the best way for the team member to implement the change? Select one:',
+    A: ' A. Send an email to the manager to report the observation and ask for permission to make the change',
+    B: 'B. Make the change, see what happens, then report the results during the retrospective meeting',
+    C: 'C. Inform the team of the opportunity for improvement and then make he change once the team supports it ',
+    D: 'D. Ask the scrum master for permission to make the change and then report the results during a post-mortem',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '2',
+    content: 'An agile team needs to produce a simple visual representation of the user interface that will display the content, layout, and intended functionality of a new community center website. Which of the following should they develop and demonstrate to the customer or product owner for feedback? Select one:',
+    A: 'A. A mock-up',
+    B: 'B. A screen design ',
+    C: 'C. A prototype',
+    D: 'D. A wireframe',
+    note: 'NA',
+    answer: 'D'
+    },
+    {
+    quesNo: '3',
+    content: 'Agile team members understand that if by the end of the sprint, the product increment that they are building does not meet the criteria specified at the beginning of the sprint that their work is not included in the velocity for the current sprint. What are these criteria? Select one:',
+    A: 'A. Testing and usability',
+    B: 'B. Retrospective',
+    C: 'C. Definition of done ',
+    D: 'D. Estimate to complete',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '4',
+    content: 'Agile project stakeholders are discussing the success criteria of the new product to be developed by the project for their customer. They disagree on whether meeting the customer requirements, or product architectural requirements, or the profitability requirements of the internal stakeholders determine the product’s success. The best advice an agile practitioner can give this situation is that the product’s success is achieved by: Select one:',
+    A: 'A. Meeting both the expectations and the requirements of the customer and all project stakeholders ',
+    B: 'B. Meeting the requirements of the customer and all project stakeholders',
+    C: 'C. Meeting the profitability requirements of the internal stakeholders',
+    D: 'D. Meeting the customer requirements, which are the most important criteria',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '5',
+    content: 'A scrum team is midway into the current sprint when a stakeholder approaches the scrum master and requests that a new, urgent, and potentially complex mandatory compliance-related requirement be added to the current sprint backlog. Which of the following would be the scrum master’s best response? Select one:',
+    A: 'A. Add the new requirement to the product backlog so that product owner can review it later for possible inclusion in a future sprint',
+    B: 'B. Discuss the new requirement with the product owner, who might then cancel the sprint ',
+    C: 'C. Add the new requirement to the current sprint backlog and ask the team to start working on it immediately',
+    D: 'D. Inform the stakeholder that the sprint is currently underway and that new requirements cannot be added without written approval from the sponsor',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '6',
+    content: 'During a meeting, the product owner restated the product vision, described the target user group, the business goals, and main features to be delivered in the upcoming releases. The team created a product roadmap, a visual depiction of the features to be delivered in each product release. Which of the following best describes the purpose of the meeting? Select one:',
+    A: 'A. Establish a shared release vision among the stakeholders ',
+    B: 'B. Establish a shared project vision among the stakeholders',
+    C: 'C. Determine an initial estimate of scope, schedule, and cost',
+    D: 'D. Establish a shared product vision among the stakeholders',
+    note: 'NA',
+    answer: 'D'
+    },
+    {
+    quesNo: '7',
+    content: 'After an agile project chartering session, a stakeholder asks when the first opportunity would be to view the scrum team’s progress on the development of the new application. Which scrum event should the product owner suggest that the stakeholder attend in the first sprint, so they can view how the team and the project are progressing? Select one:',
+    A: 'A. Sprint review meeting ',
+    B: 'B. Sprint planning meeting',
+    C: 'C. Daily scrum meeting',
+    D: 'D. Sprint retrospective meeting',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '8',
+    content: 'Due to new cost reduction efforts undertaken by the company, a scrum team who used to be co-located in the same office will now work from home. Which would most likely be retained when the team members switch from physical to virtual co-location? Select one:',
+    A: 'A. Tacit Knowledge',
+    B: 'B. Face-to-face communication',
+    C: 'C. Osmotic communication',
+    D: 'D. Daily scrum ',
+    note: 'NA',
+    answer: 'D'
+    },
+    {
+    quesNo: '9',
+    content: 'A new senior manager has been assigned to oversee several projects. The manager contacts an agile project leader and asks for a monthly report that summarizes the project status and projected finish date. How should the project leader respond to this request? Select one:',
+    A: 'A. Post a project burndown chart in a visible location and recommend use this to monitor the project progress ',
+    B: 'B. Suggest the manager periodically come to daily standups',
+    C: 'C. Create an intranet site that has a sophisticated dashboard for progress status reporting',
+    D: 'D. Provide the detailed status report requested by the manager',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '10',
+    content: 'After checking information radiators, a project sponsor has expressed concern about the slow progress of the project in comparison to a similar project executed by the same team a year ago using a waterfall approach. The scrum master decides that the sponsor should be invited to participate in one of the scrum meetings to learn more about the project. According to scrum best practices, it would be most appropriate for the sponsor to participate in which of the following scrum meetings? Select one:',
+    A: 'A. Sprint review meeting ',
+    B: 'B. Daily scrum meeting',
+    C: 'C. Sprint planning meeting',
+    D: 'D. Sprint retrospective meeting',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '11',
+    content: 'There are three key elements that agile teams can use to analyze the product and create a backlog. Which of the following activities represents one of the key elements? Select one:',
+    A: 'A. Breaking the value stream map down into individual activities and steps ',
+    B: 'B. Ensuring that user stories have interdependencies with other stories',
+    C: 'C. Identifying the roles, or personas, that exist in the customer environment',
+    D: 'D. Aggregating user stories into features',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '12',
+    content: 'The team is working on an application for gathering customer feedback on the company’s top-selling products. The project is half way done when the CEO announced that a new VP of Product Development and marketing has been hired. As far as the scrum master is aware, the executive sponsor and product owner for the project remains unchanged. What should the scrum master do next? Select one:',
+    A: 'A. Engage the executive sponsor in conversation to understand the impact of this organizational change on the project ',
+    B: 'B. Do nothing, the executive sponsor for the project remains unchanged',
+    C: 'C. Engage the VP of product Development and Marketing by inviting them to the sprint retrospective',
+    D: 'D. Do nothing, the project stakeholders have already been identified and the project is half way done',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '13',
+    content: 'The product owner has asked you how many story points the team would like to include in the next sprint. What should you do next? Select one:',
+    A: 'a. Quote the least velocity on the last five sprints.',
+    B: 'b. Determine the number of story points available on the backlog.',
+    C: 'c. Calculate the average velocity. ',
+    D: 'd. Quote the number of story points available divided by number of stories.',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '14',
+    content: 'During agile chartering sessions, the participants usually go through the product vision, project scope and boundaries, and release planning activities. What else is done at these sessions? Select one:',
+    A: 'A. As new technologies are identified, the architectural spike is scheduled',
+    B: 'B. As new risks are identified, the risk burndown chart is created',
+    C: 'C. As new user stories are identified, the backlog is updated',
+    D: 'D. As new stakeholders are identified, the stakeholder register is updated ',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '15',
+    content: 'After several sprints, the productivity of a scrum team had dropped. A new stakeholder has recently been involved and has frequently been contacting the development team to request information and question their methods. Assuming this stakeholder is the main reason for productivity drop, what is the best course of action for the scrum master to take to address this issue? Select one:',
+    A: 'A. Provide the team with things that will motivate them to be more productive',
+    B: 'B. Communicate and recommunicate the project vision',
+    C: 'C. Remove impediments to progress',
+    D: 'D. Isolate the team from outside influence ',
+    note: 'NA',
+    answer: 'D'
+    },
+    {
+    quesNo: '16',
+    content: 'Which of the following Agile methods is openly credited as the first Agile method that contains a specific component no other methods have: the focus on delivering multiple measurable value requirements to stakeholders? Select one:',
+    A: 'a. Extreme Programming',
+    B: 'b. Evolutionary Value Delivery (EVO) ',
+    C: 'c. Continuous Integration',
+    D: 'd. Disciplined Agile (DA)',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '17',
+    content: 'The sponsor has informed the agile project leader that the project will have a new influential stakeholder that is not familiar with agile. What should the project leader do first in this situation? Select one:',
+    A: 'A. Determine the type or classification of stakeholder',
+    B: 'B. Invite the stakeholder by email to the next sprint retrospective to meet the team',
+    C: 'C. Schedule a meeting with the new project stakeholder ',
+    D: 'D. Discuss the new stakeholder with the team',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '18',
+    content: 'You are an electrical engineer with extensive experience in managing transmission projects but limited experience with electronic design projects. However, in a stretch assignment, you were recently transferred to another department in your company that focuses on electronic design. Furthermore, you were asked to lead the technical team of a highly important project involving both transmission and electronic design. In preparation for a meeting with your manager to discuss this opportunity, you review the initial project design brief. Due to your limited background in electronic design, a number of items in this document seem unclear to you. When you arrive at your meeting, your manager asks if you will be leading the technical team. How do you respond? Select one:',
+    A: 'a. Accept the project, but do not discuss your qualifications or lack thereof.',
+    B: 'b. State that you would like to lead the technical team, but you must disclose that your primary domain of expertise is transmission, and that you may need supplementary training in electronics design. ',
+    C: 'c. Accept the project and tell your manager that your expertise in transmission makes you an ideal technical lead on this project.',
+    D: 'd. Decline the project, citing your lack of experience in electronic design.',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '19',
+    content: 'A brainstorming session was conducted during the iteration retrospective. The team invited the stakeholders to attend and give their opinions about the previous iteration. The team needs a method to prioritize those things that were discussed and identified to be improved. Of the choices, which prioritization tool or approach would an agile practitioner suggest to prioritize the output of the team’s retrospective? Select one:',
+    A: 'A. Ask the product owner for their opinion',
+    B: 'B. Use an Ishikawa diagram',
+    C: 'C. Use a decision spectrum approach ',
+    D: 'D. Use MoSCoW prioritization scheme',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '20',
+    content: 'At the sprint review meeting, an agile team is demonstrating the product increment developed during the sprint. Which of the following is most important for the team to define ahead of time in order to ensure the product increment is potentially shippable to the customer? Select one:',
+    A: 'A. Definition of conditions of satisfaction',
+    B: 'B. Definition of done ',
+    C: 'C. Definition of complete',
+    D: 'D. Definition of acceptance criteria',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '21',
+    content: 'Which of the following is most likely going to help foster collaboration between the customer and the team on an agile project? Select one:',
+    A: 'A. Welcoming changing customer requirements, even latte in development of the product ',
+    B: 'B. Building projects around motivated individuals and trusting them to get the job done',
+    C: 'C. Ensuring that the customer is co-located with the team and able to communicate face-to-face',
+    D: 'D. Ensuring that the customer and the team are able to maintain a constant pace indefinitely',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '22',
+    content: 'How would an agile practitioner correctly rank the richness, or temperature, of the following communication channels from cold to hot?\ Select one:',
+    A: 'A. Two people communicating via email, two people at a whiteboard, two people on the phone',
+    B: 'B. Two people communicating via email, two people on the phone, two people at a whiteboard ',
+    C: 'C. Two people at a whiteboard, two people on the phone, two people communicating via email',
+    D: 'D. Two people on the phone, two people communicating via email, two people at a whiteboard',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '23',
+    content: 'An agile team has created a set of team agreements for their current project. When would the review of team agreements as a team have the greatest impact? Select one:',
+    A: 'A. During sprint zero of every release',
+    B: 'B. During the adjourning stage of team development ',
+    C: 'C. During daily stand-up meetings',
+    D: 'D. During pair programming',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '24',
+    content: 'Which of the following organizational improvement models consist of five phases: initiating, diagnosing, establishing, acting and learning? Select one:',
+    A: 'a. CMMI',
+    B: 'b. PMBOK',
+    C: 'c. Malcom Baldrige',
+    D: 'd. IDEAL ',
+    note: 'NA',
+    answer: 'D'
+    },
+    {
+    quesNo: '25',
+    content: 'The program management office wants to see if their agile teams can use social-based communications. Which of the following is an appropriate way for a collocated team to use social media? Select one:',
+    A: 'A. Using social media as an information radiator rather than displaying hard copies',
+    B: 'B. Using social media as a conflict resolution tool',
+    C: 'C. Using social media to blast out all communications to the team ',
+    D: 'D. Gathering relevant customer feedback via social media',
+    note: 'NA',
+    answer: 'D'
+    },
+    {
+    quesNo: '26',
+    content: 'During a meeting to make decisions about project goals and product features, it was observed that some project stakeholders did not express whether they were for or against the inclusion of particular goals for their agile. Which of the following tools could be used to help elicit a response from all participants in order to help ensure a productive discussion? Select one:',
+    A: 'A. Story points',
+    B: 'B. Rolling wave planning',
+    C: 'C. Convergence',
+    D: 'D. Decision spectrum ',
+    note: 'NA',
+    answer: 'D'
+    },
+    {
+    quesNo: '27',
+    content: 'To engage the newly identified stakeholders in the project at the earliest opportunity, the scrum master suggested inviting them to the upcoming sprint review meeting to demonstrate to the stakeholders that the team is moving in the right direction and get feedback from the stakeholders about what the team has done. Which of the following is the third reason for inviting the stakeholders to the sprint review meeting? Select one:',
+    A: 'A. To reflect on the team performance ',
+    B: 'B. To prioritize high-risk user stories for the next sprint',
+    C: 'C. To reprioritize the release backlog',
+    D: 'D. To discuss what is to be worked on in the next sprint',
+    note: 'NA',
+    answer: 'D'
+    },
+    {
+    quesNo: '28',
+    content: 'An experienced agile practitioner is introducing agile value to a newly formed team. The practitioner explains that agile approaches are value-driven in two ways: one way is focusing on features that provide the highest value to the customer. The other way is focusing on the practices that: Select one:',
+    A: 'A. Encourage use of the best technology',
+    B: 'B. Endorse courage, respect, and communication',
+    C: 'C. Respect practitioners from different cultures',
+    D: 'D. Promote company’s success and prosperity ',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '29',
+    content: 'A new senior manager who has never been exposed to agile practices, asks an agile practitioner about how servant leadership works to deliver results on an agile project. Which of the following would be the most appropriate response to the manager’s inquiry? Select one:',
+    A: 'A. Managing the team throughout the software development lifecycle',
+    B: 'B. Clearing impediments to progress that could lower team productivity ',
+    C: 'C. Shielding the team from interruptions that are part of the project',
+    D: 'D. Demonstrating empathy and support by encouraging the team member to secure their own resources',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '30',
+    content: 'The product owner is disappointed that no business value has been delivered by the team in the recent iteration, which resulted in a loss of interest from some business stakeholders. What should the team lead say to the product owner in the team’s defense? Select one:',
+    A: 'A. Delivering business value in each iteration is not so important',
+    B: 'B. The team spent time analyzing issues to mitigate project risks ',
+    C: 'C. In agile, product owners have no right to criticize teams',
+    D: 'D. Keeping the stakeholders engaged is not so important',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '31',
+    content: 'A team is trying to determine whether to implement use cases or user stories for the development effort for the new video game system. Which of the following best describe the relationship between use cases and user stories? Select one:',
+    A: 'A. User stories do not contain data or user interface design information and can consist of single or multiple use cases',
+    B: 'B. Use cases contain data user interface design information, and always capture single user stories',
+    C: 'C. Use cases do not contain data and user interface design information and may contain multiple user stories ',
+    D: 'D. Both use cases and user stories contain data or user interface design information',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '32',
+    content: 'An agile team is creating a model of a web application to be developed incrementally using scrum and XP agile methodologies. The team members are discussing the model with the project stakeholders in order to get their feedback and ensure that the model is balanced between being “barely sufficient” on the one hand, while meeting customer’s expectations on the other. Which of the following modeling techniques is the team using? Select one:',
+    A: 'A. Scrum modeling technique',
+    B: 'B. Incremental modeling technique ',
+    C: 'C. Agile modeling technique',
+    D: 'D. XP modeling technique',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '33',
+    content: 'Early in the design process of a new web site development project, an agile practitioner uses simple prototypes that demonstrate to the client how the webpages flow together. Which of the following tools can the agile practitioner utilize to help clients visualize what the website will look like when their end users navigate through the web pages? Select one:',
+    A: 'A. Personas',
+    B: 'B. Fishbone diagrams',
+    C: 'C. Wireframes ',
+    D: 'D. Product roadmap',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '34',
+    content: 'An information radiator is more effective when it is: Select one:',
+    A: 'A. Static and High-tech',
+    B: 'B. Dynamic and high-tech',
+    C: 'C. Dynamic and low-tech',
+    D: 'D. Static and low-tech ',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '35',
+    content: 'A product owner is conducting the initial strategy meeting with the agile project team and is reviewing the agile project charter. The product owner notice that although it includes the project vision, another critical element of a typical agile charter is missing. Which information is missing from the project charter? Select one:',
+    A: 'A. Assumptions',
+    B: 'B. Success criteria',
+    C: 'C. Milestones ',
+    D: 'D. Constraints',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '36',
+    content: 'An agile team was discussing several design options sketched on the flip charts to implement a product feature that would allow students to enroll in different courses offered by the university. After the discussion, the team members were asked to provide their high-level estimates for the development of this feature. One of the team members provided an estimate that was significantly higher than everyone else’s. What tool or technique would help the team member to support their estimate? Select one:',
+    A: 'A. A data model of the many-to-many relationship between students and courses',
+    B: 'B. A burndown chart of the story points to be completed to implement the requirement',
+    C: 'C. A Kanban board showing the tasks associated with the implementation of the requirement',
+    D: 'D. The personas of the students requesting enrollment and the course instructors ',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '37',
+    content: 'A team member is new to agile and has not been accomplishing all the work required to complete user stories while reporting them finished. What key concept of agile project management is this team member not fully comprehending and is the most likely the cause for this team member to not complete their work? Select one:',
+    A: 'A. Definition of done ',
+    B: 'B. The practice of developing user stories to describe requirements',
+    C: 'C. Working software over comprehensive documentation',
+    D: 'D. Individuals and interactions over process and tools',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '38',
+    content: 'Which of the following is NOT a prime benefit of prototyping project features? Select one:',
+    A: 'a. Keeping the customer engaged ',
+    B: 'b. Clarifying user requirements',
+    C: 'c. Developing accurate estimates',
+    D: 'd. Obtaining customer feedback',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '39',
+    content: 'Communicating the product vision is one of the primary roles a servant leader performs. Which of the following would be the following would be the best way to do this? Select one:',
+    A: 'A. Present the product vision statement on the kickoff meeting',
+    B: 'B. Re-communicate the product vision at the beginning of each iteration ',
+    C: 'C. Email the product vision statement to all project stakeholders',
+    D: 'D. Display the product vision statement as an information radiator',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '40',
+    content: 'You have recently joined a new company as a project lead. While reviewing the procurement arrangements for a project you will be taking over, you see that the company is considering using one of the most expensive manufacturers to provide certain equipment required for the project. At your previous employer, you had used a different supplier for the same equipment and had paid significantly less. Without telling your boss, you now call that supplier for a quote. Have you violated the rule of keeping proprietary information confidential? Select one:',
+    A: 'a. Maybe. You need to talk to your boss first. ',
+    B: 'b. No. There is no harm in sharing the information with your current employer, because you are no longer working for your old employer.',
+    C: 'c. Yes. The supply source is proprietary information, and you should not contact the supplier.',
+    D: 'd. You have not violated any rule.',
+    note: 'NA',
+    answer: 'D'
+    },
+    {
+    quesNo: '41',
+    content: 'Which of the following skills or capabilities should agile leaders possess in order to successfully lead teams and positively influence project stakeholders? Select one:',
+    A: 'A. Encouraging team members to express their joy or frustration',
+    B: 'B. Exercising good self-control and being able to effectively empathize with others',
+    C: 'C. Making people empathize with others ',
+    D: 'D. Making decisions for the team when they cannot decide',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '42',
+    content: 'A product owner missed the last two sprint reviews. What would an agile practitioner tell the product owner about attending this event? Select one:',
+    A: 'A. Attendance is optional provided an end user can take the product owner’s place',
+    B: 'B. The product owner determines how much value was added by the development team',
+    C: 'C. The product owner can tell the team how to perform its processes better',
+    D: 'D. The product owner decides if the developed stories are acceptable ',
+    note: 'NA',
+    answer: 'D'
+    },
+    {
+    quesNo: '43',
+    content: 'In order to remove a roadblock a developer has encountered a scrum master is trying to clarify the issue as possible. During the conversation the scrum master repeats back what the developer has said by paraphrasing it and asks the developer to confirm that the scrum master heard is an accurate description of the roadblock. What technique is the scrum master using? Select one:',
+    A: 'A. Servant leadership',
+    B: 'B. Active listening ',
+    C: 'C. Emotional intelligence',
+    D: 'D. Participatory decision making',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '44',
+    content: 'During a sprint retrospective meeting, most of the agile team members were in favor of using manual tests instead of automated tests during the next sprint. The team lead opposed the idea arguing that it was against agile best practices. After long debates, despite the disagreement of the team lead, the decision was made to use the manual tests anyway. What should the team lead do next? Select one:',
+    A: 'A. Commit to the implementing the decision',
+    B: 'B. Use their authority as team lead to revert the decision',
+    C: 'C. Consult with the scrum master and the product owner ',
+    D: 'D. Escalate the issue to the project sponsor',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '45',
+    content: 'The sponsor of an agile project is going on a two-month business trip and has requested a weekly project status report. What is the best way to accommodate the sponsor’s request? Select one:',
+    A: 'A. Wait until the sponsor is back and provide them with the latest project status',
+    B: 'B. Take pictures of the information radiators and email them to the sponsor ',
+    C: 'C. Email a slideshow presentation and a spreadsheet report to the sponsor',
+    D: 'D. Speak to the sponsor over the phone to communicate the project status',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '46',
+    content: 'When is a good time for soliciting feedback on project deliverables, processes and methods? Select one:',
+    A: 'a. During daily standups.',
+    B: 'b. During demonstrations.',
+    C: 'c. Throughout the life of the project.',
+    D: 'd. During retrospectives. ',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '47',
+    content: 'An experienced scrum master is starting a new project and is currently meeting with her development team to explain that servant leadership is one of her primary responsibilities. Which of the following is the best explanation of servant leadership? Select one:',
+    A: 'A. Servant leaders coordinate shared resources and critical dependencies during the daily scrum meeting to prevent burnout by allowing individuals some down time between tasks',
+    B: 'B. Servant leaders shield the team from interruptions and help to ensure that team members have what they need to be productive constantly throughout the project ',
+    C: 'C. Servant leaders impede the team from developing software too quickly by ensuring roadblocks are in place',
+    D: 'D. Servant leaders ensure that roadblocks are identified and removed during the sprint retrospective meeting',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '48',
+    content: 'In iteration zero, the owner is facilitating a story writing workshop with the team and the project stakeholders to create initial user stories. What is the main focus of this workshop? Select one:',
+    A: 'A. To re-prioritize user stories for the first release',
+    B: 'B. To create as many user stories as possible',
+    C: 'C. To refine user stories in the product backlog',
+    D: 'D. To create user stories for the first iteration ',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '49',
+    content: 'An agile project to develop a new application has just finished its first iteration. Management has requested that the team provide a date for when the application can be launched, so they can better assess marketing and support needs. What should the team do next? Select one:',
+    A: 'A. If possible, defer estimating until after a few iterations',
+    B: 'B. Estimate based on the actual performance from a non-agile project',
+    C: 'C. Carry out an agile estimation-based spike ',
+    D: 'D. Provide a precise estimate in story points per iteration',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '50',
+    content: 'An agile team has one subject matter expert that understands the complex business rules of a legacy system that will be integrated with a new application. Agile promotes knowledge sharing among team members. Which of the following would most likely improve knowledge sharing in the team? Select one:',
+    A: 'A. Organize as a virtual team over colocation',
+    B: 'B. Encourage business rule questions be addressed by just the subject matter expert',
+    C: 'C. Ensure access to the legacy system and documents by all team members',
+    D: 'D. Forego writing of test cases for obvious success scenario ',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '51',
+    content: 'You are developing an online complaint management system. Recently the product owner has requested you to drop a feature from the current iteration plan that was earlier requested by the compliance department. What should you do? Select one:',
+    A: 'a. Arrange a meeting between the product owner and compliance.',
+    B: 'b. Drop the feature from the iteration plan and notify compliance. ',
+    C: 'c. Drop the feature from the release plan.',
+    D: 'd. Reject the change request as feature was requested by compliance.',
+    note: 'NA',
+    answer: 'B'
+    },
+    {
+    quesNo: '52',
+    content: 'Several key stakeholders have been missing from iteration reviews. What should an agile practitioner do in this case? Select one:',
+    A: 'A. Continue holding reviews without the stakeholder',
+    B: 'B. Move the review meetings to a more convenient time for the stakeholders',
+    C: 'C. Ask the product owner to provide feedback as a proxy for the stakeholders',
+    D: 'D. Coach the stakeholders on why their attendance is needed ',
+    note: 'NA',
+    answer: 'D'
+    },
+    {
+    quesNo: '53',
+    content: 'Which of the following would be the most likely reason for stories not to be sufficiently tested? Select one:',
+    A: 'A. Vague project scope',
+    B: 'B. Lack of tacit knowledge',
+    C: 'C. Poor osmotic communication',
+    D: 'D. Incomplete definition of done ',
+    note: 'NA',
+    answer: 'D'
+    },
+    {
+    quesNo: '54',
+    content: 'During project execution, the agile team realizes that to develop some of the product increments, a very expensive software development tool is required. The project manager can not purchase the tool right away as the budget allocated for the project does not cover this unexpected expense. One of the developers bypassed the software security, obtained the required copies and offered them to the project manager. What should the project manager do? Select one:',
+    A: 'A. Decline the offer and approach the sponsor to determine how to obtain additional funding for the required software',
+    B: 'B. Accept the copies and use them on the project because it will provide what is needed and save the company’s money at the same time',
+    C: 'C. Decline the offer from the developer and find creative ways to perform the project work without the use of the necessary software ',
+    D: 'D. Take as many copies from the developer as needed and thank them for helping resolve the issue',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '55',
+    content: 'Agile project stakeholders were asked what project goal was the most important one. One stakeholder stressed the importance of the project deadline, another mentioned the product performance, and others were not sure about the goals. What could be the reason for such a difference in the opinions about the project goals among the stakeholders? Select one:',
+    A: 'A. The product vision and project objective were not initially discussed and agreed upon by the project stakeholders ',
+    B: 'B. The project charters signatory had limited authority over resources',
+    C: 'C. The project charter was two pages long',
+    D: 'D. The objectives in the project charter did not include details on how to assess them',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '56',
+    content: 'During a meeting where the entire agile team is in attendance, a team member is about to speak. What should the rest of the team do? Select one:',
+    A: 'A. Listen to both the verbal and non-verbal cues from the speaker and the rest of the audience ',
+    B: 'B. Focus attention only to the speaker and no one and nothing else',
+    C: 'C. Pay particular attention to the word choices of the speaker',
+    D: 'D. Be efficient and multi-task while listening',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '57',
+    content: 'A senior executive is very interested in a product that an agile team is building and asks the scrum master to include several additional features. How should the scrum master respond? Select one:',
+    A: 'A. Include the features in the next sprint',
+    B: 'B. Include the features in the current sprint',
+    C: 'C. Ask for a change request to include the work',
+    D: 'D. Refer the executive to the product owner ',
+    note: 'NA',
+    answer: 'D'
+    },
+    {
+    quesNo: '58',
+    content: 'You will soon be leading a complex project. Project communication is critical to the success of the project specifically all team members need to be kept updated on project progress. Which of the following approaches will produce the best results? Select one:',
+    A: 'a. Use a Kanban board.',
+    B: 'b. Discuss progress during retrospectives.',
+    C: 'c. Discuss progress during sprint planning events.',
+    D: 'd. Discuss progress during daily standups. ',
+    note: 'NA',
+    answer: 'A'
+    },
+    {
+    quesNo: '59',
+    content: 'An agile team has to implement a new payroll system. The product owner is a payroll expert but is not familiar with agile planning. What advice should an agile coach offer to the product owner? Select one:',
+    A: 'A. Generate a requirements document for the team to develop the product exactly per customer specifications',
+    B: 'B. Draft a project plan and send it to stakeholders for approval to ensure everybody are on the same page',
+    C: 'C. Create an environment that facilities face-to-face planning events involving all project stakeholders ',
+    D: 'D. Develop a Gantt chart listing project deliverables to get necessary resources from the project sponsor',
+    note: 'NA',
+    answer: 'C'
+    },
+    {
+    quesNo: '60',
+    content: 'When planning for the development of a new product, the owner suggest that the team engage in an exercise called ‘prune the product tree’. This exercise helps the team do which of the following? Select one:',
+    A: 'A. Consider value versus cost ranking',
+    B: 'B. Set vision and elicit requirements ',
+    C: 'C. Identify threats and opportunities',
+    D: 'D. Gather and shape requirements',
+    note: 'NA',
+    answer: 'D'
+    }
+    
+    
+  ]
+}
