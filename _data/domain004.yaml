@@ -1,0 +1,606 @@
+{
+  questions: [
+    {
+      quesNo: '1',
+      content: 'At the kick-off, a product data sheet (PDS) was completed, but the sponsor did not provide a user proxy. What words of advice should an experienced agile coach offer to the project sponsor about adding a user proxy to the team?',
+      A: 'A. An agile project does not need a user proxy',
+      B: 'B. The agile coach has enough business experience to answer questions, therefore there is no need for a user proxy',
+      C: 'C. Do not start project until the project sponsor assigns a user proxy',
+      D: 'D. A development manager would have to be called on to act as a user proxy',
+      note: 'N/A',
+      answer: 'C'
+      },
+      {
+      quesNo: '2',
+      content: 'A new coach on an agile team completed a preliminary assessment, which indicates that with the exception of a couple of members, the team appears ready and excited about this new project. What is the next logical step for the agile coach to take to motivate each team member?',
+      A: 'A. Remove the team members who do not appear to be ready to work',
+      B: 'B. Plan an exciting kick-off meeting to increase project interest',
+      C: 'C. Suggest that the team members that do not seem as interested or excited, not be given important or critical roles on the project',
+      D: 'D. Schedule and conduct one-on-one meetings with all team members to elicit their interest and thoughts about the project. ',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '3',
+      content: 'An agile practitioner has to follow a lot of rules and guidelines, which at times becomes overwhelming. As time goes by, the practitioner becomes more experienced in deciding on which rules fit each situation, thus making the practitioner feel more personally responsible for the choices they make. Which stage in the Dreyfus model of adult skill acquisition has the practitioner reached?',
+      A: 'A. Competent ',
+      B: 'B. Proficient',
+      C: 'C. Advanced beginner',
+      D: 'D. Novice',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '4',
+      content: 'A facilitator for a sprint retrospective meeting is currently setting the stage for the meeting. She decides to use the Focus On/Focus Off activity in order to prepare the agile project team for the work they will be performing during the retrospective meeting. On a blank flip chart, she writes down the four phrases that will be used during the Focus On/ Focus Off activity. Which of the following should be listed on the activity flip chart?',
+      A: 'A. Advocacy rather than inquiry',
+      B: 'B. Argument rather than conversation',
+      C: 'C. Debate rather than dialogue',
+      D: 'D. Understanding rather than defending ',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '5',
+      content: 'After completing three iterations, an agile team has determined that it will take 292 story points to complete the remaining portion of the project. The average velocity of the team for the first three iterations was 30 story points. How many additional iterations will it take for the team to complete the project?',
+      A: 'A. 7 iterations ',
+      B: 'B. 8 iterations',
+      C: 'C. 9 iterations',
+      D: 'D. 10 iterations',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '6',
+      content: 'A senior developer on an agile team is very technically competent but he finds it very difficult to concentrate in the war area where his co-located. His desk is also located near the break room area, which makes matters worse, so he is getting very frustrated. The developer makes a request to the scrum master that he be allowed to use a small isolated office, away from the rest of the team. What should the scrum master do?',
+      A: 'A. Suggest creating a working agreement where team members can use a “ do not disturb” sign and noise-canceling headphones while working',
+      B: 'B. Provide the developer with noise-canceling headphones and a “do not disturb” sign to be display at all time',
+      C: 'C. Do nothing. The developer should understand that noise is a part of a team working environment on agile projects',
+      D: 'D. Provide the developer with the private office away from the rest of the team to be used on occasion ',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '7',
+      content: 'In order to enable osmotic communication, a project manager ensured that all team members who needed to communicate often with each other were co-located. This worked well for the team until the technical lead complained about the noise around him, preventing him from focusing on some difficult programming tasks. The project manager suggested an idea where the technical lead should not be disturbed by the discussions of his teammates. What was the project manager referring to?',
+      A: 'A. Bus-length communication',
+      B: 'B. Tacit knowledge',
+      C: 'C. Adaptive communication',
+      D: 'D. Cave and common ',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '8',
+      content: 'An Agile team’s first iteration included daily standups that lasted over 30 minutes. During the retrospective meeting, the team agreed to use the Shu-Ha-Ri model to make future daily standup meetings more focused and reduce their duration. During the second iteration, the team was able to focus on the three basic questions, followed the agenda, and ensured that no daily standup meetings lasted more than 15 minutes. Which level of the Shu-Ha-Ri model had the team completed by the end of the second iteration?',
+      A: 'A. The pre-Shu level',
+      B: 'B. The Ha level',
+      C: 'C. The Ri level',
+      D: 'D. The Shu level ',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '9',
+      content: 'During which of the following conditions does a team not need a formal chartering process?',
+      A: 'a. If it has been a while since the team has transitioned from traditional approaches.',
+      B: 'b. As long as the team has worked with each other in the past.',
+      C: 'c. As long as the team understands how to work together on this project. ',
+      D: 'd. As long as the project is managed using Agile approaches.',
+      note: 'N/A',
+      answer: 'C'
+      },
+      {
+      quesNo: '10',
+      content: 'Moving stories from the ready state to the work in process state such that 100% resource utilization is achieved will most likely result in:',
+      A: 'a. Reduced team-s throughput. ',
+      B: 'b. Increased costs.',
+      C: 'c. Reduced cycle time.',
+      D: 'd. Increased velocity for the iteration.',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '11',
+      content: 'An agile team had been successful in delivering features however, the team members got burned out to the aggressive deadlines. In a retrospective, the team lead thought that some fun was in order before the next deadlines were set. Unfortunately, the team failed to meet their objectives for the following iteration. What action by the team lead most likely caused the team to miss their iteration goal?',
+      A: 'A. Used fun to distract team from this sensitive topic ',
+      B: 'B. Made productive work more enjoyable by using collaborative games',
+      C: 'C. Had a fun night out with the team to relieve burnout',
+      D: 'D. Celebrated the success with a fun team activity',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '12',
+      content: 'An agile is conducting an iteration review after missing their iteration goal. One team member indicates that tactics that may have worked well for other types of projects were not effective for the current project. Of the following options, what most likely caused the team to miss their iteration goal?',
+      A: 'A. Executed work as directed by the scrum master ',
+      B: 'B. Made local decisions regarding their work',
+      C: 'C. Created their team norms and working agreements',
+      D: 'D. Created emergent leaders to lead different initiatives',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '13',
+      content: 'At the end of the sprint, the agile team has delivered four user stories estimated at a total of 28 story points that were 100% complete per definition of done, while one user story estimated at 5 story points was 70% complete. What is the team’s velocity for this sprint?',
+      A: 'A. 33',
+      B: 'B. 31.5',
+      C: 'C. 32',
+      D: 'D. 28 ',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '14',
+      content: 'An important key performance indicator (KPI) used in Agile to measure the performance of the team’s progress is velocity. Which of the following metrics is most often used to measure an agile team’s performance in terms of velocity?',
+      A: 'A. The number of user story points completed per iteration ',
+      B: 'B. The number of user stories completed per iteration',
+      C: 'C. The number of user story points completed per day',
+      D: 'D. The number of iteration plans completed per release',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '15',
+      content: 'Several team members seem disinterested in the daily standup meeting and are carrying on a side conversation. What should an agile practitioner do first?',
+      A: 'A. Ignore the issue and let the meeting continue',
+      B: 'B. Let the team address the issue since they are self-managed',
+      C: 'C. Address the issue on the spot since it is an interruption to the rest of the team ',
+      D: 'D. Inform their functional managers after the meeting',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '16',
+      content: 'Which of the following statements regarding multi-tasking is incorrect?',
+      A: 'a. Multi-tasking, beyond two concurrent tasks exacts a horrible toll on productivity.',
+      B: 'b. It is optimal to assign two concurrent tasks to each team member. ',
+      C: 'c. Multi-tasking extends the completion date of work and leaves work in process longer.',
+      D: 'd. Multi-tasking should always be avoided and no team member should work on more than one task at a time.',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '17',
+      content: 'While building a working area for an agile team, which of the following approaches will ensure that the team space will be conducive to effective team collaboration and communication, where team members can work in a quite environment for a short period of times, and allow project stakeholders who are not members of the team to check project performance status on a regular basis?',
+      A: 'A. War room ',
+      B: 'B. Cave and common',
+      C: 'C. Agile modeling',
+      D: 'D. Co-location',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '18',
+      content: 'An agile project will be using a new technology. At the release planning meeting, the project manager insisted on getting a forecast for the release’s completion date despite team members protesting that they need to run a few iterations first to provide an estimate. What should an agile practitioner do in this situation?',
+      A: 'A. Support the team’s response to run a few iterations first before providing a forecast',
+      B: 'B. Recommend using the cone of uncertainty to calculate a velocity and make a forecast based on this ',
+      C: 'C. Recommend using historical values of velocity from previous projects to make a forecast',
+      D: 'D. Support the project manager’s demand and force the team to provide a forecast',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '19',
+      content: 'The technical leads on an agile team were heavily debating the best approach on what user stories from the product backlog to develop first. One wanted early wins by leaving the most difficult code to the end, while the other argued that complex stories should be developed as early as possible with the belief that even if the team would fail at first, these initial failures would make the team more resilient. In what order should the team complete the user stories?',
+      A: 'A. Should the most difficult user stories first',
+      B: 'B. Should the easiest user stories first',
+      C: 'C. Schedule the most difficult user stories first if the team is confident they can solve any related issues ',
+      D: 'D. Schedule the easiest user stories last',
+      note: 'N/A',
+      answer: 'C'
+      },
+      {
+      quesNo: '20',
+      content: 'You are leading an Agile project heading into its third sprint. The third sprint contains 15 stories with an average story size of 3 points. The observed velocities for the first and second sprints were 30 and 35 story points respectively. Based on this information, which of the following statements is correct?',
+      A: 'a. The expected velocity for the third sprint is 32.5 story points. ',
+      B: 'b. The expected velocity for the third sprint is 30 story points.',
+      C: 'c. The expected velocity for the third sprint is 35 story points.',
+      D: 'd. The expected velocity for the third sprint is 45 story points.',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '21',
+      content: 'Which is the best approach to take for a distributed team?',
+      A: 'A. Co-locate the product owner and the project manager',
+      B: 'B. Hold meeting at different times to include those from other time zones ',
+      C: 'C. An audio conferencing service',
+      D: 'D. Video conferencing software',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '22',
+      content: 'During a strategic planning meeting at the beginning of a new agile project, the attendees create a visual depiction of the product release and the functionality to be completed and available for each release. Who owns this artifact and works with others to maintain and update it?',
+      A: 'A. Scrum master',
+      B: 'B. Development team member',
+      C: 'C. Project sponsor',
+      D: 'D. Product owner ',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '23',
+      content: 'Some agile project stakeholders are scrutinizing the amount of story points that the team has completed in each iteration, thereby placing pressure on team members to perform better. In the next iteration, the team took steps that resulted in higher velocity without actually completing more work than what was originally planned. What has the team most likely done?',
+      A: 'A. Increased their velocity',
+      B: 'B. Completed more of complex stories',
+      C: 'C. Reduced the project risk',
+      D: 'D. Inflated their point estimates ',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '24',
+      content: 'At the iteration review meeting, several stakeholders are confused and concerned with the software being demonstrated as it does not represent their expectations or priorities. Of the following, which is the most likely cause of this situation?',
+      A: 'A. The product owner not properly grooming the product backlog ',
+      B: 'B. The product owner not adequately defining the acceptance criteria',
+      C: 'C. The team not properly defining when a user story is done',
+      D: 'D. The stakeholders not attending the daily standup meetings',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '25',
+      content: 'A product manager is talking to the human resources department staff about obtaining resources to create an agile team to build what the organization aspires to be its new best selling product. What is the best approach to take when creating this new agile team?',
+      A: 'A. Hire 20 new members into the team',
+      B: 'B. Hire virtual team to save money',
+      C: 'C. Hire the best talent even if they will work on the project tasks only part time',
+      D: 'D. Hire team members who are capable of working on tasks outside their formal job titles ',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '26',
+      content: 'A newly appointed program manager, who came from an organization where traditional project management practices were used to track the actual project performance against its planned baselines, requested regular updates on the overall progress of a high priority agile project. The program manager cannot spend more than five minutes per week on project updates and does not intend to micromanage the project team’s work. Assuming that the project is executed using weekly sprints, what is the most appropriate response to the program manager’s request?',
+      A: 'A. have the program manager view the release burnup chart in the project team’s common space',
+      B: 'B. Have the program manager view the release burndown chart in the project team’s common space ',
+      C: 'C. Invite the program manager to attend the iteration review meeting in the project team’s common space',
+      D: 'D. Have the program manager view the iteration burndown chart in the project team’s common space',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '27',
+      content: 'Due to a limited budget, the scrum technical lead is also acting as product owner. Before the first sprint, the technical lead worked with senior management to develop user stories. At the product demonstration after the first sprint, senior management was disappointed as the product was not as expected. What is the technical lead’s best course of action in this situation?',
+      A: 'A. Ask senior management to provide a dedicated product owner to reduce potential misunderstanding between the development team and senior management ',
+      B: 'B. Ask the scrum master to take over the product owner responsibilities since they have the most agile experience on agile projects',
+      C: 'C. Distribute the product owner responsibilities among the team members since this is an acceptable practice for self-directing teams with generalizing specialists',
+      D: 'D. Continue to fill the role of product owner since this is an acceptable practice for self-directing teams to reduce team size and bottlenecks',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '28',
+      content: 'A newly-formed agile team has yet determined the ideal iteration length, and two of the team members are having an argument about it. One team member advocates for an iteration length of two weeks, while the other advocates for an iteration length of one week. Which of the following would be the proper action for a scrum master in this situation?',
+      A: 'A. Make the decision for the team to break the impasse before relationships are damaged',
+      B: 'B. Facilitate the discussion between the two team members so they can come to a consensus on the most appropriate iteration length ',
+      C: 'C. Isolate the two team members from the rest of the team while they settle their dispute',
+      D: 'D. Remove themselves from the process and let the two team members come to a consensus on the most appropriate iteration length',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '29',
+      content: 'A scrum team has just completed their fourth sprint with the average velocity of 25 points. Given the fact that the team has earned 1/3 of the story points required to complete the entire project and they estimate the average cost per story point at $575, what is the expected cost for completing the reminder of the project?',
+      A: 'A. $86,250',
+      B: 'B. $143,750',
+      C: 'C. $172,500 ',
+      D: 'D. $115,000',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '30',
+      content: 'A scrum team is working together on user stories for an iteration. Based on lessons learned from the last iteration, the team intends to do more swarming in this iteration. How would their behavior change?',
+      A: 'A. The team would hold more team meetings ',
+      B: 'B. One or more team members would work on a user story until it is done',
+      C: 'C. All team members would work on the same user story at the same time',
+      D: 'D. Each team member would be in charge of a user story and assign others to work on it',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '31',
+      content: 'Which of the following conditions promises the fastest possible team throughput?',
+      A: 'a. Team is 100% dedicated to the project. ',
+      B: 'b. The project-s budget is uncapped.',
+      C: 'c. There are no change requests on the project.',
+      D: 'd. All of the user stories have been identified at the start of the project.',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '32',
+      content: 'After about two months of work, an agile team has just completed their fourth iteration out of eight. The release burndown chart shows that for the three iterations, the curve representing the actual completed work is approximately 40 points above the straight descending line of the projected work. Given the fact that the team-s velocity is 20, which conclusion can be drawn at this stage?',
+      A: 'A. The team is behind schedule and work will be finished four weeks later than originally planned',
+      B: 'B. The team is behind schedule and work will be finished two weeks later than originally planned',
+      C: 'C. The team is behind schedule',
+      D: 'D. The team is ahead of schedule ',
+      note: 'N/A',
+      answer: 'C'
+      },
+      {
+      quesNo: '33',
+      content: 'Due to organizational constraints, some of the agile team members are co-located in the same building, while others are located in other parts of the country. What agile techniques can the team implement to help increase communication among the team members?',
+      A: 'A. Set up a war room with video conferencing capability ',
+      B: 'B. Use information radiators extensively',
+      C: 'C. Have developers sit near each other',
+      D: 'D. Set up a meeting for the team to determine team ground rules',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '34',
+      content: 'An agile project sponsor has requested to see the impact of the scope changes requested by the customer throughout the lifecycle of the project. What information radiator would an agile practitioner recommend to the sponsor to look at?',
+      A: 'A. Burnup chart ',
+      B: 'B. Scope baseline',
+      C: 'C. Burndown chart',
+      D: 'D. Velocity chart',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '35',
+      content: 'Your organization has recently adopted Agile practices and all new internal projects are being managed using Agile methods. If you want to compare the performance of three projects, which of the following measures cannot be used?',
+      A: 'a. Velocity ',
+      B: 'b. SPI & CPI',
+      C: 'c. Percent-completion',
+      D: 'd. Actual cost',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '36',
+      content: 'A product owner on a scrum team represents the interests of an external customer. After the sprint review meeting, a key stakeholder takes the product owner aside and suggests an improvement to one of the report screens that the stakeholder insists will make it easier for the user to navigate the application. What is the product owner’s next logical step?',
+      A: 'A. Discuss the stakeholder’s request in the daily scrum meeting and let the team decide if and when the request will be implemented',
+      B: 'B. Meet with the customer as soon as possible to decide if and when the stakeholder’s request will be implemented',
+      C: 'C. Implement the stakeholder’s request in the next sprint because it will enhance the customer experience and provide customer value ',
+      D: 'D. Create a user story for the stakeholder’s request and place it at the very bottom of the product backlog',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '37',
+      content: 'A junior agile practitioner is learning that utilizes burnup charts to demonstrate the delivery of value. What is a burnup chart and what does it show?',
+      A: 'A. A graph that shows the accumulation of tested and working features over time ',
+      B: 'B. A diagram of integrated user stories prioritized by the cost, scope, and time',
+      C: 'C. A list of features and tasks against the remaining story points in a product backlog',
+      D: 'D. A chart that gives full credit to completed requirements, design, and coding',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '38',
+      content: 'Which of the following is not considered a standup anti-pattern?',
+      A: 'a. Adding issues to a parking lot. ',
+      B: 'b. Scrum master assigning project tasks to the team.',
+      C: 'c. Reporting project status during standups.',
+      D: 'd. Solving problems during standups.',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '39',
+      content: 'An Agile team is currently working on a system development project for a major local retailer. Recently a couple of programmers have been hired and assigned on this project. How should the addition of new team members affect the number of story points for the next iteration?',
+      A: 'a. The story points should be decreased.',
+      B: 'b. The team should reevaluate its capacity and determine the number of story points. ',
+      C: 'c. The story points should be increased.',
+      D: 'd. The story points should not be changed.',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '40',
+      content: 'An agile team has moved past the pleasantries of being a new team to its current state where many conflicts have begun to arise. Tensions are running high and the dialogue has gotten harsh. Using Paul Hersey’s situational leadership model, what actions should the team leader take in order to remove impediments while keeping the team from imploding, so they can perform better as a team?',
+      A: 'A. Provide clear and frequent directives to team members as to what, how, why, when and where to perform their tasks and how to resolve these conflicts',
+      B: 'B. Share the decision making on how tasks should be accomplished and how to resolve the conflicts ',
+      C: 'C. Provide direction as well as support for the team to resolve the conflicts',
+      D: 'D. Stay involved in decisions and monitor progress, while passing the responsibility and process to team concerning how to resolve these conflicts',
+      note: 'N/A',
+      answer: 'C'
+      },
+      {
+      quesNo: '41',
+      content: 'An agile project team has been working together in the building and have enjoyed the benefits of high-touch/low-tech methods of team interaction. The company has hired a group of developers that will be working in another city, who will be joining the team to work on a new project. An agile practitioner has been tasked with bringing this team together and fostering healthy team interaction. What would be the most effective first action for the agile practitioner to take?',
+      A: 'A. Provide an opportunity for face-to-face meeting through a kickoff or group activity if the budget allows it ',
+      B: 'B. Set up everyone with a text-based instant messenger so they can stay in touch',
+      C: 'C. Insist that everyone make use of email in order to establish a trackable communication thread for all conversations',
+      D: 'D. Convert as many information radiators to online versions in order to maximize virtual communication',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '42',
+      content: 'A scrum master is tasked with removing impediments and resolving conflicts, which service as roadblocks for the formed team. However, at the daily stand-up meetings, the team members avoid conflict altogether due to lack of trust among them. What stage of Tuckman’s model is being extended in this situation, and what can the scrum master do to help the team to move onto the next stage?',
+      A: 'A. Norming, and the scrum master needs to help teams put conflict aside as unhealthy and nonproductive',
+      B: 'B. Forming, and the scrum master needs to help the team acknowledge that conflict is productive and necessary',
+      C: 'C. Performing, and the scrum master needs to ensure conflict is mitigated to keep the team on task at this stage',
+      D: 'D. Storming, and the scrum master needs to help navigate the conflict towards high performance ',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '43',
+      content: 'A new developer has joined an agile team in the middle of a project execution. During the tour of the work area, the scrum master gave a brief overview of the agile practices used by the team and introduced the new developer to the team members. What should the scrum master do next?',
+      A: 'A. Let the team members introduce the project to the new developer ',
+      B: 'B. Assign the new developer a project task that they can easily accomplish',
+      C: 'C. Set up a project kick-off meeting to introduce the new developer',
+      D: 'D. Ask the new developer to read the team’s ground rules and processes',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '44',
+      content: 'Which of the following conditions is not healthy for Agile teams?',
+      A: 'a. Project team is not collocated.',
+      B: 'b. Project manager schedules, assigns and tracks project tasks',
+      C: 'c. Project team consists of 20 or more members. ',
+      D: 'd. Product owner attends daily standups.',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '45',
+      content: 'An Agile team was not able to complete any stories during the fourth iteration. How would this be reflected on a burndown chart?',
+      A: 'a. The slope of the burndown chart will become negative.',
+      B: 'b. The burndown chart will fall down to zero story points.',
+      C: 'c. The slope of the burndown chart will become positive.',
+      D: 'd. The burndown for the iteration will remain flat at the number of story points remaining at the start of the iteration. ',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '46',
+      content: 'A co-located agile team uses Kanban method to deliver their products. The team lead suspects that a recent decline in the quality of the team’s deliverables is due to the depreciation of the team’s tacit knowledge. What should the team do to prevent this depreciation?',
+      A: 'A. Reduce the amount of work in progress (WIP)',
+      B: 'B. Create a knowledge base to share among the team members ',
+      C: 'C. Encourage wider usage of the social media tools',
+      D: 'D. Increase the team size to store less knowledge per team member',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '47',
+      content: 'The first iteration on your project completed the first two stories of the project. Each story had three points so the team-s velocity after the first iteration was six story points. The team is not happy with the value and asks you to double the story points so that the overall velocity becomes 12 story points. What should be your response?',
+      A: 'a. You cannot increase story points for completed features.',
+      B: 'b. Double the story points of all stories on the project.',
+      C: 'c. Increase the story points as the Agile team has demanded.',
+      D: 'd. The absolute value of story points does not matter as long as all stories were relatively estimated. ',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '48',
+      content: 'Which of the following would be the most helpful in creating a collaborative work environment?',
+      A: 'A. Cave and common',
+      B: 'B. Physical co-location ',
+      C: 'C. Cultural diversity',
+      D: 'D. Tacit knowledge',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '49',
+      content: 'Distributed members of an agile team preferred to use a physical task board. At least once a day, they sent each other photos of the board. What should the project manager do about such a practice?',
+      A: 'A. Resolve the issue with the product owner based on the rules agreed upon the strategy meeting',
+      B: 'B. Call for a meeting with external and internal stakeholders to resolve this issue',
+      C: 'C. Encourage use of an electronic communication tool since the team is distributed ',
+      D: 'D. Do nothing, as it is up to the team to decide which method or tool to use',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '50',
+      content: 'You have been assigned to lead a complex agile project at an organization with historically high employee turnover rate. Given high turnover can be disruptive and result in a loss of critical project knowledge and experience, what approach below is most likely to increase project knowledge across the team and thus minimize the impact of such a loss due to turnover?',
+      A: 'A. Have the team co-located and developers work closely with the customer in developing user stories',
+      B: 'B. Contact the Human Resource department and determine the root cause of high employee turnover rate ',
+      C: 'C. Work with resource managers to add more team members',
+      D: 'D. Set up more team building exercises',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '51',
+      content: 'Which of the following statements is true for Agile projects?',
+      A: 'a. Project percentage of completion is the critical success factor for Agile projects.',
+      B: 'b. Agile favors empirical and value-based measurements. ',
+      C: 'c. Agile values predictive measurements.',
+      D: 'd. Earned value management is tailored to fit Agile projects.',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '52',
+      content: 'You are leading an Agile team developing a new operating system of a handheld device. During the integration testing you realize that the system has some performance issues. How would you improve the code without altering the functionality of the operating system?',
+      A: 'a. Pair Working',
+      B: 'b. Scrum of Scrums',
+      C: 'c. Refactoring ',
+      D: 'd. Kanban',
+      note: 'N/A',
+      answer: 'C'
+      },
+      {
+      quesNo: '53',
+      content: 'An experienced agile practitioner was explaining the benefits of empowered, self-organizing, and self-directing teams. Some agile team members then complained that their manager is not very agile as demonstrated by their very directive style of communication. How would the agile practitioner most likely respond to this comment?',
+      A: 'A. The team is still in the storming stage, which require a lot of direction ',
+      B: 'B. The team is already in the norming stage, which requires a lot of direction',
+      C: 'C. Theory is one thing, and real life is a totally different story',
+      D: 'D. The project has a very tight schedule and must be managed by directives',
+      note: 'N/A',
+      answer: 'A'
+      },
+      {
+      quesNo: '54',
+      content: 'An Agile project has a total of 700 story points and each project iteration has a fixed duration of three weeks. At the end of the 4th iteration, the team had successfully delivered 76 story points. The team was able to successfully address some improvement opportunities and during the 5th iteration the team was able to deliver an additional 24 story points. Assuming that the team maintains its current velocity and no more story points are added to the project, how many more weeks are required to complete the project?',
+      A: 'a. 75 weeks',
+      B: 'b. 90 weeks ',
+      C: 'c. 96 weeks',
+      D: 'd. 87 weeks',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '55',
+      content: 'A business expert has unique and relevant knowledge for the project. An agile leader has asked a business expert to sit in the same area as the development team for the duration of the project. The manager of the business expert has refused since the business expert is also required to be elsewhere to perform other day-to-day duties. What should the agile leader do next?',
+      A: 'A. Ask development team to document all their questions for the expert',
+      B: 'B. Escalate this issue with the product owner and senior management since the team has to be collocated',
+      C: 'C. Request that another business expert to assigned, one who is welling to sit with the development team',
+      D: 'D. Engage the business expert to commit in regular, daily collaboration with the development team ',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '56',
+      content: 'A distributed team has members living in different countries and time zones. They met in person at the start of the project, but they primarily used video conferencing since the first meeting. Which type of communication can the team only experience when co-located, no matter how much time and effort the team is willing to invest?',
+      A: 'A. Oral communication',
+      B: 'B. Written communication',
+      C: 'C. Osmotic communication',
+      D: 'D. Face-to-face communication ',
+      note: 'N/A',
+      answer: 'C'
+      },
+      {
+      quesNo: '57',
+      content: 'An agile project manager is working on a hybrid project where her responsibilities include both acting as project scrum master, and providing periodic performance reports to senior management. The project sponsor has suggested that she track the individual velocity of each of the project team members rather than the team as a whole to monitor project progress. What action should she take next?',
+      A: 'A. Track and report both team velocity and individual velocity to monitor project team performance ',
+      B: 'B. Track and report only team velocity to monitor project team performance',
+      C: 'C. Track only average individual velocity to monitor project team performance',
+      D: 'D. Track either team velocity or individual velocity to monitor project team performance',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '58',
+      content: 'An agile coach has made sure to create a collaborative environment for her team members by co-locating them and providing the opportunity for osmotic communication. She also made some private work spaces available in case some team members wished to meet privately without distributing other team members. What is the name of this co-located and collaborative environment where team members can perform osmotic communication?',
+      A: 'A. Co-located area',
+      B: 'B. Common area ',
+      C: 'C. Collaborative area',
+      D: 'D. Cubicle area',
+      note: 'N/A',
+      answer: 'B'
+      },
+      {
+      quesNo: '59',
+      content: 'A team member is not taking part in planning user stories. What should the coach do?',
+      A: 'A. Ignore this team member’s input',
+      B: 'B. Meet privately after the planning meeting and factor in their opinions afterwards',
+      C: 'C. Call the team member out in the planning meeting to get them to participate ',
+      D: 'D. Coach the team member',
+      note: 'N/A',
+      answer: 'D'
+      },
+      {
+      quesNo: '60',
+      content: 'If two of the senior programmers in your team are not collocated and you want to reap the benefits of pair-programming, which of the following techniques can help you obtain some of those benefits?',
+      A: 'a. Schedule hourly status meeting',
+      B: 'b. Set up remote pairing ',
+      C: 'c. Ask the partners to call each other before developing any new module.',
+      D: 'd. Email automatic screen-shot to the two partners at every half an hour.',
+      note: 'N/A',
+      answer: 'B'
+      }
+    
+    
+  ]
+}
