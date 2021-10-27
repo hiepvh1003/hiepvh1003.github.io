@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PMI ACP Prep Test Question - Domain I - Part 2"
+title:  "PMI ACP Prep Test Question - Domain I - Part 6"
 author: hiepvh
 categories: [ PMI ACP ]
 tags: [ pmi-acp, pm ]
@@ -13,7 +13,7 @@ hidden: false
 
 <!-- Title Block -->
 <div id="titleBlock" style="text-align: center;">
-  <h4 style="margin-bottom: 0px;"> PREP TEST QUESTION - DOMAIN I - PART 2</h4>
+  <h4 style="margin-bottom: 0px;"> PREP TEST QUESTION - DOMAIN I - PART 6</h4>
   <hr style="width: 50%;">
 </div>
 
@@ -27,7 +27,7 @@ hidden: false
 | [PREP TEST QUESTION - DOMAIN I - PART 5]({{ site.baseurl }}/pmiacp-prep-domain-I-part-5) |
 | [PREP TEST QUESTION - DOMAIN I - PART 6]({{ site.baseurl }}/pmiacp-prep-domain-I-part-6) |
 
-{% for ques in site.data.domain001.questions limit:10 offset:9 %}
+{% for ques in site.data.domain001.questions offset: 49 %}
 <!-- QUESTION -->
 <div class="text-card">
   <div class="heading">
