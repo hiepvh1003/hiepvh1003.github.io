@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "PMI ACP Prep Test Question - Domain II - Part 1"
+title:  "PMI ACP Prep Test Question - Domain III - Part 1"
 author: hiepvh
 categories: [ PMI ACP ]
 tags: [ pmi-acp, pm ]
-image: assets/images/todo.png
+image: assets/images/tennis.png
 description: "Quản lý dự án là nghề làm dâu trăm họ, nhưng niềm vui là được học hỏi mỗi ngày, mỗi giờ, mỗi thời điểm."
 featured: false
 hidden: false
@@ -15,21 +15,21 @@ hidden: false
 
 <!-- Title Block -->
 <div id="titleBlock" style="text-align: center;">
-  <h4 style="margin-bottom: 0px;"> PREP TEST QUESTION - DOMAIN II - PART 6</h4>
+  <h4 style="margin-bottom: 0px;"> PREP TEST QUESTION - DOMAIN III - PART 6</h4>
   <hr style="width: 50%;">
 </div>
 
 {:#tblContent}
-| PREP TEST QUESTION - DOMAIN II |
+| PREP TEST QUESTION - DOMAIN III |
 |-----|
-| [PREP TEST QUESTION - DOMAIN II - PART 1]({{ site.baseurl }}/pmiacp-prep-domain-II-part-1) |
-| [PREP TEST QUESTION - DOMAIN II - PART 2]({{ site.baseurl }}/pmiacp-prep-domain-II-part-2) |
-| [PREP TEST QUESTION - DOMAIN II - PART 3]({{ site.baseurl }}/pmiacp-prep-domain-II-part-3) |
-| [PREP TEST QUESTION - DOMAIN II - PART 4]({{ site.baseurl }}/pmiacp-prep-domain-II-part-4) |
-| [PREP TEST QUESTION - DOMAIN II - PART 5]({{ site.baseurl }}/pmiacp-prep-domain-II-part-5) |
-| [PREP TEST QUESTION - DOMAIN II - PART 6]({{ site.baseurl }}/pmiacp-prep-domain-II-part-6) |
+| [PREP TEST QUESTION - DOMAIN III - PART 1]({{ site.baseurl }}/pmiacp-prep-domain-III-part-1) |
+| [PREP TEST QUESTION - DOMAIN III - PART 2]({{ site.baseurl }}/pmiacp-prep-domain-III-part-2) |
+| [PREP TEST QUESTION - DOMAIN III - PART 3]({{ site.baseurl }}/pmiacp-prep-domain-III-part-3) |
+| [PREP TEST QUESTION - DOMAIN III - PART 4]({{ site.baseurl }}/pmiacp-prep-domain-III-part-4) |
+| [PREP TEST QUESTION - DOMAIN III - PART 5]({{ site.baseurl }}/pmiacp-prep-domain-III-part-5) |
+| [PREP TEST QUESTION - DOMAIN III - PART 6]({{ site.baseurl }}/pmiacp-prep-domain-III-part-6) |
 
-{% for ques in site.data.domain002.questions limit:11 offset:49 %}
+{% for ques in site.data.domain003.questions limit:11 offset:49 %}
 <!-- QUESTION -->
 <div class="text-card">
   <div class="heading">
