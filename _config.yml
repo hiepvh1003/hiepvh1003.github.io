@@ -5,7 +5,18 @@ description: "Tâm sự nghề BrSE của Hiệp - một chàng BrSE trẻ có v
 logo: 'assets/images/avatar.jpg'
 favicon: 'assets/images/logo.png'
 baseurl: ''
-google_analytics: ''
+
+analytics:
+  google: 
+  facebook: 1037966890366859
+
+# facebook comments
+facebook:
+  num_posts: 10
+  lazy: true
+  app_id: 1037966890366859
+
+
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
