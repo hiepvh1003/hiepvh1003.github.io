@@ -4,7 +4,7 @@ title:  "PMI ACP Prep Test Question - Domain IV - Part 6"
 author: hiepvh
 categories: [ PMI ACP ]
 tags: [ pmi-acp, pm ]
-image: assets/images/tennis.png
+image: assets/images/domain4.png
 description: "Quản lý dự án là nghề làm dâu trăm họ, nhưng niềm vui là được học hỏi mỗi ngày, mỗi giờ, mỗi thời điểm."
 featured: false
 hidden: false
