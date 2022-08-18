@@ -7,7 +7,7 @@ tags: [ pmi-acp, pm ]
 image: assets/images/domain5.png
 description: "Quản lý dự án là nghề làm dâu trăm họ, nhưng niềm vui là được học hỏi mỗi ngày, mỗi giờ, mỗi thời điểm."
 featured: false
-hidden: false
+hidden: true
 # rating: 4.5
 ---
 
