@@ -28,13 +28,13 @@ github: [metadata]
 authors:
   hiepvh:
     name: hiepvh
-    display_name: Hiep BrSE
+    display_name: 
     avatar: 'assets/images/avatar.jpg'
     # gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: hiepvh1003@gmail.com
     web: https://brsenote.com
     twitter: https://twitter.com/
-    description: "Hiệp là một chàng BrSE trẻ có vẻ mặt hơi già"
+    description: "Trong bể học mênh mông, học một cách sâu và rộng"
   john:
     name: John
     display_name: John
