@@ -1,23 +1,52 @@
-# Mediumish - Jekyll Theme
+# Pudhina Fresh
+A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
 
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
+Live Demo: [ritijjain.github.io/pudhina-fresh](https://ritijjain.github.io/pudhina-fresh), [ritijjain.com](https://ritijjain.com/)
 
-![mediumish](assets/images/mediumish-jekyll-template.png)
+* Minimal design based on Bootstrap 4.
+* Showcase your projects on the masonry style project page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
+* Categorize posts and projects using tags and view them on tag pages.
+* Dark mode (powered by darkmode.js)
+* 95+ Google PageSpeed Insight score 🔥 – [Test it yourself!](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop)
 
+![Demo image 1](/assets/img/dis1.png)
+![Demo image 2](/assets/img/dis2.png)
+![Demo image 3](/assets/img/dis3.png)
+![Demo image 4](/assets/img/dis4.png)
+![Demo image 5](/assets/img/dis5.png)
 
-### Copyright
+## Features
+### Everything From [Pudhina](https://github.com/knhash/Pudhina)
+* Simple, minimal and clean
+* Blog posts categorized (Pudhina Fresh uses tags instead)
+* Responsive
+* Syntax Highlighter (using highlight.js).
+* Font-Awesome Icons.
+* Glitchy 404 page
 
-Copyright (C) 2019 Sal, https://www.wowthemes.net
+### Plus Much More
+* Minimal design based on Bootstrap 4.
+* Support for Bootstrap elements and bootstrap compatible styles.
+* Responsive mobile friendly design.
+* Showcase your projects on the masonry style project page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
+* Categorize posts and projects using tags and view them on tag pages.
+* Customizable post meta data for individual posts – tags, published date, updated date, author, author link.
+* Create redirect pages using the `_layouts/redirect` template.
+* Support for Disqus comments and Google Analytics.
+* Redesigned table, heading, subheading, link, quote, and text styles.
+* Dark mode (powered by darkmode.js)
+* Just as fast as the original – 95+ [Google PageSpeed Insights score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop).
 
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
+## Docs
+Read the [docs post](https://ritijjain.github.io/pudhina-fresh/2020/07/01/docs.html).
 
-<!-- <a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> -->
+Feel free to open a new issue for questions and comments.
 
-### Contribute
+## Credits and License
+Pudhia Fresh is built on top of [Pudhina](https://github.com/knhash/Pudhina) by [Shashank S](https://github.com/knhash).
 
-1. [Fork the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-2. Clone a copy of your fork on your local
-3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-4. Make necessary changes, commit, push and open a pull request on GitHub.
+[MIT License](https://github.com/ritijjain/pudhina-fresh/blob/master/LICENSE)
 
-Thank you!
+## Stargazers Over Time
+
+[![Stargazers over time](https://starchart.cc/ritijjain/pudhina-fresh.svg)](https://starchart.cc/ritijjain/pudhina-fresh)

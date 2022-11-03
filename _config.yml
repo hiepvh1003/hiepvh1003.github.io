@@ -1,86 +1,53 @@
-# Site
-name: "Hiep BrSE"
-title: "Note về nghề BrSE"
-description: "Tâm sự nghề BrSE của Hiệp - một chàng BrSE trẻ có vẻ mặt hơi già"
-logo: 'assets/images/avatar.jpg'
-favicon: 'assets/images/logo.png'
-baseurl: ''
+title: Dream Holder # Shown in header on pages with full_logo: true
+short_logo: DR. # Shown in header on all pages by default unless full_logo: true is set
+description: > # The description for your site
+  <p>Hệ thống hóa kiến thức, chia sẻ kiến thức là cách cơ bản để nắm vững kiến thức</p>
+url: "https://hiepvh1003.github.io" # Site base URL
 
-analytics:
-  google: 
-  facebook: 1037966890366859
+author:
+  name: Dream Holder
+  github: # GitHub username, used for GitHub icon on the top right
+  linkedin: # Your LinkedIn profile url name, used for LinkedIn icon on the top right
+  email:  # Used for email icon on the top right
+  homepage: https://hiepvh1003.github.io # This links to your name in post meta
+  twitter: # Twitter username, used for Twitter Card Analytics 
 
-# facebook comments
-facebook:
-  num_posts: 10
-  lazy: true
-  app_id: 1037966890366859
+disqus_name: # Setting this will turn on Disqus comments
+g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will turn on Google Analytics
 
-
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
-include: ["_pages"]
-permalink: /:title/
-repository: "hiepvh1003/hiepvh1003.github.io"
-github: [metadata]
-
-# Authors
-authors:
-  hiepvh:
-    name: hiepvh
-    display_name: 
-    avatar: 'assets/images/avatar.jpg'
-    # gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: hiepvh1003@gmail.com
-    web: https://brsenote.com
-    twitter: https://twitter.com/
-    description: "Trong bể học mênh mông, học một cách sâu và rộng"
-  john:
-    name: John
-    display_name: John
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-archives
-
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-
-# Pagination
-paginate: 6
-paginate_path: /page:num/
-
-# Other
 markdown: kramdown
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+defaults: # Recommended defaults, you may set your own
+  -
+    scope:
+      path: _posts
+    values:
+      comments: true
+  -
+    scope:
+      path: pages/redirects
+    values:
+      layout: redirect
+      index: false
+      listed: false
+  -
+    scope:
+      path: pages/tags
+    values:
+      layout: tag
+      sitemap:
+        priority: 0.4
 
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: ""
-adsense-data-ad-slot: ""
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: true
+  profile: false
+  startings: [html, head, body]
 
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "enabled"
-
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+rss: false # RSS feed icon on or off
+dark_mode: true # Dark mode icon
+project_card_style: modal # Choose from masonry, modal, and flat

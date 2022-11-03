@@ -1,0 +1,99 @@
+I"I
+<div class="card-columns">
+    
+      <div class="card mb-4">
+    
+    <img class="card-img-top" src="http://localhost:4000/assets/img/connectpie-page.png" />
+    
+    <div class="card-body">
+      
+      
+    
+    <a href="http://localhost:4000/tags/tag1" style="background-color: rgba( 144, 106, 207, 100%);" class="badge badge-primary">#tag1</a>
+
+    
+    <a href="http://localhost:4000/tags/tag2" style="background-color: rgba( 77, 194, 116, 100%);" class="badge badge-primary">#tag2</a>
+
+      <h4><b><a class="stretched-link" data-toggle="modal" id="#modalp1" href="#modalp1" role="button" aria-expanded="false" aria-controls="collapseExample">Project One</a></b></h4>
+      <p>This part of the project description is visible at all times.</p>
+      <div class="collapse" id="p1">
+        <p>This part is only seen when you click on the project card.</p> 
+ <p>This part is only seen when you click on the project card.</p> 
+  <p>This part is only seen when you click on the project card.</p> 
+
+      </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalp1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-body">
+          
+          <img src="http://localhost:4000/assets/img/connectpie-page.png" />
+          
+          <div class="card-body">
+            
+            
+            
+    
+    <a href="http://localhost:4000/tags/tag1" style="background-color: rgba( 144, 106, 207, 100%);" class="badge badge-primary">#tag1</a>
+
+    
+    <a href="http://localhost:4000/tags/tag2" style="background-color: rgba( 77, 194, 116, 100%);" class="badge badge-primary">#tag2</a>
+
+          
+            <h4><b><a href="#" role="button">Project One</a></b></h4>
+
+
+            <p>This part of the project description is visible at all times.</p>
+
+            <p>This part is only seen when you click on the project card.</p> 
+ <p>This part is only seen when you click on the project card.</p> 
+  <p>This part is only seen when you click on the project card.</p> 
+
+          </div>
+
+      </div>
+      <div class="modal-footer">
+        <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &amp;nbsp Repository</a> <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &amp;nbsp Blog Post</a>
+
+        <button class="btn btn-secondary mb-1" data-dismiss="modal"><i class="fas fa-times"></i></button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    
+  </div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        &lt;div class="card mb-4"&gt;
+&lt;div class="card-body"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-sm-8"&gt;
+            
+            
+
+&lt;a href="http://localhost:4000/tags/tag3" style="background-color: rgba( 245, 123, 6, 100%);" class="badge badge-primary"&gt;#tag3&lt;/a&gt;
+
+
+&lt;a href="http://localhost:4000/tags/tag5" style="background-color: rgba( 0, 132, 247, 100%);" class="badge badge-primary"&gt;#tag5&lt;/a&gt;
+
+            &lt;h4&gt;&lt;b&gt;&lt;a class="stretched-link" href="http://localhost:4000/2020/04/02/sample.html"&gt;A Concise Title&lt;/a&gt;&lt;/b&gt;&lt;/h4&gt;
+            &lt;p class="post-title__subtitle"&gt;Published Apr  2, 2020  by Dream Holder&lt;p&gt;      
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac,...&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="col-sm-4"&gt;
+            
+            &lt;img class="post-card-image" src="http://localhost:4000/assets/img/books-1204029_1920.jpg" loading="lazy" alt=""&gt;          
+               
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+:ET
