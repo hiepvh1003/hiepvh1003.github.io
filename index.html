@@ -7,6 +7,35 @@ description: Tôi đọc sách
 sitemap:
   priority: 1.0
 ---
-{% assign posts = site.posts %}
+
+<!-- {% assign posts = site.posts | where: feature, true %}
 
 {% include post/post_loop.html %}
+
+
+{% assign posts = site.posts | where: feature, true %}
+
+{% include post/post_loop.html %} -->
+
+<h1>Bài viết nổi bật</h1>
+<br>
+{% assign posts = site.posts | where: 'feature', true %}
+
+{% if posts[0] %}
+    {% include post/post_loop.html %}
+{% else %}
+    <p>No posts with this tag.</p>
+{% endif %}
+
+
+
+<h1>Bài ngắn nổi bật</h1>
+<br>
+
+{% assign projects = site.data.projects | where: 'feature', true %}
+
+{% if projects[0] %}
+    {% include project/project_loop.html %}
+{% else %}
+    <p>No briefs with this tag.</p>
+{% endif %}
