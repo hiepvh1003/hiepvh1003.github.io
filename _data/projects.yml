@@ -16,20 +16,58 @@
 - name: 日本語語彙 - Chủ đề trường học
   id: 2
   feature: true
-  img_src: 
-  description_less: Từ vựng tiếng Nhật Chủ đề trường học
+  img_src: /assets/img/japanese.png
+  description_less: 日本語 Trường học (1)
   description_more: >
-    1.	先生　　　せんせい　　　thầy/cô giáo
+    1.	先生　　　　せんせい　　　thầy/cô giáo
     <br/>
-    2.	黒板　　　こくばん　　　bảng
+    2.	黒板　　　　こくばん　　　bảng
     <br/>
-    3.	生徒　　　せいと　　　　học sinh
+    3.	生徒　　　　せいと　　　　học sinh
     <br/>
-    4.	机　　　　つくえ　　　　bàn
+    4.	机　　　　　つくえ　　　　bàn
     <br/>
-    5.	チョーク　　　　　　　　phấn viết bảng
+    5.	チョーク　　　　　　　　　phấn viết bảng
+    <br/>
+    6.	制服　　　　せいふく　　　đồng phục
+    <br/>
+    7.	通学鞄　　　つうがくかばん　cặp sách đi học
+    <br/>
+    8.	教室　　　　きょうしつ　　phòng học
+    <br/>
+    9.	歴史　　　　れきし　　　　lịch sử
+    <br/>
+    10.	地理　　　　ちり　　　　　địa lý
   action_buttons: >
-  tags: [tag3, docs]
+  tags: [japanese]
+
+- name: 日本語語彙 - Chủ đề trường học
+  id: 3
+  feature: true
+  img_src: /assets/img/japanese.png
+  description_less: 日本語 Trường học (2)
+  description_more: >
+    11.	科学　　　かがく　　　khoa học
+    <br/>
+    12.	美術　　　びじゅつ　　mỹ thuật
+    <br/>
+    13.	数学　　　すうがく　　toán
+    <br/>
+    14.	物理　　　ぶつり　　　vật lý
+    <br/>
+    15.	化学　　　かがく　　　hoá học
+    <br/>
+    16.	生物　　　せいぶつ　　sinh học
+    <br/>
+    17.	体育　　　たいいく　　thể dục
+    <br/>
+    18.	ペン　　　　　　　　　bút mực
+    <br/>
+    19.	鉛筆　　　えんぴつ　　bút chì
+    <br/>
+    20.	鉛筆削り　えんぴつけずり　gọt bút chì
+  action_buttons: >
+  tags: [japanese]
 
 
 # - name: 3000日本語語彙 - Tuần 1
