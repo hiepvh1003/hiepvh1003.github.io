@@ -20,9 +20,13 @@
   description_less: Từ vựng tiếng Nhật Chủ đề trường học
   description_more: >
     1.	先生　　　せんせい　　　thầy/cô giáo
+    <br/>
     2.	黒板　　　こくばん　　　bảng
+    <br/>
     3.	生徒　　　せいと　　　　học sinh
+    <br/>
     4.	机　　　　つくえ　　　　bàn
+    <br/>
     5.	チョーク　　　　　　　　phấn viết bảng
   action_buttons: >
   tags: [tag3, docs]
