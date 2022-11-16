@@ -16,16 +16,16 @@ Trong các cuộc phỏng vấn, nhà tuyển dụng luôn sẽ cố gắng khai
 Trong công việc, việc thể hiện điểm mạnh, điểm yếu giúp bản thân biết mình đang làm gì, và cần phải làm gì để phát triển bản thân có lộ trình và mục đích.																	
 Vì thế, việc xác định hay thể hiện rõ ràng điểm mạnh, điểm yếu là một trong những bước quan trọng trong hành trình phát triển bản thân, chinh phục các mục tiêu.																	
 
-##### Lợi ích của việc liệt kê Điểm mạnh và Điểm yếu của bạn																
-	- Xây dựng nhận thức về bản thân của bạn															
-	
-	- Giúp bạn hiểu các quan điểm khác															
-	
-	- Cho phép bạn xác định các khu vực cần cải thiện															
-	
-	- Tăng vốn từ vựng tích cực & tự nói chuyện tích cực															
-	
-	- Có đánh giá đúng hơn về những lĩnh vực đã trải qua trước đây.															
+##### Lợi ích của việc liệt kê Điểm mạnh và Điểm yếu của bạn
+- Xây dựng nhận thức về bản thân của bạn			
+
+- Giúp bạn hiểu các quan điểm khác															
+
+- Cho phép bạn xác định các khu vực cần cải thiện															
+
+- Tăng vốn từ vựng tích cực & tự nói chuyện tích cực															
+
+- Có đánh giá đúng hơn về những lĩnh vực đã trải qua trước đây.															
 
 ##### Phương pháp xác định: 																
 Đặt nhiều câu hỏi cho bản thân mình: 															
