@@ -13,13 +13,28 @@
   action_buttons: >
   tags: [soft-skill]
 
-# - name: Project Two
-#   id: p2
-#   feature: false
+- name: 日本語語彙 - Chủ đề trường học
+  id: 2
+  feature: true
+  img_src: 
+  description_less: Từ vựng tiếng Nhật Chủ đề trường học
+  description_more: >
+    1.	先生　　　せんせい　　　thầy/cô giáo
+    2.	黒板　　　こくばん　　　bảng
+    3.	生徒　　　せいと　　　　học sinh
+    4.	机　　　　つくえ　　　　bàn
+    5.	チョーク　　　　　　　　phấn viết bảng
+  action_buttons: >
+  tags: [tag3, docs]
+
+
+# - name: 3000日本語語彙 - Tuần 1
+#   id: 2
+#   feature: true
 #   img_src: 
-#   description_less: Refer to docs to learn how to add your own projects.
+#   description_less: Từ vựng tiếng Nhật ngày 1
 #   description_more: >
-#     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    
 #   action_buttons: >
 #     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
 #     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
